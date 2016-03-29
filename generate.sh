@@ -8,4 +8,4 @@ cp Changelog.txt blockchainbib_html/
 
 python2 ${BIBLIOGRAPY} -f "${BIB}" blockchainbib_html
 
-#cat ./header.tpl blockchainbib_html/year_reverse.html ./footer.tpl > blockchainbib_html/index.html
+cp blockchainbib_html/year_reverse.html blockchainbib_html/index.html
