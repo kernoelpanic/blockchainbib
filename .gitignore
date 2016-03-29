@@ -1,0 +1,11 @@
+/papers
+#/blockchainbib_html/pdf
+/blockchainbib_html/*.html
+/blockchainbib_html/*.txt
+/test/*.aux
+/test/*.bbl
+/test/*.blg
+/test/*.log
+/test/*.pdf
+/notes
+/review

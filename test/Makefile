@@ -1,0 +1,38 @@
+####################################################
+# ------------------------------------------------------------------------
+# Minimalistic Makefile 
+# ------------------------------------------------------------------------
+####################################################
+
+# You have to change this if you use latex instead of pdflatex.
+# However, this also requires to update the build rules.
+LATEX = pdflatex
+
+# Change this to the file name of your LaTex source
+FILE = bare_jrnl
+INPUTS = inputs
+
+.PHONY: all
+
+all: clean makebib inputs $(FILE).pdf clean
+
+makebib: 
+	cd ../ && make
+
+.PHONY inputs: $(wildcard inputs/*.tex) 
+	ls inputs/*.tex | awk '{printf "\\input{%s}\n",latex  $$1}' > inputs.tex
+
+.PHONY $(FILE).pdf: $(FILE).tex
+	$(LATEX) $(FILE).tex
+	bibtex $(FILE)
+	$(LATEX) $(FILE).tex
+	$(LATEX) $(FILE).tex
+
+clean:
+	rm -f $(FILE).aux inputs.aux $(FILE).log 
+	rm -f $(FILE).bbl $(FILE).blg
+	rm -f $(FILE).nav $(FILE).out
+	rm -f $(FILE).toc $(FILE).snm
+
+#doc:
+#	pandoc -f latex  $(FILE).tex -o $(FILE).docx
