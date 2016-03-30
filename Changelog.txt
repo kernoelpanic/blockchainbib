@@ -1,3 +1,5 @@
+* 2016-03-30
+	- Fixed URLs 
 * 2016-03-29
 	- Initial Version 
 	- updated URLs
