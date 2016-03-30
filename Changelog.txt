@@ -1,5 +1,6 @@
 * 2016-03-30
 	- Fixed URLs 
+	- Added missing references mostly from Jeremy Clarks bib
 * 2016-03-29
 	- Initial Version 
 	- updated URLs
