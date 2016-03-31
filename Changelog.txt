@@ -1,3 +1,5 @@
+* 2016-03-31
+	- Added missing historic papers (Back, Wai, Finney)
 * 2016-03-30
 	- Fixed URLs 
 	- Added missing references mostly from Jeremy Clarks bib
