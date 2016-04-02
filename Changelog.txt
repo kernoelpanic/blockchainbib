@@ -1,3 +1,7 @@
+* 2016-04-02
+    - Merged pull request from Nicolas Christin
+	- Added paper ``Traveling the {Silk Road}: A measurement analysis of a large anonymous online marketplace''
+    - Added paper ``Beware the Middleman: Empirical Analysis of {Bitcoin}-Exchange Risk''
 * 2016-03-31
 	- Added missing historic papers (Back, Wai, Finney)
 * 2016-03-30

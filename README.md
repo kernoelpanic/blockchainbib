@@ -81,7 +81,14 @@ A list of other collections of resources on this topic:
 
 ### Add/Update an entry in the .bib file
 
-Add or update the bib entry and run the `test/Makefile` to see if 
+1. Add or update the bib entry in one of the three files: `blockchain_peerreviewed.bib`, `blockchain_eprint.bib` or
+`blockchain_online.bib`. **Note:** that only papers in `blockchain_peerreviewed.bib` are currently exported as `.html` to 
+[https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib). 
+This is not because I am particularly picky about scientific publications, but simply because the papers in the other two `.bib`
+files are not yet parsable by `bibliograpy` and I have not yet adapted the code yet.  
+Do not edit the `blockchain.bib` file it will be auto generated when running `make` in the root of the project. 
+
+2. Run the `test/Makefile` to see if 
 everything works as expected. 
 ```shell
 $ cd ./test
