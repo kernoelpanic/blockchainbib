@@ -66,7 +66,7 @@
   </div>
   <div style="overflow:auto; margin:0 auto">
     <div style="float:left; width:40%; text-align:justify">
-      These are the peer-reviewed papers of an online archive 
+      These are peer-reviewed papers, eprints and pre-prints of an online archive 
 	  on publications in the field of Bitcoin and Blockchains.<br />
 	  More information can be found on <a href="https://github.com/kernoelpanic/blockchainbib">github</a>. 
 	  Contributions to the project are welcome. <br /> 
