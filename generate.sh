@@ -2,7 +2,9 @@
 set -e 
 
 BIBLIOGRAPY="../bibliograpy/bibliogra.py"
-BIB="./blockchain_peerreviewed.bib"
+BIB="./blockchain.bib.webexport"
+
+cat ./blockchain_peerreviewed.bib ./blockchain_eprint.bib > "${BIB}"
 
 rm -rf blockchainbib_html/*.html
 cp Changelog.txt blockchainbib_html/
