@@ -62,7 +62,7 @@
 
 <div style="margin-left:40px; margin-right:40px; ">
   <div style="text-align:center">
-  <h1>Blockchain Bibliography</h1>
+  <h1>Bitcoin and Blockchain Bibliography</h1>
   </div>
   <div style="overflow:auto; margin:0 auto">
     <div style="float:left; width:40%; text-align:justify">
