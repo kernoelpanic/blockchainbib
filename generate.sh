@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e 
 
 BIBLIOGRAPY="../bibliograpy/bibliogra.py"
 BIB="./blockchain_peerreviewed.bib"
