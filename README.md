@@ -4,15 +4,18 @@ A Bibtex bibliography for **Bitcoin** and **blockchain** related papers and publ
 
 
 ## Structure of this bibliography
-The scientific community adapted relatively slow to this emerging and fast moving field of cryptographic currencies and blockchains. This was the reason that for quite a while the only resources available have been
-the Bitcoin source code, blog/forum/mailing list posts, and other online publications. 
+The scientific community adapted relatively slow to this emerging and fast moving field of cryptographic currencies and blockchains. 
+This was the reason that for quite a while the only resources available have been the Bitcoin source code, blog/forum/mailing list posts, and other online publications. 
 Also the original Bitcoin [paper](https://bitcoin.org/bitcoin.pdf) which initiated the hype was published online without any prior peer-review. 
 
 Meanwhile a constant flow of scientific publications can be observed. 
 This leads to an increasing number of available peer-reviewed publications. 
-Although peer-review is *not* always a guaranty for best quality,
-we initially distinguish publications in this field into three different
-categories. The nonnegotiable hard requirement for any category is that the work must be **open-access** and not locked behind pay-walls. 
+Although peer-review is *not* always a guaranty for best quality, we initially distinguish publications in this field into three different
+categories. 
+The nonnegotiable hard requirement for any category is that the work must be **open-access** and not locked behind pay-walls. 
+
+**Note:** that only papers in `blockchain_peerreviewed.bib` and `blockchain_eprint.bib` are currently exported as `.html` to
+[https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib).
 
 * `blockchain_peerreviewed.bib`
 References in this category are peer-reviewed papers which have been published on scientific venues 
@@ -82,10 +85,8 @@ A list of other collections of resources on this topic:
 ### Add/Update an entry in the .bib file
 
 1. Add or update the bib entry in one of the three files: `blockchain_peerreviewed.bib`, `blockchain_eprint.bib` or
-`blockchain_online.bib`. **Note:** that only papers in `blockchain_peerreviewed.bib` are currently exported as `.html` to 
+`blockchain_online.bib`. **Note:** that only papers in `blockchain_peerreviewed.bib` and `blockchain_eprint.bib` are currently exported as `.html` to 
 [https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib). 
-This is not because I am particularly picky about scientific publications, but simply because the papers in the other two `.bib`
-files are not yet parsable by `bibliograpy` and I have not yet adapted the code yet.  
 Do not edit the `blockchain.bib` file it will be auto generated when running `make` in the root of the project. 
 
 2. Run the `test/Makefile` to see if 

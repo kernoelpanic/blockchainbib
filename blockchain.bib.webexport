@@ -909,7 +909,7 @@
   year          = {2003},
   howpublished  = {\url{http://szabo.best.vwh.net/distributed.html}},
   note 			= {Accessed: 2016-04-31},
-  url			= {http://www.hashcash.org/papers/hashcash.pdf}
+  url			= {http://szabo.best.vwh.net/distributed.html}
 }
 
 @misc{finney2004rpow,
@@ -918,7 +918,7 @@
   year          = {2004},
   howpublished  = {\url{http://web.archive.org/web/20071222072154/http://rpow.net/}},
   note 			= {Accessed: 2016-04-31},
-  url			= {http://www.hashcash.org/papers/hashcash.pdf}
+  url			= {http://web.archive.org/web/20071222072154/http://rpow.net/}
 }
 
 @misc{szabo2005bitgold,
@@ -965,6 +965,16 @@
 
 % 2010
 % 2011
+
+@misc{schwarz2011zooko,
+  author        = {Aaron Schwarz},
+  title         = {{Squaring the Triangle: Secure, Decentralized, Human-Readable Names}},
+  year          = {2011},
+  month         = {Jan},
+  howpublished  = {\url{http://www.aaronsw.com/weblog/squarezooko}},
+  note          = {Accessed 2014-11-14}
+}
+
 % 2012
 
 @misc{rosenfeld2012overview,
@@ -986,6 +996,17 @@
   note			= {Accessed: 2016-03-09},
   url			= {https://eprint.iacr.org/2012/584.pdf}
 }
+
+@misc{taylor2012bitmessage,
+  author        = {M. B. Taylor},
+  title         = {Bitmessage: A Peer-to-Peer Message Authentication and Delivery System},
+  year          = {2012},
+  month         = {nov},
+  howpublished  = {\url{https://bitmessage.org/bitmessage.pdf}},
+  note          = {Accessed: 2015-05-06},
+  url           = {https://bitmessage.org/bitmessage.pdf}
+}
+
 
 % 2014
 
@@ -1041,6 +1062,37 @@
   howpublished	= {\url{http://cryptolibrary.org/bitstream/handle/21/517/2014_Miller_Anonymous_byzantine_consensus_from_moderately-hard_puzzles_A_model_for_bitcoin.pdf?sequence=1}},
   note			= {Accessed: 2016-03-09},
   url 			= {http://cryptolibrary.org/bitstream/handle/21/517/2014_Miller_Anonymous_byzantine_consensus_from_moderately-hard_puzzles_A_model_for_bitcoin.pdf?sequence=1}
+}
+
+@misc{bruce2014miniblock,
+  author        = {J. D. Bruce},
+  title         = {The Mini-Blockchain Scheme (a.k.a Purely P2P Crypto-Currency With Finite   Mini-Blockchain)},
+  year          = {2014},
+  month         = {Jul},
+  howpublished  = {\url{http://cryptonite.info/files/mbc-scheme-rev2.pdf}},
+  note          = {Accessed: 2014-04-05},
+  url           = {http://cryptonite.info/files/mbc-scheme-rev2.pdf}
+}
+
+@misc{jacobs2014namecoin,
+  author        = {F. Jacobs},
+  title         = {Providing better confidentiality and authentication on the Internet using  Namecoin and MinimaLT},
+  year          = {2014},
+  month         = {apr},
+  howpublished  = {\url{https://raw.githubusercontent.com/FredericJacobs/safeweb/master/paper.pdf}},
+  note          = {Accessed: 2014-04-02},
+  url           = {https://raw.githubusercontent.com/FredericJacobs/safeweb/master/paper.pdf}
+}
+
+@misc{filecoin2014filecoin,
+  author        = {Filecoin community},
+  title         = {Filecoin: A Cryptocurrency Operated File Storage Network},
+  organization  = {filecoin.io},
+  year          = {2014},
+  month         = {Oct},
+  howpublished  = {\url{http://filecoin.io/filecoin.pdf}},
+  note          = {Accessed: 2014-10-14},
+  url           = {http://filecoin.io/filecoin.pdf}
 }
 
 % 2015
@@ -1101,6 +1153,17 @@
   howpublished  = {\url{https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1}},
   note          = {Accessed: 2016-03-29},
   url 			= {https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1}
+}
+
+@misc{judmayer2016c4,
+  author        = {Judmayer, Aljosha and Edgar Weippl},
+  title         = {Cryptographic Currencies Crash Course (C4)},
+  journal		= {Tutorial at WWW2016},
+  year          = {2016},
+  month         = {Apr},
+  howpublished  = {\url{http://www2016.net/proceedings/companion/p1021.pdf}},
+  note          = {Accessed: 2016-06-06},
+  url           = {http://www2016.net/proceedings/companion/p1021.pdf}
 }
 
 @misc{bentov2016bitcoin,

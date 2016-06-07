@@ -66,22 +66,23 @@
   </div>
   <div style="overflow:auto; margin:0 auto">
     <div style="float:left; width:40%; text-align:justify">
-      These are peer-reviewed papers, eprints and pre-prints of an online archive 
-	  on publications in the field of Bitcoin and Blockchains.<br />
+      This is an html export of peer-reviewed papers as well as eprints and pre-prints <br /> 
+	  of this <b><a href="https://github.com/kernoelpanic/blockchainbib">github</a></b> archive,
+	  containing publications and various online resources in the field of Bitcoin and Blockchains.<br />
 	  More information can be found on <a href="https://github.com/kernoelpanic/blockchainbib">github</a>. 
-	  Contributions to the project are welcome. <br /> 
+	  Contributions to the project are welcome. <br /> <br />
 	  <b>Rule I:</b> &quot;Papers behind paywalls are of greatly
       <a href="http://thecostofknowledge.com/">diminished</a>
       <a href="http://www.researchwithoutwalls.org/">use</a>
       because they are inaccessible to everyone who is not lucky enough
       to be affiliated with a wealthy university. This is problematic from
       both a scientific and a moral point of view.  Therefore, all research
-      papers here are openly accessible.&quot;<a href="https://censorbib.nymity.ch/">1</a>
+      papers here are openly accessible.&quot;<a href="https://censorbib.nymity.ch/">&#091;1&#093;</a>
     </div>
     <div style="text-align:right">
       Sort by: (<a href="year_reverse.html">reverse</a>) <a href="year.html">year</a>,
       (<a href="author_reverse.html">reverse</a>) <a href="author.html">author</a> <br />
-      Last updated: <a href="Changelog.txt">2016-06-06</a> <br /> <br />
+      Last updated: <a href="Changelog.txt">2016-06-07</a> <br /> <br />
       Feedback: <br />
 	  <a href="mailto:ajudmayer@sba-research.org">ajudmayer@sba-research.org</a> (<a
       href="https://www.sba-research.org/pgp/ajudmayer_0xE687AADD_pub.txt">OpenPGP</a>) <br /><br />

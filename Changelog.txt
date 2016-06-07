@@ -1,3 +1,5 @@
+* 2016-06-07
+	- Exported also eprints and pre-prints to html
 * 2016-06-06
 	- Added paper ``Bitcoin Beacon''
 	- Added url tags to the eprint and preprint papers to be fetchable
