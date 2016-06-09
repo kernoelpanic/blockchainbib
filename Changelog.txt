@@ -1,3 +1,6 @@
+* 2016-06-08
+	- Added paper ``Bitcoin-NG: A Scalable Blockchain Protocol''
+	- Added paper ``In Search of an Understandable Consensus Algorithm''
 * 2016-06-07
 	- Exported also eprints and pre-prints to html
 * 2016-06-06

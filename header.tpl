@@ -66,7 +66,7 @@
   </div>
   <div style="overflow:auto; margin:0 auto">
     <div style="float:left; width:40%; text-align:justify">
-      This is an html export of peer-reviewed papers as well as eprints and pre-prints <br /> 
+      This is an html export of peer-reviewed papers as well as eprints and pre-prints  
 	  of this <b><a href="https://github.com/kernoelpanic/blockchainbib">github</a></b> archive,
 	  containing publications and various online resources in the field of Bitcoin and Blockchains.<br />
 	  More information can be found on <a href="https://github.com/kernoelpanic/blockchainbib">github</a>. 
@@ -82,7 +82,7 @@
     <div style="text-align:right">
       Sort by: (<a href="year_reverse.html">reverse</a>) <a href="year.html">year</a>,
       (<a href="author_reverse.html">reverse</a>) <a href="author.html">author</a> <br />
-      Last updated: <a href="Changelog.txt">2016-06-07</a> <br /> <br />
+      Last updated: <a href="Changelog.txt">2016-06-09</a> <br /> <br />
       Feedback: <br />
 	  <a href="mailto:ajudmayer@sba-research.org">ajudmayer@sba-research.org</a> (<a
       href="https://www.sba-research.org/pgp/ajudmayer_0xE687AADD_pub.txt">OpenPGP</a>) <br /><br />

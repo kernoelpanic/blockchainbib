@@ -66,7 +66,7 @@ $ bash generate.sh
 ## Related work
 A list of other collections of resources on this topic:
 
-* Jeremy Clacks collection:
+* Jeremy Clarks collection:
     + http://users.encs.concordia.ca/~clark/biblio.php#bitcoin
 
 * Brett Scott collection (huge):
@@ -74,6 +74,9 @@ A list of other collections of resources on this topic:
 
 * Collection in the Bitcoin wiki (subset of the above)
     + https://en.bitcoin.it/wiki/Research
+
+* Reading list repository of *Blockstack*:
+	+ https://github.com/blockstack/reading-list
 
 * Collection in the Bitcoinbyte blog (outdated)
     + https://thebitcoinbyte.wordpress.com/annotated-bibliography/
