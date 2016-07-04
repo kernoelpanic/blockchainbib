@@ -1,3 +1,5 @@
+* 2016-07-04
+	- Added paper ``Enhancing bitcoin security and performance with strong consistency via collective signing''
 * 2016-06-08
 	- Added paper ``Bitcoin-NG: A Scalable Blockchain Protocol''
 	- Added paper ``In Search of an Understandable Consensus Algorithm''

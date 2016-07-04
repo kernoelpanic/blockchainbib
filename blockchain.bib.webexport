@@ -890,6 +890,17 @@
   url  = {http://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf}
 }
 
+@inproceedings {kokoris2016enhancing,
+  author = {Eleftherios Kokoris Kogias and Philipp Jovanovic and Nicolas Gailly and Ismail Khoffi and Linus Gasser and Bryan Ford},
+  title = {Enhancing Bitcoin Security and Performance with Strong Consistency via Collective Signing},
+  booktitle = {25th USENIX Security Symposium (USENIX Security 16)},
+  year = {2016},
+  month = Aug,
+  address = {Austin, TX},
+  url = {http://arxiv.org/pdf/1602.06997.pdf},
+  publisher = {USENIX Association},
+}
+
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
