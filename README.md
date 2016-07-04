@@ -78,6 +78,9 @@ A list of other collections of resources on this topic:
 * Reading list repository of *Blockstack*:
 	+ https://github.com/blockstack/reading-list
 
+* Publications section of IC3:
+	+ http://www.initc3.org/publications
+
 * Collection in the Bitcoinbyte blog (outdated)
     + https://thebitcoinbyte.wordpress.com/annotated-bibliography/
 
