@@ -1,3 +1,5 @@
+* 2016-07-06
+	- Added paper ``New kids on the block: an analysis of modern blockchains''
 * 2016-07-04
 	- Added paper ``Bitcoin's Security Model Revisited''
 	- Added paper ``Bitcoin mining pools: A cooperative game theoretic analysis''
