@@ -1,3 +1,6 @@
+* 2016-07-08
+	- Added multiple papers on consensus in general (also historically interesting ones)
+	- Added eprints on Lightning network and sidechains
 * 2016-07-06
 	- Added paper ``New kids on the block: an analysis of modern blockchains''
 * 2016-07-04
