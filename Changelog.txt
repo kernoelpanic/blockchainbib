@@ -1,3 +1,5 @@
+* 2016-07-11
+	- Added paper ``Proof of Activity: Extending Bitcoin's Proof of Work via Proof of Stake''
 * 2016-07-08
 	- Added multiple papers on consensus in general (also historically interesting ones)
 	- Added eprints on Lightning network and sidechains
