@@ -1,3 +1,6 @@
+* 2016-08-01
+	- Added eprints on modeling Bitcoin 
+	- Added papers on randomized consensus in general
 * 2016-07-11
 	- Merge pull request adding paper ``Difficulty Control for Blockchain-Based Consensus Systems''
 * 2016-07-11
