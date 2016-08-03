@@ -148,7 +148,48 @@
   url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.1040&rep=rep1&type=pdf}
 }
 
+@inproceedings{castro1999practical,
+  title={Practical Byzantine fault tolerance},
+  author={Castro, Miguel and Liskov, Barbara and others},
+  booktitle={OSDI},
+  volume={99},
+  pages={173--186},
+  year={1999},
+  url={http://pmg.csail.mit.edu/papers/osdi99.pdf}
+}
+%http://lambda.csail.mit.edu/~chet/papers/others/l/liskov/castro-thesis.pdf
+
+@inproceedings{douceur2002sybil,
+  title={The sybil attack},
+  author={Douceur, John R},
+  booktitle={International Workshop on Peer-to-Peer Systems},
+  pages={251--260},
+  year={2002},
+  organization={Springer},
+  url={http://www.cs.cornell.edu/people/egs/cs6460-spring10/sybil.pdf}
+}
+
+@article{levine2006survey,
+  title={A survey of solutions to the sybil attack},
+  author={Levine, Brian Neil and Shields, Clay and Margolin, N Boris},
+  journal={University of Massachusetts Amherst, Amherst, MA},
+  volume={7},
+  year={2006},
+  url={http://forensics.umass.edu/pubs/levine.sybil.tr.2006.pdf}
+}
+
 % 2009
+
+@inproceedings{clement2009making,
+  title={Making Byzantine Fault Tolerant Systems Tolerate Byzantine Faults.},
+  author={Clement, Allen and Wong, Edmund L and Alvisi, Lorenzo and Dahlin, Michael and Marchetti, Mirco},
+  booktitle={NSDI},
+  volume={9},
+  pages={153--168},
+  year={2009},
+  url={http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf}
+}
+
 % 2010
 
 @inproceedings{white2010overcoming,
@@ -159,6 +200,16 @@
   year={2010},
   organization={IEEE},
   url={http://eprints.qut.edu.au/35657/1/c35657.pdf}
+}
+
+@inproceedings{guerraoui2010next,
+  title={The next 700 BFT protocols},
+  author={Guerraoui, Rachid and Kne{\v{z}}evi{\'c}, Nikola and Qu{\'e}ma, Vivien and Vukoli{\'c}, Marko},
+  booktitle={Proceedings of the 5th European conference on Computer systems},
+  pages={363--376},
+  year={2010},
+  organization={ACM},
+  url={https://infoscience.epfl.ch/record/121590/files/TR-700-2009.pdf}
 }
 
 % 2011
@@ -242,7 +293,7 @@
 }
 
 @article{aguilera2012correctness,
-  title={The correctness proof of Ben-Or’s randomized consensus algorithm},
+  title={The correctness proof of Ben-Or's randomized consensus algorithm},
   author={Aguilera, Marcos K and Toueg, Sam},
   journal={Distributed Computing},
   volume={25},
@@ -1074,6 +1125,7 @@
   url			= {http://unenumerated.blogspot.co.at/2005/12/bit-gold.html}
 }
 
+
 % 2008
 
 @misc{nakamoto2008bitcoin,
@@ -1287,7 +1339,7 @@
   url 		  	= {http://www.cs.princeton.edu/~stevenag/threshold_sigs.pdf}
 }
 
-@article{gobel2015simulation,
+@misc{gobel2015simulation,
   title		  	= {Bitcoin Blockchain Dynamics: the Selfish-Mine Strategy in the Presence of Propagation Delay},
   author	  	= {G{\"o}bel, Johannes and Keeler, Paul and Krzesinski, Anthony E and Taylor, Peter G},
   journal	  	= {arXiv preprint arXiv:1505.05343},
@@ -1297,7 +1349,7 @@
   url 			= {http://arxiv.org/pdf/1505.05343.pdf}
 }
 
-@article{chaudhary2015modeling,
+@misc{chaudhary2015modeling,
   title         = {Modeling and verification of the bitcoin protocol},
   author        = {Chaudhary, Kaylash and Fehnker, Ansgar and van de Pol, Jaco and Stoelinga, Marielle},
   journal       = {arXiv preprint arXiv:1511.04173},
@@ -1305,6 +1357,15 @@
   howpublished	= {\url{http://arxiv.org/pdf/1511.04173.pdf}},
   note			= {Accessed: 2016-08-01},
   url 			= {http://arxiv.org/pdf/1511.04173.pdf}
+}
+
+@misc{mazieres2015modeling,
+  title         = {The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus},
+  author        = {Mazieres, David},
+  year          = {2015},
+  howpublished	= {\url{https://www.stellar.org/papers/stellar-consensus-protocol.pdf}},
+  note			= {Accessed: 2016-08-01},
+  url 			= {https://www.stellar.org/papers/stellar-consensus-protocol.pdf}
 }
 
 % 2016
@@ -1387,4 +1448,11 @@
   url           = {http://eprint.iacr.org/2016/454.pdf}
 }
 
-
+@misc{nelson2016extending,
+  title         = {Extending Existing Blockchains with Virtualchain},
+  author        = {Nelson, Jude and Ali, Muneeb and Shea, Ryan and Freedman, Michael J},
+  year          = {2016},
+  howpublished  = {\url{https://www.zurich.ibm.com/dccl/papers/nelson_dccl.pdf}},
+  note          = {Accessed: 2016-08-01},
+  url           = {https://www.zurich.ibm.com/dccl/papers/nelson_dccl.pdf}
+}

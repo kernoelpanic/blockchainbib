@@ -1,6 +1,10 @@
-* 2016-08-01
-	- Added eprints on modeling Bitcoin 
+* 2016-08-02
+	- Added paper ``Analysis of the Blockchain Protocol in Asynchronous Networks''  
+	- Added papers on BFT in general 
 	- Added papers on randomized consensus in general
+	- Added eprint ``Extending Existing Blockchains with Virtualchain''
+	- Added eprint ``The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus''
+	- Added eprints on modeling Bitcoin 
 * 2016-07-11
 	- Merge pull request adding paper ``Difficulty Control for Blockchain-Based Consensus Systems''
 * 2016-07-11
@@ -25,9 +29,9 @@
 * 2016-04-10
 	- Added papers 
 * 2016-04-02
-    - Merged pull request from Nicolas Christin
+	- Merged pull request from Nicolas Christin
 	- Added paper ``Traveling the {Silk Road}: A measurement analysis of a large anonymous online marketplace''
-    - Added paper ``Beware the Middleman: Empirical Analysis of {Bitcoin}-Exchange Risk''
+	- Added paper ``Beware the Middleman: Empirical Analysis of {Bitcoin}-Exchange Risk''
 * 2016-03-31
 	- Added missing historic papers (Back, Wai, Finney)
 * 2016-03-30
