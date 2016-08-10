@@ -13,26 +13,36 @@ FILE = bare_jrnl
 INPUTS = inputs
 
 .PHONY: all
+all: clean makebib inputs latex clean fetch
 
-all: clean makebib inputs $(FILE).pdf clean
-
+.PHONY: makebib
 makebib: 
 	cd ../ && make
 
-.PHONY inputs: $(wildcard inputs/*.tex) 
+.PHONY: inputs
+inputs: $(wildcard inputs/*.tex) 
 	ls inputs/*.tex | awk '{printf "\\input{%s}\n",latex  $$1}' > inputs.tex
 
-.PHONY $(FILE).pdf: $(FILE).tex
+.PHONY: latex 
+latex: 
 	$(LATEX) $(FILE).tex
 	bibtex $(FILE)
 	$(LATEX) $(FILE).tex
 	$(LATEX) $(FILE).tex
 
+$(FILE).pdf: $(FILE).tex
+	$(LATEX) $(FILE).tex
+	bibtex $(FILE)
+	$(LATEX) $(FILE).tex
+	$(LATEX) $(FILE).tex
+
+.PHONY: clean
 clean:
 	rm -f $(FILE).aux inputs.aux $(FILE).log 
 	rm -f $(FILE).bbl $(FILE).blg
 	rm -f $(FILE).nav $(FILE).out
 	rm -f $(FILE).toc $(FILE).snm
 
-#doc:
-#	pandoc -f latex  $(FILE).tex -o $(FILE).docx
+.PHONY: fetch
+fetch:
+	cd ../ && python2 fetch_pdfs.py blockchain.bib.webexport papers

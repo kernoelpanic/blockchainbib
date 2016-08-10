@@ -1,3 +1,6 @@
+* 2016-08-10
+	- Added papers
+	- Updated README.md
 * 2016-08-02
 	- Added paper ``Analysis of the Blockchain Protocol in Asynchronous Networks''  
 	- Added papers on BFT in general 

@@ -48,6 +48,26 @@
   url = {http://blog.koehntopp.de/uploads/Chaum.BlindSigForPayment.1982.PDF}
 }
 
+@inproceedings{ben1983another,
+  title={Another advantage of free choice (extended abstract): Completely asynchronous agreement protocols},
+  author={Ben-Or, Michael},
+  booktitle={Proceedings of the second annual ACM symposium on Principles of distributed computing},
+  pages={27--30},
+  year={1983},
+  organization={ACM},
+  url={http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=83BAC5317D5BE75A5E73F5694F1F052E?doi=10.1.1.122.4722&rep=rep1&type=pdf}
+}
+
+@inproceedings{rabin1983randomized,
+  title={Randomized byzantine generals},
+  author={Rabin, Michael O},
+  booktitle={Foundations of Computer Science, 1983., 24th Annual Symposium on},
+  pages={403--409},
+  year={1983},
+  organization={IEEE},
+  url={https://www.cs.princeton.edu/courses/archive/fall05/cos521/byzantin.pdf}
+}
+
 @article{lamport1984using,
   title={Using Time Instead of Timeout for Fault-Tolerant Distributed Systems.},
   author={Lamport, Leslie},
@@ -84,6 +104,30 @@
   url={http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf}
 }
 
+@article{dolev1987minimal,
+  title={On the minimal synchronism needed for distributed consensus},
+  author={Dolev, Danny and Dwork, Cynthia and Stockmeyer, Larry},
+  journal={Journal of the ACM (JACM)},
+  volume={34},
+  number={1},
+  pages={77--97},
+  year={1987},
+  publisher={ACM},
+  url={http://www.oocities.org/stockmeyer@sbcglobal.net/dds.pdf}
+}
+
+@article{dwork1988consensus,
+  title={Consensus in the presence of partial synchrony},
+  author={Dwork, Cynthia and Lynch, Nancy and Stockmeyer, Larry},
+  journal={Journal of the ACM (JACM)},
+  volume={35},
+  number={2},
+  pages={288--323},
+  year={1988},
+  publisher={ACM},
+  url={http://www-usr.inf.ufsm.br/~ceretta/papers/MITLCSTM270.pdf}
+}
+
 @article{schneider1990implementing,
   title={Implementing fault-tolerant services using the state machine approach: A tutorial},
   author={Schneider, Fred B},
@@ -97,13 +141,25 @@
 }
 
 @inproceedings{chaum1990untraceable,
-  title = {Untraceable electronic cash},
+  title         = {Untraceable electronic cash},
   author        = {Chaum, David and Fiat, Amos and Naor, Moni},
   booktitle     = {Proceedings on Advances in cryptology},
   pages         = {319--327},
   year          = {1990},
   organization  = {Springer-Verlag New York, Inc.},
-  url = {http://people.dsv.su.se/~matei/courses/IK2001_SJE/Chaum90.pdf}
+  url           = {http://people.dsv.su.se/~matei/courses/IK2001_SJE/Chaum90.pdf}
+}
+
+@article{chandra1996unreliable,
+  title={Unreliable failure detectors for reliable distributed systems},
+  author={Chandra, Tushar Deepak and Toueg, Sam},
+  journal={Journal of the ACM (JACM)},
+  volume={43},
+  number={2},
+  pages={225--267},
+  year={1996},
+  publisher={ACM},
+  url={https://ecommons.cornell.edu/bitstream/handle/1813/7192/95-1535.pdf?sequence=1}
 }
 
 @article{lamport1998part,
@@ -116,6 +172,27 @@
   year={1998},
   publisher={ACM},
   url={http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf}
+}
+
+@inproceedings{castro1999practical,
+  title={Practical Byzantine fault tolerance},
+  author={Castro, Miguel and Liskov, Barbara and others},
+  booktitle={OSDI},
+  volume={99},
+  pages={173--186},
+  year={1999},
+  url={http://pmg.csail.mit.edu/papers/osdi99.pdf}
+}
+%http://lambda.csail.mit.edu/~chet/papers/others/l/liskov/castro-thesis.pdf
+
+@inproceedings{douceur2002sybil,
+  title={The sybil attack},
+  author={Douceur, John R},
+  booktitle={International Workshop on Peer-to-Peer Systems},
+  pages={251--260},
+  year={2002},
+  organization={Springer},
+  url={http://www.cs.cornell.edu/people/egs/cs6460-spring10/sybil.pdf}
 }
 
 @article{aspnes2003randomized,
@@ -148,27 +225,6 @@
   url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.1040&rep=rep1&type=pdf}
 }
 
-@inproceedings{castro1999practical,
-  title={Practical Byzantine fault tolerance},
-  author={Castro, Miguel and Liskov, Barbara and others},
-  booktitle={OSDI},
-  volume={99},
-  pages={173--186},
-  year={1999},
-  url={http://pmg.csail.mit.edu/papers/osdi99.pdf}
-}
-%http://lambda.csail.mit.edu/~chet/papers/others/l/liskov/castro-thesis.pdf
-
-@inproceedings{douceur2002sybil,
-  title={The sybil attack},
-  author={Douceur, John R},
-  booktitle={International Workshop on Peer-to-Peer Systems},
-  pages={251--260},
-  year={2002},
-  organization={Springer},
-  url={http://www.cs.cornell.edu/people/egs/cs6460-spring10/sybil.pdf}
-}
-
 @article{levine2006survey,
   title={A survey of solutions to the sybil attack},
   author={Levine, Brian Neil and Shields, Clay and Margolin, N Boris},
@@ -177,6 +233,7 @@
   year={2006},
   url={http://forensics.umass.edu/pubs/levine.sybil.tr.2006.pdf}
 }
+
 
 % 2009
 
@@ -953,6 +1010,17 @@
   organization={International Foundation for Autonomous Agents and Multiagent Systems},
   url = {http://www.cs.huji.ac.il/~avivz/pubs/15/fp245-lewenbergA.pdf}
 }
+
+@inproceedings{vukolic2015quest,
+  title={The quest for scalable blockchain fabric: Proof-of-work vs. BFT replication},
+  author={Vukoli{\'c}, Marko},
+  booktitle={International Workshop on Open Problems in Network Security},
+  pages={112--125},
+  year={2015},
+  organization={Springer},
+  url={http://vukolic.com/iNetSec_2015.pdf}
+}
+
 
 % 2016  
 
