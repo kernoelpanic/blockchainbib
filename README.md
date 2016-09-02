@@ -1,6 +1,6 @@
-# Blockchain Bib
+# Block chain bibliography 
 
-A Bibtex bibliography including publications related to, or of relevance in, the field of cryptographic currencies and consensus ledgers, commonly referred to as *blockchains*.
+A Bibtex bibliography including publications related to, or of relevance in, the field of cryptographic currencies and consensus ledgers, commonly referred to as *block chains*.
 Topics include but are not limited to:
 * Predecessors of Bitcoin and other cryptographic currencies
 * PoW based consensus ledgers i.e. cryptographic currencies like Bitcoin and its derivatives (e.g. Namecoin, Litecoin, Dogecoin, ...)
@@ -8,7 +8,7 @@ Topics include but are not limited to:
 * ...
 
 ## Structure of this bibliography
-The scientific community adapted relatively slow to this emerging and fast moving field of cryptographic currencies and consensus ledgers, commonly refered to as *blockchains*. 
+The scientific community adapted relatively slow to this emerging and fast moving field of cryptographic currencies and consensus ledgers, commonly refered to as *block chains*. 
 This was one reason, that for quite a while the only resources available have been the Bitcoin source code, blog/forum/mailing list posts, and other online publications. 
 Also the original Bitcoin [paper](https://bitcoin.org/bitcoin.pdf) which initiated the hype was published online without any prior peer-review. 
 
@@ -39,11 +39,10 @@ References in this category are (fast changing) online resources like for exampl
     + github projects
     + block explorer websites
     + developer references (wiki entries, etc.) 
-
-Again the requirements form above hold:
-    + not purely marketing (some banners on websites are acceptable)
-    + not pure speculation
-    + written in comprehensible English 
+	+ Again the requirements form above hold:
+    	- not purely marketing (some banners on websites are acceptable)
+    	- not pure speculation
+    	- written in comprehensible English 
 
 In respect to the original *publication spirit* of Bitcoin, we combine all
 references into a single blob file called `blockchain.bib` when executing 

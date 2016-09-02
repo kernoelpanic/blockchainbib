@@ -5,7 +5,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-  <title>BlockchainBib</title>
+  <title>Block chain bibliography</title>
   <style type="text/css">
   li {
     margin-top: 1em;
@@ -62,13 +62,13 @@
 
 <div style="margin-left:40px; margin-right:40px; ">
   <div style="text-align:center">
-  <h1>Bitcoin and Blockchain Bibliography</h1>
+  <h1>Bitcoin and block chain bibliography</h1>
   </div>
   <div style="overflow:auto; margin:0 auto">
     <div style="float:left; width:40%; text-align:justify">
       This is an html export of peer-reviewed papers as well as eprints and pre-prints  
 	  of this <b><a href="https://github.com/kernoelpanic/blockchainbib">github</a></b> archive,
-	  containing publications and various online resources in the field of cryptographic currencies and consensus ledgers, commonly referred to as &quot;Blockchains&quot;.<br />
+	  containing publications and various online resources in the field of cryptographic currencies and consensus ledgers, commonly referred to as &quot;block chains&quot;.<br />
 	  More information can be found on <a href="https://github.com/kernoelpanic/blockchainbib">github</a>. 
 	  Contributions to the project are welcome. <br /> <br />
 	  <b>Rule I:</b> &quot;Papers behind paywalls are of greatly
@@ -82,7 +82,7 @@
     <div style="text-align:right">
       Sort by: (<a href="year_reverse.html">reverse</a>) <a href="year.html">year</a>,
       (<a href="author_reverse.html">reverse</a>) <a href="author.html">author</a> <br />
-      Last updated: <a href="Changelog.txt">2016-08-10</a> <br /> <br />
+      Last updated: <a href="Changelog.txt">2016-09-02</a> <br /> <br />
       Feedback: <br />
 	  <a href="mailto:ajudmayer@sba-research.org">ajudmayer@sba-research.org</a> (<a
       href="https://www.sba-research.org/pgp/ajudmayer_0xE687AADD_pub.txt">OpenPGP</a>) <br /><br />

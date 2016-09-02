@@ -1,3 +1,5 @@
+* 2016-09-02
+	- Added papers
 * 2016-08-10
 	- Added papers
 	- Updated README.md
