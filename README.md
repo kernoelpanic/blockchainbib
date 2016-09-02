@@ -1,4 +1,4 @@
-# Block chain bibliography 
+# Bitcoin and Block chain bibliography 
 
 A Bibtex bibliography including publications related to, or of relevance in, the field of cryptographic currencies and consensus ledgers, commonly referred to as *block chains*.
 Topics include but are not limited to:
