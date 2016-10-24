@@ -26,6 +26,38 @@
   url={http://people.cs.uchicago.edu/~shanlu/teaching/33100_wi15/papers/byz.pdf}
 }
 
+@inproceedings{dolev1982polynomial,
+  title={Polynomial algorithms for multiple processor agreement},
+  author={Dolev, Danny and Strong, H Raymond},
+  booktitle={Proceedings of the fourteenth annual ACM symposium on Theory of computing},
+  pages={401--407},
+  year={1982},
+  organization={ACM},
+  url={http://www.cse.huji.ac.il/~dolev/pubs/p401-dolev.pdf}
+}
+
+@article{fischer1982lower,
+  title={A LOWER BOUND FOR THE TIME TO ASSURE INTERACTIVE CONSISTENCY},
+  author={FISCHER, Michael J and LYNCH, Nancy A},
+  journal={INFORMATION PROCESSING LETTERS},
+  volume={14},
+  number={4},
+  year={1982},
+  month={Jun},
+  url={http://groups.csail.mit.edu/tds/papers/Lynch/ipl82.pdf}
+}
+
+@article{dolev1982efficient,
+  title={An Efficient Algorithm for Byzantine Agreement without Authentication},
+  author={Dolev, Danny and Fischer, Michael J and Fowler, Rob and Lynch, Nancy A and Strong, H Raymond},
+  journal={Information and Control},
+  volume={52},
+  number={3},
+  pages={257--274},
+  year={1982},
+  url={http://groups.csail.mit.edu/tds/papers/Lynch/dffls-ic.pdf}
+}
+
 @article{lamport1983weak,
   title={The weak Byzantine generals problem},
   author={Lamport, Leslie},
@@ -68,6 +100,26 @@
   url={https://www.cs.princeton.edu/courses/archive/fall05/cos521/byzantin.pdf}
 }
 
+@article{dolev1983authenticated,
+  title={Authenticated algorithms for Byzantine agreement},
+  author={Dolev, Danny and Strong, H. Raymond},
+  journal={SIAM Journal on Computing},
+  volume={12},
+  number={4},
+  pages={656--666},
+  year={1983},
+  publisher={SIAM},
+  url={http://www.cse.huji.ac.il/~dolev/pubs/authenticated.pdf}
+}
+
+@article{toueg1984randomized,
+  title={Randomized Asynchronous Byzantine Agreements},
+  author={Toueg, Sam},
+  year={1984},
+  month={Feb},
+  url={https://ecommons.cornell.edu/bitstream/handle/1813/6426/83-587.ps}
+}
+
 @article{lamport1984using,
   title={Using Time Instead of Timeout for Fault-Tolerant Distributed Systems.},
   author={Lamport, Leslie},
@@ -103,6 +155,30 @@
   publisher={ACM},
   url={http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf}
 }
+
+@article{bracha1985asynchronous,
+  title={Asynchronous Consensus and Broadcast Protocols},
+  author={Bracha, Gabriel and Toueg, Sam},
+  journal={Journal of the Association for Computing Machinery},
+  volume={32},
+  number={4},
+  pages={824--840},
+  year={1985},
+  publisher={Citeseer},
+  url={https://pdfs.semanticscholar.org/130c/e1bcd496a7b9192f5f53dd8d7ef626e40675.pdf}
+}
+
+@article{chor1985simple,
+  title={A Simple and Efficient Randomized Byzantine Agreement Algorithm},
+  author={Chor, Benny and Coan, Brian A},
+  journal={IEEE Transactions on Software Engineering},
+  number={6},
+  pages={531--539},
+  year={1985},
+  publisher={IEEE},
+  url={http://users.ece.utexas.edu/~garg/sp11/382n/resources/randomizedByzantine.pdf}
+}
+
 
 @article{dolev1987minimal,
   title={On the minimal synchronism needed for distributed consensus},
@@ -195,6 +271,27 @@
   url={http://www.erights.org/elib/capability/ode/ode.pdf}
 }
 
+@inproceedings{cachin2000random,
+  title={Random oracles in Constantinople: Practical Asynchronous Byzantine Agreement using Cryptography},
+  author={Cachin, Christian and Kursawe, Klaus and Shoup, Victor},
+  booktitle={Proceedings of the nineteenth annual ACM symposium on Principles of distributed computing},
+  pages={123--132},
+  year={2000},
+  organization={ACM},
+  url={https://www.zurich.ibm.com/~cca/papers/abba.pdf}
+}
+
+@inproceedings{cachin2001secure,
+  title={Secure and efficient asynchronous broadcast protocols},
+  author={Cachin, Christian and Kursawe, Klaus and Petzold, Frank and Shoup, Victor},
+  booktitle={Annual International Cryptology Conference},
+  pages={524--541},
+  year={2001},
+  organization={Springer},
+  url={https://www.zurich.ibm.com/~cca/papers/abc.pdf}
+}
+
+
 @inproceedings{douceur2002sybil,
   title={The sybil attack},
   author={Douceur, John R},
@@ -215,6 +312,26 @@
   year={2003},
   publisher={Springer},
   url={http://arxiv.org/pdf/cs/0209014}
+}
+
+@inproceedings{cavin2004consensus,
+  title={Consensus with unknown participants or fundamental self-organization},
+  author={Cavin, David and Sasson, Yoav and Schiper, Andr{\'e}},
+  booktitle={International Conference on Ad-Hoc Networks and Wireless},
+  pages={135--148},
+  year={2004},
+  organization={Springer},
+  url={http://infoscience.epfl.ch/record/49887/files/CSS04.pdf}
+}
+
+@inproceedings{correia2004tolerate,
+  title={How to tolerate half less one Byzantine nodes in practical distributed systems},
+  author={Correia, Miguel and Neves, Nuno Ferreira and Verissimo, Paulo},
+  booktitle={Reliable Distributed Systems, 2004. Proceedings of the 23rd IEEE International Symposium on},
+  pages={174--183},
+  year={2004},
+  organization={IEEE},
+  url={https://pdfs.semanticscholar.org/e285/17f5ac25497335a4da80b40eefe588d59c32.pdf}
 }
 
 @article{aspnes2005exposing,
@@ -244,6 +361,29 @@
   url={http://forensics.umass.edu/pubs/levine.sybil.tr.2006.pdf}
 }
 
+@inproceedings{beerliova2007efficient,
+  title={Efficient Byzantine agreement with faulty minority},
+  author={Beerliov{\'a}-Trub{\'\i}niov{\'a}, Zuzana and Hirt, Martin and Riser, Micha},
+  booktitle={Proceedings of the Advances in Crypotology 13th international conference on Theory and application of cryptology and information security},
+  pages={393--409},
+  year={2007},
+  organization={Springer-Verlag},
+  url={http://www.crypto.ethz.ch/alumni/trubini/BeHiRi07.pdf}
+}
+
+@inproceedings{chun2007attested,
+  title={Attested append-only memory: Making adversaries stick to their word},
+  author={Chun, Byung-Gon and Maniatis, Petros and Shenker, Scott and Kubiatowicz, John},
+  booktitle={ACM SIGOPS Operating Systems Review},
+  volume={41},
+  number={6},
+  pages={189--204},
+  year={2007},
+  organization={ACM},
+  url={http://news.cs.nyu.edu/~jinyang/fa08/papers/a2m.pdf}
+}
+
+
 @inproceedings{nagy2008openpgp,
   title={OpenPGP-Based Financial Instruments and Dispute Arbitration},
   author={Nagy, Daniel A and Shakel, Nadzeya V},
@@ -253,6 +393,27 @@
   organization={Springer},
   url={http://www.epointsystem.org/~nagydani/fc2008.pdf}
 }
+
+@inproceedings{alchieri2008byzantine,
+  title={Byzantine Consensus with Unknown Participants},
+  author={Alchieri, Eduardo A and Bessani, Alysson Neves and Silva Fraga, Joni and Greve, Fab{\'\i}ola},
+  booktitle={Proceedings of the 12th International Conference on Principles of Distributed Systems},
+  pages={22--40},
+  year={2008},
+  organization={Springer-Verlag},
+  url={http://www.di.fc.ul.pt/~bessani/publications/opodis08-bftcup.pdf}
+}
+
+@inproceedings{kapron2008fast,
+  title={Fast Asynchronous Byzantine Agreement and Leader Election with Full Information},
+  author={Kapron, Bruce and Kempe, David and King, Valerie and Saia, Jared and Sanwalani, Vishal},
+  booktitle={Proceedings of the nineteenth annual ACM-SIAM symposium on Discrete algorithms},
+  pages={1038--1047},
+  year={2008},
+  organization={Society for Industrial and Applied Mathematics},
+  url={https://www.researchgate.net/profile/Bruce_Kapron/publication/220390388_Fast_asynchronous_Byzantine_agreement_and_leader_election_with_full_information/links/0912f5109e74191137000000.pdf}
+}
+
 
 % 2009
 
@@ -264,6 +425,16 @@
   pages={153--168},
   year={2009},
   url={http://static.usenix.org/events/nsdi09/tech/full_papers/clement/clement.pdf}
+}
+
+% published by springer DOI 10.1007/978-3-540-92221-6_5
+
+@article{delporte2008consensus,
+  title={Consensus is Easier Than Reliable Broadcast},
+  author={Delporte-Gallet, Carole and Devismes, St{\'e}phane and Fauconnier, Hugues and Petit, Franck and Toueg, Sam},
+  year = {2008},
+  month = {Sep},
+  url = {https://hal.inria.fr/hal-00325470/PDF/reliable.pdf}
 }
 
 % 2010
@@ -286,6 +457,16 @@
   year={2010},
   organization={ACM},
   url={https://infoscience.epfl.ch/record/121590/files/TR-700-2009.pdf}
+}
+
+@inproceedings{abraham2010fast,
+  title={Fast Asynchronous Consensus with Optimal Resilience},
+  author={Abraham, Ittai and Aguilera, Marcos K and Malkhi, Dahlia},
+  booktitle={International Symposium on Distributed Computing},
+  pages={4--19},
+  year={2010},
+  organization={Springer},
+  url={https://www.microsoft.com/en-us/research/wp-content/uploads/2010/09/disc-camera-ready.pdf}
 }
 
 % 2011
@@ -351,6 +532,16 @@
   url={http://users.encs.concordia.ca/~clark/papers/2012_fc.pdf}
 }
 
+@inproceedings{jaffe2012price,
+  title={On the Price of Equivocation in Byzantine Agreement},
+  author={Jaffe, Alexander and Moscibroda, Thomas and Sen, Siddhartha},
+  booktitle={Proceedings of the 2012 ACM symposium on Principles of distributed computing},
+  pages={309--318},
+  year={2012},
+  organization={ACM},
+  url={http://sns.cs.princeton.edu/docs/hypergraph-podc12.pdf}
+}
+
 @inproceedings{becker2013can,
   title={Can we afford integrity by proof-of-work? Scenarios inspired by the Bitcoin currency},
   author={Becker, J{\"o}rg and Breuker, Dominic and Heide, Tobias and Holler, Justus and Rauer, Hans Peter and B{\"o}hme, Rainer},
@@ -358,6 +549,18 @@
   year={2012},
   publisher={Springer},
   url={http://users.encs.concordia.ca/~clark/biblio/bitcoin/Becker%202012.pdf}
+}
+
+@article{veronese2013efficient,
+  title={Efficient byzantine fault-tolerance},
+  author={Veronese, Giuliana Santos and Correia, Miguel and Bessani, Alysson Neves and Lung, Lau Cheuk and Verissimo, Paulo},
+  journal={IEEE Transactions on Computers},
+  volume={62},
+  number={1},
+  pages={16--30},
+  year={2013},
+  publisher={IEEE},
+  url={https://www.researchgate.net/profile/Miguel_Correia3/publication/260585535_Efficient_Byzantine_Fault-Tolerance/links/5419615d0cf25ebee9885215.pdf}
 }
 
 @inproceedings{androulaki2012two,
@@ -378,6 +581,14 @@
   year={2012},
   publisher={Springer},
   url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.261.481&rep=rep1&type=pdf}
+}
+
+@inproceedings{cap2012structural,
+  author = {Cap, Clemens H},
+  title = {A Structural Analysis of Bitcoin},
+  booktitle = {Annual Meeting of the German Computer Scoiety GI. Braunschweig},
+  year = {2012},
+  url = {http://cs.emis.de/LNI/Proceedings/Proceedings208/51.pdf}
 }
 
 % 2013
@@ -546,6 +757,16 @@
   url={https://www.cs.gmu.edu/~mccoy/papers/botcoin-ndss14.pdf}
 }
 
+@inproceedings{mostefaoui2014signature,
+  title={Signature-free asynchronous Byzantine consensus with t< n/3 and O (n 2) messages},
+  author={Mostefaoui, Achour and Moumen, Hamouma and Raynal, Michel},
+  booktitle={Proceedings of the 2014 ACM symposium on Principles of distributed computing},
+  pages={2--9},
+  year={2014},
+  organization={ACM},
+  url={https://hal.inria.fr/file/index/docid/944816/filename/RR-2016-Consensus-optimal-V5.pdf}
+}
+
 @inproceedings{garman2013decentralized,
   title={Decentralized Anonymous Credentials.},
   author={Garman, Christina and Green, Matthew and Miers, Ian},
@@ -621,6 +842,17 @@
   year={2014},
   organization={ACM},
   url={http://eprint.iacr.org/2014/763.pdf}
+}
+
+@article{gervais2014bitcoin,
+  title={Is Bitcoin a decentralized currency?},
+  author={Gervais, Arthur and Karame, Ghassan and Capkun, Srdjan and Capkun, Vedran},
+  journal={IEEE security \& privacy},
+  volume={12},
+  number={3},
+  pages={54--60},
+  year={2014},
+  url={https://eprint.iacr.org/2013/829.pdf}
 }
 
 @inproceedings{kumaresan2014use,
@@ -1050,7 +1282,6 @@
   url={http://www.comp.nus.edu.sg/~prateeks/papers/VeriEther.pdf}
 }
 
-
 % 2016  
 
 @inproceedings{danezis2015centrally,
@@ -1094,7 +1325,7 @@
   author={Croman, Kyle and Decker, Christian and Eyal, Ittay and Gencer, Adem Efe and Juels, Ari and Kosba, Ahmed and Miller, Andrew and Saxena, Prateek and Shi, Elaine and G{\"u}n, Emin},
   booktitle={3rd Workshop on Bitcoin and Blockchain Research, Financial Cryptography 16},
   year={2016},
-  url={http://fc16.ifca.ai/bitcoin/papers/CDE+16.pdf}
+  url={http://www.tik.ee.ethz.ch/file/74bc987e6ab4a8478c04950616612f69/main.pdf}
 }
 
 @inproceedings{bonneau2016ethiks,
@@ -1184,6 +1415,27 @@
   url={https://regisriveretdotorg.files.wordpress.com/2015/11/smart_ruleml.pdf}
 }
 
+@inproceedings{kiayias2016fair,
+  title={Fair and robust multi-party computation using a global transaction ledger},
+  author={Kiayias, Aggelos and Zhou, Hong-Sheng and Zikas, Vassilis},
+  booktitle={Annual International Conference on the Theory and Applications of Cryptographic Techniques},
+  pages={705--734},
+  year={2016},
+  organization={Springer},
+  url={https://eprint.iacr.org/2015/574.pdf}
+}
+
+@inproceedings{marino2016setting,
+  title={Setting Standards for Altering and Undoing Smart Contracts},
+  author={Marino, Bill and Juels, Ari},
+  booktitle={International Symposium on Rules and Rule Markup Languages for the Semantic Web},
+  pages={151--166},
+  year={2016},
+  organization={Springer},
+  url={http://www.arijuels.com/wp-content/uploads/2016/06/Setting-Standards-for-Altering-and-Undoing-Smart-Contracts.docx}
+}
+
+
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -1215,13 +1467,13 @@
   url			= {http://www.hashcash.org/papers/hashcash.pdf}
 }
 
+% url			= {http://archive.is/i0OYc}
 @misc{szabo2003advances,
   title         = {Advances in Distributed Security},
   author        = {Szabo, Nick},
   year          = {2003},
   howpublished  = {\url{http://szabo.best.vwh.net/distributed.html}},
   note 			= {Accessed: 2016-04-31},
-  url			= {http://szabo.best.vwh.net/distributed.html}
 }
 
 @misc{finney2004rpow,
@@ -1330,6 +1582,14 @@
   url           = {https://bitmessage.org/bitmessage.pdf}
 }
 
+@MastersThesis{herrmann2012implementation,
+  title={Implementation, evaluation and detection of a doublespend-attack on Bitcoin},
+  author={Herrmann, Matthias},
+  year={2012},
+  month={Apr},
+  school={Master Thesis ETH Z{\"u}rich, 2012},
+  url={http://e-collection.library.ethz.ch/eserv/eth:5606/eth-5606-01.pdf?pid=eth:5606&dsID=eth-5606-01.pdf}
+}
 
 % 2014
 
@@ -1475,6 +1735,18 @@
   url           = {http://bitcoinaffiliatelist.com/wp-content/uploads/ethereum.pdf}
 }
 
+@misc{shomer2014phase,
+  title		= {On the Phase Space of Block-Hiding Strategies in Bitcoin-like networks},
+  author	= {Shomer, Assaf},
+  journal	= {arXiv preprint arXiv:1402.4233},
+  year		= {2014},
+  month		= {Feb},
+  howpublished  = {\url{https://arxiv.org/pdf/1402.4233v1.pdf}},
+  note		= {Accessed: 2016-10-17},
+  url		= {https://arxiv.org/pdf/1402.4233v1.pdf}
+
+}
+
 % 2015
 
 @misc{miller2015topology,
@@ -1563,6 +1835,16 @@
   url 			= {http://arxiv.org/pdf/1507.06183.pdf}
 }
 
+@article{kiayias2015speed,
+  title		={Speed-Security Tradeoff s in Blockchain Protocols},
+  author	={Kiayias, Aggelos and Panagiotakos, Giorgos},
+  year		={2015},
+  month		={Oct},
+  howpublished  = {\url{https://eprint.iacr.org/2015/1019.pdf}},
+  note          = {Accessed: 2016-10-17},
+  url={https://eprint.iacr.org/2015/1019.pdf}
+}
+
 % 2016
 
 @misc{ali2016blockstack,
@@ -1636,12 +1918,23 @@
 
 @misc{pass2016analysis,
   title         = {Analysis of the Blockchain Protocol in Asynchronous Networks},
-  author        = {Pass, Rafael and Tech, Cornell and Seeman, Lior},
+  author        = {Pass, Rafael and Seeman, Lior and shelat, abhi},
   year          = {2016},
   howpublished  = {\url{http://eprint.iacr.org/2016/454.pdf}},
   note          = {Accessed: 2016-08-01},
   url           = {http://eprint.iacr.org/2016/454.pdf}
 }
+
+@misc{pass2016hybrid,
+  title		= {Hybrid Consensus: Scalable Permissionless Consensus},
+  author	= {Pass, Rafael and Shi, Elaine},
+  year		= {2016},
+  month		= {Sep},
+  howpublished 	= {\url{https://eprint.iacr.org/2016/917.pdf}},
+  note		= {Accessed: 2016-10-17},
+  url 		= {https://eprint.iacr.org/2016/917.pdf}
+}
+  
 
 @misc{nelson2016extending,
   title         = {Extending Existing Blockchains with Virtualchain},
@@ -1708,5 +2001,44 @@
   note          = {Accessed: 2016-08-10},
   url={https://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf}
 }
+
+@article{blocki2016designing,
+  title		={Designing Proof of Human-work Puzzles for Cryptocurrency and Beyond},
+  author	={Blocki, Jeremiah and Zhou, Hong-Sheng},
+  year		={2016},
+  month		={Aug},
+  howpublished  = {\url{https://eprint.iacr.org/2016/145.pdf}}, 
+  note          = {Accessed: 2016-10-17},
+  url		={https://eprint.iacr.org/2016/145.pdf}
+}
+
+@misc{cachin2016non,
+  title={Non-determinism in Byzantine Fault-Tolerant Replication},
+  author={Cachin, Christian and Schubert, Simon and Vukolic, Marko},
+  year={2016},
+  month={Mar},
+  howpublished={IBM Research - Zurich},
+  url={http://www.zurich.ibm.com/~cca/papers/sieve.pdf}
+}
+
+%tailored for permissioned blockchain environment
+@article{abraham2016bvp,
+  title={BVP: Byzantine Vertical Paxos},
+  author={Abraham, Ittai and Malkhi, Dahlia},
+  year={2016},
+  month={May},
+  howpublished={IBM Research - Zurich},
+  url={https://www.zurich.ibm.com/dccl/papers/abraham_dccl.pdf}
+}
+
+@article{wust2016security,
+  title={Security of Blockchain Technologies},
+  author={W{\"u}st, Karl},
+  year={2016},
+  month={Jul},
+  howpublished={Master Thesis - Department of Computer Science, ETH Zürich},
+  url={http://e-collection.library.ethz.ch/eserv/eth:49632/eth-49632-01.pdf}
+}
+
 
 
