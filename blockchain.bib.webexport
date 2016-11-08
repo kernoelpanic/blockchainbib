@@ -2002,9 +2002,10 @@
   url={https://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf}
 }
 
-@article{blocki2016designing,
+@misc{blocki2016designing,
   title		={Designing Proof of Human-work Puzzles for Cryptocurrency and Beyond},
   author	={Blocki, Jeremiah and Zhou, Hong-Sheng},
+  publisher = {Cryptology ePrint Archive, Report 2016/145},
   year		={2016},
   month		={Aug},
   howpublished  = {\url{https://eprint.iacr.org/2016/145.pdf}}, 
@@ -2017,28 +2018,91 @@
   author={Cachin, Christian and Schubert, Simon and Vukolic, Marko},
   year={2016},
   month={Mar},
-  howpublished={IBM Research - Zurich},
+  howpublished={\url{http://www.zurich.ibm.com/~cca/papers/sieve.pdf}},
+  note={Accessed: 2016-11-08},
   url={http://www.zurich.ibm.com/~cca/papers/sieve.pdf}
 }
 
 %tailored for permissioned blockchain environment
-@article{abraham2016bvp,
+@misc{abraham2016bvp,
   title={BVP: Byzantine Vertical Paxos},
   author={Abraham, Ittai and Malkhi, Dahlia},
   year={2016},
   month={May},
-  howpublished={IBM Research - Zurich},
+  howpublished={\url{https://www.zurich.ibm.com/dccl/papers/abraham_dccl.pdf}},
+  note={Accessed: 2016-11-08},
   url={https://www.zurich.ibm.com/dccl/papers/abraham_dccl.pdf}
 }
 
-@article{wust2016security,
+@misc{wust2016security,
   title={Security of Blockchain Technologies},
   author={W{\"u}st, Karl},
   year={2016},
   month={Jul},
-  howpublished={Master Thesis - Department of Computer Science, ETH Zürich},
+  howpublished={\url{http://e-collection.library.ethz.ch/eserv/eth:49632/eth-49632-01.pdf}},
+  note={Accessed: 2016-11-08},
   url={http://e-collection.library.ethz.ch/eserv/eth:49632/eth-49632-01.pdf}
 }
 
+@phdthesis{miller2016provable,
+  title={Provable Security for Cryptocurrencies},
+  author={Miller, Andrew},
+  year={2016},
+  school={University of Maryland, College Park},
+  howpublished={\url{http://www.cs.umd.edu/~jkatz/THESES/amiller-thesis.pdf}},
+  note={Accessed: 2016-11-08},
+  url={http://www.cs.umd.edu/~jkatz/THESES/amiller-thesis.pdf}
+}
 
+@misc{pass2016fruitchains,
+  title={Fruitchains: A fair blockchain},
+  author={Pass, Rafael and Shi, Elaine},
+  publisher = {Cryptology ePrint Archive, Report 2016/916},
+  year={2016},
+  howpublished={\url{http://eprint.iacr.org/2016/916.pdf}},
+  note={Accessed: 2016-11-08},
+  url={http://eprint.iacr.org/2016/916.pdf}
+}
+
+@misc{bentov2016sleepy,
+  title={The sleepy model of consensus},
+  author={Bentov, Iddo and Pass, Rafael and Shi, Elaine},
+  publisher = {Cryptology ePrint Archive, Report 2016/918},
+  year={2016},
+  howpublished={\url{https://eprint.iacr.org/2016/918.pdf}},
+  note={Accessed: 2016-11-08},
+  url={https://eprint.iacr.org/2016/918.pdf}
+}
+
+@misc{bentov2016snow,
+  title={Snow White: Provably Secure Proofs of Stake},
+  author={Bentov, Iddo and Pass, Rafael and Shi, Elaine},
+  publisher = {Cryptology ePrint Archive, Report 2016/919},
+  year={2016},
+  note={\url{https://eprint.iacr.org/2016/919.pdf}},
+  note={Accessed: 2016-11-08},
+  url={https://eprint.iacr.org/2016/919.pdf}
+}
+
+@misc{garay2016bootstrapping,
+    author = {Garay, Juan A.  and Kiayias, Aggelos and Leonardos, Nikos and Panagiotakos, Giorgos},
+    title = {Bootstrapping the Blockchain --- Directly},
+    publisher = {Cryptology ePrint Archive, Report 2016/991},
+    year = {2016},
+    month={Oct},
+    howpublished = {\url{http://eprint.iacr.org/2016/991}},
+    note={Accessed: 2016-11-08},
+    url={https://eprint.iacr.org/2016/991.pdf}
+}
+
+@misc{atzei2016survey,
+    author = {Atzei, Nicola and Bartoletti, Massimo  and Cimoli, Tiziana},
+    title = {A survey of attacks on Ethereum smart contracts},
+    publisher = {Cryptology ePrint Archive, Report 2016/1007},
+    year = {2016},
+    month ={Oct},
+    howpublished={\url{http://eprint.iacr.org/2016/1007}},
+    note={Accessed: 2016-11-08},
+    url = { https://eprint.iacr.org/2016/1007.pdf}
+}
 

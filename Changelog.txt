@@ -1,3 +1,5 @@
+* 2016-11-08
+	- Merged more recent eprints 
 * 2016-10-24
 	- Merged in more papers on consensus in general
 * 2016-09-02
