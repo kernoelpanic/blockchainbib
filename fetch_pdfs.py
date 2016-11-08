@@ -57,14 +57,15 @@ def main(file_name, output_dir):
 
     # Create download directories.
 
-    #try:
-    #    os.makedirs(os.path.join(output_dir, "pdf"))
-    #    os.makedirs(os.path.join(output_dir, "ps"))
-    #except OSError as exc:
-    #    if exc.errno == errno.EEXIST:
-    #        pass
-    #    else:
-    #        raise
+    try:
+        os.makedirs(os.path.join(output_dir, "pdf"))
+        os.makedirs(os.path.join(output_dir, "ps"))
+	os.makedirs(os.path.join(output_dir, "other"))
+    except OSError as exc:
+        if exc.errno == errno.EEXIST:
+            pass
+        else:
+            raise
 
     # Iterate over all BibTeX entries and trigger download if necessary.
 
@@ -80,14 +81,13 @@ def main(file_name, output_dir):
         _, ext = os.path.splitext(url)
         if ext:
             ext = ext[1:]
-
+	ext = ext.lower()	
         if ext not in ["pdf", "ps"]:
-            #print >> sys.stderr, ("Skipping %s because it's not a pdf "
-            #                      "or ps file." % url)
-            #continue
-            ext = "pdf"
-
-        file_name = os.path.join(output_dir, bibkey + ".%s" % ext)
+            print >> sys.stderr, ("Unsupported file extension %s" % url)
+	    outfolder="other"
+	else:
+	    outfolder=ext	
+        file_name = os.path.join(os.path.join(output_dir, outfolder), bibkey + ".%s" % ext)
         if os.path.exists(file_name):
             print >> sys.stderr, ("Skipping %s because we already "
                                   "have it." % file_name)
