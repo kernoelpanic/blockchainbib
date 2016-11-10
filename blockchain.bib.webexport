@@ -2,7 +2,7 @@
 
 % < 2009 
 
-@article{pease1980reaching,
+@inproceedings{pease1980reaching,
   title={Reaching agreement in the presence of faults},
   author={Pease, Marshall and Shostak, Robert and Lamport, Leslie},
   journal={Journal of the ACM (JACM)},
@@ -14,7 +14,7 @@
   url={http://research.microsoft.com/en-us/um/people/lamport/pubs/reaching.pdf}
 }
 
-@article{lamport1982byzantine,
+@inproceedings{lamport1982byzantine,
   title={The Byzantine generals problem},
   author={Lamport, Leslie and Shostak, Robert and Pease, Marshall},
   journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
@@ -36,7 +36,7 @@
   url={http://www.cse.huji.ac.il/~dolev/pubs/p401-dolev.pdf}
 }
 
-@article{fischer1982lower,
+@inproceedings{fischer1982lower,
   title={A LOWER BOUND FOR THE TIME TO ASSURE INTERACTIVE CONSISTENCY},
   author={FISCHER, Michael J and LYNCH, Nancy A},
   journal={INFORMATION PROCESSING LETTERS},
@@ -47,7 +47,7 @@
   url={http://groups.csail.mit.edu/tds/papers/Lynch/ipl82.pdf}
 }
 
-@article{dolev1982efficient,
+@inproceedings{dolev1982efficient,
   title={An Efficient Algorithm for Byzantine Agreement without Authentication},
   author={Dolev, Danny and Fischer, Michael J and Fowler, Rob and Lynch, Nancy A and Strong, H Raymond},
   journal={Information and Control},
@@ -58,7 +58,7 @@
   url={http://groups.csail.mit.edu/tds/papers/Lynch/dffls-ic.pdf}
 }
 
-@article{lamport1983weak,
+@inproceedings{lamport1983weak,
   title={The weak Byzantine generals problem},
   author={Lamport, Leslie},
   journal={Journal of the ACM (JACM)},
@@ -76,7 +76,7 @@
   booktitle={International Conference on Fundamentals of Computation Theory},
   pages={127--140},
   year={1983},
-  organization={Springer},
+  publisher={Springer},
   url={http://courses.csail.mit.edu/6.897/fall04/papers/Fischer/fischer-survey.ps}
 }
 
@@ -110,7 +110,7 @@
   url={https://www.cs.princeton.edu/courses/archive/fall05/cos521/byzantin.pdf}
 }
 
-@article{dolev1983authenticated,
+@inproceedings{dolev1983authenticated,
   title={Authenticated algorithms for Byzantine agreement},
   author={Dolev, Danny and Strong, H. Raymond},
   journal={SIAM Journal on Computing},
@@ -122,15 +122,17 @@
   url={http://www.cse.huji.ac.il/~dolev/pubs/authenticated.pdf}
 }
 
-@article{toueg1984randomized,
+@inproceedings{toueg1984randomized,
   title={Randomized Asynchronous Byzantine Agreements},
   author={Toueg, Sam},
+  booktitle={Proceedings of the third annual ACM symposium on Principles of distributed computing},
+  pages={163--178},
   year={1984},
-  month={Feb},
+  publisher={ACM},
   url={https://ecommons.cornell.edu/bitstream/handle/1813/6426/83-587.ps}
 }
 
-@article{lamport1984using,
+@inproceedings{lamport1984using,
   title={Using Time Instead of Timeout for Fault-Tolerant Distributed Systems.},
   author={Lamport, Leslie},
   journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
@@ -142,7 +144,7 @@
   url={http://131.107.65.14/en-us/um/people/lamport/pubs/using-time.pdf}
 }
 
-@article{chaum1985security,
+@inproceedings{chaum1985security,
   title = {Security without identification: Transaction systems to make big brother obsolete},
   author = {Chaum, David},
   journal = {Communications of the ACM},
@@ -154,7 +156,7 @@
   url={https://cosic.esat.kuleuven.be/apes/papers/p1030-chaum.pdf.gz}
 }
 
-@article{fischer1985impossibility,
+@inproceedings{fischer1985impossibility,
   title={Impossibility of distributed consensus with one faulty process},
   author={Fischer, Michael J and Lynch, Nancy A and Paterson, Michael S},
   journal={Journal of the ACM (JACM)},
@@ -166,7 +168,7 @@
   url={http://macs.citadel.edu/rudolphg/csci604/ImpossibilityofConsensus.pdf}
 }
 
-@article{bracha1985asynchronous,
+@inproceedings{bracha1985asynchronous,
   title={Asynchronous Consensus and Broadcast Protocols},
   author={Bracha, Gabriel and Toueg, Sam},
   journal={Journal of the Association for Computing Machinery},
@@ -178,7 +180,7 @@
   url={https://pdfs.semanticscholar.org/130c/e1bcd496a7b9192f5f53dd8d7ef626e40675.pdf}
 }
 
-@article{chor1985simple,
+@inproceedings{chor1985simple,
   title={A Simple and Efficient Randomized Byzantine Agreement Algorithm},
   author={Chor, Benny and Coan, Brian A},
   journal={IEEE Transactions on Software Engineering},
@@ -190,7 +192,7 @@
 }
 
 
-@article{dolev1987minimal,
+@inproceedings{dolev1987minimal,
   title={On the minimal synchronism needed for distributed consensus},
   author={Dolev, Danny and Dwork, Cynthia and Stockmeyer, Larry},
   journal={Journal of the ACM (JACM)},
@@ -202,7 +204,7 @@
   url={http://www.oocities.org/stockmeyer@sbcglobal.net/dds.pdf}
 }
 
-@article{dwork1988consensus,
+@inproceedings{dwork1988consensus,
   title={Consensus in the presence of partial synchrony},
   author={Dwork, Cynthia and Lynch, Nancy and Stockmeyer, Larry},
   journal={Journal of the ACM (JACM)},
@@ -214,7 +216,7 @@
   url={http://www-usr.inf.ufsm.br/~ceretta/papers/MITLCSTM270.pdf}
 }
 
-@article{schneider1990implementing,
+@inproceedings{schneider1990implementing,
   title={Implementing fault-tolerant services using the state machine approach: A tutorial},
   author={Schneider, Fred B},
   journal={ACM Computing Surveys (CSUR)},
@@ -236,7 +238,7 @@
   url           = {http://people.dsv.su.se/~matei/courses/IK2001_SJE/Chaum90.pdf}
 }
 
-@article{chandra1996unreliable,
+@inproceedings{chandra1996unreliable,
   title={Unreliable failure detectors for reliable distributed systems},
   author={Chandra, Tushar Deepak and Toueg, Sam},
   journal={Journal of the ACM (JACM)},
@@ -248,7 +250,7 @@
   url={https://ecommons.cornell.edu/bitstream/handle/1813/7192/95-1535.pdf?sequence=1}
 }
 
-@article{lamport1998part,
+@inproceedings{lamport1998part,
   title={The part-time parliament},
   author={Lamport, Leslie},
   journal={ACM Transactions on Computer Systems (TOCS)},
@@ -312,7 +314,7 @@
   url={http://www.cs.cornell.edu/people/egs/cs6460-spring10/sybil.pdf}
 }
 
-@article{aspnes2003randomized,
+@inproceedings{aspnes2003randomized,
   title={Randomized protocols for asynchronous consensus},
   author={Aspnes, James},
   journal={Distributed Computing},
@@ -323,6 +325,19 @@
   publisher={Springer},
   url={http://arxiv.org/pdf/cs/0209014}
 }
+
+@inproceedings{baldoni2003consensus,
+  title={Consensus in Byzantine asynchronous systems},
+  author={Baldoni, Roberto and H{\'e}lary, Jean-Michel and Raynal, Michel and Tangui, Lenaik},
+  journal={Journal of Discrete Algorithms},
+  volume={1},
+  number={2},
+  pages={185--210},
+  year={2003},
+  publisher={Elsevier},
+  url={http://ac.els-cdn.com/S157086670300025X/1-s2.0-S157086670300025X-main.pdf?_tid=0ce850b4-a744-11e6-a9cb-00000aab0f02&acdnat=1478782320_1c5fb3de333bc22d255442881f330e25}
+}
+
 
 @inproceedings{cavin2004consensus,
   title={Consensus with unknown participants or fundamental self-organization},
@@ -479,6 +494,16 @@
   url={https://www.microsoft.com/en-us/research/wp-content/uploads/2010/09/disc-camera-ready.pdf}
 }
 
+@inproceedings{correia2010asynchronous,
+  title={Asynchronous Byzantine consensus with 2f+ 1 processes},
+  author={Correia, Miguel and Veronese, Giuliana S and Lung, Lau Cheuk},
+  booktitle={Proceedings of the 2010 ACM symposium on applied computing},
+  pages={475--480},
+  year={2010},
+  organization={ACM},
+  url={http://www.navigators.di.fc.ul.pt/archive/papers/consensus2f11.pdf}
+}
+
 % 2011
 
 @inproceedings{reid2011anonymity,
@@ -561,7 +586,7 @@
   url={http://users.encs.concordia.ca/~clark/biblio/bitcoin/Becker%202012.pdf}
 }
 
-@article{veronese2013efficient,
+@inproceedings{veronese2013efficient,
   title={Efficient byzantine fault-tolerance},
   author={Veronese, Giuliana Santos and Correia, Miguel and Bessani, Alysson Neves and Lung, Lau Cheuk and Verissimo, Paulo},
   journal={IEEE Transactions on Computers},
@@ -581,7 +606,7 @@
   url={http://eprint.iacr.org/2012/248.pdf}
 }
 
-@article{aguilera2012correctness,
+@inproceedings{aguilera2012correctness,
   title={The correctness proof of Ben-Or's randomized consensus algorithm},
   author={Aguilera, Marcos K and Toueg, Sam},
   journal={Distributed Computing},
@@ -854,7 +879,7 @@
   url={http://eprint.iacr.org/2014/763.pdf}
 }
 
-@article{gervais2014bitcoin,
+@inproceedings{gervais2014bitcoin,
   title={Is Bitcoin a decentralized currency?},
   author={Gervais, Arthur and Karame, Ghassan and Capkun, Srdjan and Capkun, Vedran},
   journal={IEEE security \& privacy},
@@ -953,6 +978,27 @@
   publisher={ACM},
   url = {http://eprint.iacr.org/2014/452.pdf}
 }
+
+@inproceedings{johnson2014game,
+  title={Game-theoretic analysis of DDoS attacks against Bitcoin mining pools},
+  author={Johnson, Benjamin and Laszka, Aron and Grossklags, Jens and Vasek, Marie and Moore, Tyler},
+  booktitle={International Conference on Financial Cryptography and Data Security},
+  pages={72--86},
+  year={2014},
+  organization={Springer},
+  url={http://photon.hu/~laszka/papers/johnson2014game.pdf}
+}
+
+@inproceedings{vasek2014empirical,
+  title={Empirical analysis of denial-of-service attacks in the Bitcoin ecosystem},
+  author={Vasek, Marie and Thornton, Micah and Moore, Tyler},
+  booktitle={International Conference on Financial Cryptography and Data Security},
+  pages={57--71},
+  year={2014},
+  organization={Springer},
+  url={http://secon.utulsa.edu/vasek/vasekbtc14.pdf}
+}
+
 
 % 2015  
 
@@ -1090,7 +1136,7 @@
   url={http://homepages.cs.ncl.ac.uk/feng.hao/files/zcoin-camera-ready.pdf}
 }
 
-@article{karame2015misbehavior,
+@inproceedings{karame2015misbehavior,
   title={Misbehavior in Bitcoin: A Study of Double-Spending and Accountability},
   author={Karame, Ghassan O and Androulaki, Elli and Roeschlin, Marc and Gervais, Arthur and {\v{C}}apkun, Srdjan},
   journal={ACM Transactions on Information and System Security (TISSEC)},
@@ -1183,7 +1229,7 @@
   url={http://eprint.iacr.org/2014/796.pdf}
 }
 
-@article{zohar2015bitcoin,
+@inproceedings{zohar2015bitcoin,
   title={Bitcoin: under the hood},
   author={Zohar, Aviv},
   journal={Communications of the ACM},
@@ -1394,7 +1440,7 @@
   publisher = {USENIX Association},
 }
 
-@article{kraft2016difficulty,
+@inproceedings{kraft2016difficulty,
   title={Difficutly Control for Blockchain-Based Consensus Systems},
   author={Kraft, Daniel},
   journal={Peer-to-Peer Networking and Applications},
@@ -2012,16 +2058,10 @@
   url={https://publications.lib.chalmers.se/records/fulltext/234939/234939.pdf}
 }
 
-<<<<<<< Updated upstream
 @misc{blocki2016designing,
   title		={Designing Proof of Human-work Puzzles for Cryptocurrency and Beyond},
   author	={Blocki, Jeremiah and Zhou, Hong-Sheng},
   publisher = {Cryptology ePrint Archive, Report 2016/145},
-=======
-@article{blocki2016designing,
-  title		={Designing Proof of Human-work Puzzles for Cryptocurrency and Beyond},
-  author	={Blocki, Jeremiah and Zhou, Hong-Sheng},
->>>>>>> Stashed changes
   year		={2016},
   month		={Aug},
   howpublished  = {\url{https://eprint.iacr.org/2016/145.pdf}}, 
@@ -2034,49 +2074,30 @@
   author={Cachin, Christian and Schubert, Simon and Vukolic, Marko},
   year={2016},
   month={Mar},
-<<<<<<< Updated upstream
   howpublished={\url{http://www.zurich.ibm.com/~cca/papers/sieve.pdf}},
   note={Accessed: 2016-11-08},
-=======
-  howpublished={IBM Research - Zurich},
->>>>>>> Stashed changes
   url={http://www.zurich.ibm.com/~cca/papers/sieve.pdf}
 }
 
 %tailored for permissioned blockchain environment
-<<<<<<< Updated upstream
 @misc{abraham2016bvp,
-=======
-@article{abraham2016bvp,
->>>>>>> Stashed changes
   title={BVP: Byzantine Vertical Paxos},
   author={Abraham, Ittai and Malkhi, Dahlia},
   year={2016},
   month={May},
-<<<<<<< Updated upstream
   howpublished={\url{https://www.zurich.ibm.com/dccl/papers/abraham_dccl.pdf}},
   note={Accessed: 2016-11-08},
   url={https://www.zurich.ibm.com/dccl/papers/abraham_dccl.pdf}
 }
 
 @misc{wust2016security,
-=======
-  howpublished={IBM Research - Zurich},
-  url={https://www.zurich.ibm.com/dccl/papers/abraham_dccl.pdf}
-}
-
-@article{wust2016security,
->>>>>>> Stashed changes
   title={Security of Blockchain Technologies},
   author={W{\"u}st, Karl},
+  publisher={Master's Thesis - Department of Computer Science, ETH Z\{"u}rich},
   year={2016},
   month={Jul},
-<<<<<<< Updated upstream
   howpublished={\url{http://e-collection.library.ethz.ch/eserv/eth:49632/eth-49632-01.pdf}},
   note={Accessed: 2016-11-08},
-=======
-  howpublished={Master Thesis - Department of Computer Science, ETH Zürich},
->>>>>>> Stashed changes
   url={http://e-collection.library.ethz.ch/eserv/eth:49632/eth-49632-01.pdf}
 }
 
@@ -2085,33 +2106,24 @@
   author={Miller, Andrew},
   year={2016},
   school={University of Maryland, College Park},
-<<<<<<< Updated upstream
   howpublished={\url{http://www.cs.umd.edu/~jkatz/THESES/amiller-thesis.pdf}},
   note={Accessed: 2016-11-08},
-=======
->>>>>>> Stashed changes
   url={http://www.cs.umd.edu/~jkatz/THESES/amiller-thesis.pdf}
 }
 
 @misc{pass2016fruitchains,
   title={Fruitchains: A fair blockchain},
   author={Pass, Rafael and Shi, Elaine},
-<<<<<<< Updated upstream
   publisher = {Cryptology ePrint Archive, Report 2016/916},
   year={2016},
   howpublished={\url{http://eprint.iacr.org/2016/916.pdf}},
   note={Accessed: 2016-11-08},
-=======
-  year={2016},
-  publisher={Manuscript},
->>>>>>> Stashed changes
   url={http://eprint.iacr.org/2016/916.pdf}
 }
 
 @misc{bentov2016sleepy,
   title={The sleepy model of consensus},
   author={Bentov, Iddo and Pass, Rafael and Shi, Elaine},
-<<<<<<< Updated upstream
   publisher = {Cryptology ePrint Archive, Report 2016/918},
   year={2016},
   howpublished={\url{https://eprint.iacr.org/2016/918.pdf}},
@@ -2126,54 +2138,42 @@
   year={2016},
   note={\url{https://eprint.iacr.org/2016/919.pdf}},
   note={Accessed: 2016-11-08},
-=======
-  year={2016},
-  publisher={Manuscript},
-  url={https://eprint.iacr.org/2016/918.pdf}
-}
-
-@article{bentov2016snow,
-  title={Snow White: Provably Secure Proofs of Stake},
-  author={Bentov, Iddo and Pass, Rafael and Shi, Elaine},
-  year={2016},
->>>>>>> Stashed changes
   url={https://eprint.iacr.org/2016/919.pdf}
 }
 
 @misc{garay2016bootstrapping,
     author = {Garay, Juan A.  and Kiayias, Aggelos and Leonardos, Nikos and Panagiotakos, Giorgos},
     title = {Bootstrapping the Blockchain --- Directly},
-<<<<<<< Updated upstream
     publisher = {Cryptology ePrint Archive, Report 2016/991},
     year = {2016},
     month={Oct},
     howpublished = {\url{http://eprint.iacr.org/2016/991}},
     note={Accessed: 2016-11-08},
-=======
-    howpublished = {Cryptology ePrint Archive, Report 2016/991},
-    year = {2016},
-    month={Oct},
-    note = {\url{http://eprint.iacr.org/2016/991}},
->>>>>>> Stashed changes
     url={https://eprint.iacr.org/2016/991.pdf}
 }
 
 @misc{atzei2016survey,
     author = {Atzei, Nicola and Bartoletti, Massimo  and Cimoli, Tiziana},
     title = {A survey of attacks on Ethereum smart contracts},
-<<<<<<< Updated upstream
     publisher = {Cryptology ePrint Archive, Report 2016/1007},
     year = {2016},
     month ={Oct},
     howpublished={\url{http://eprint.iacr.org/2016/1007}},
     note={Accessed: 2016-11-08},
     url = { https://eprint.iacr.org/2016/1007.pdf}
-=======
-    howpublished = {Cryptology ePrint Archive, Report 2016/1007},
-    year = {2016},
-    month ={Oct},
-    note = {\url{http://eprint.iacr.org/2016/1007}},
-    url = {https://eprint.iacr.org/2016/1007.pdf}
->>>>>>> Stashed changes
 }
+
+
+
+@misc{kiayias2016provably,
+  author    = {Kiayias, Aggelos and Konstantinou, Ioannis and Russell, Alexander  and David, Bernardo  and Oliynykov, Roman },
+  title     = {A Provably Secure Proof-of-Stake Blockchain Protocol},
+  publisher   = {Cryptology ePrint Archive, Report 2016/889},
+  month = {Sep},
+  year      = {2016},
+  howpublished  = {\url{http://eprint.iacr.org/2016/889}},
+  note = {Accessed: 2016-11-09},
+  url = {http://eprint.iacr.org/2016/889.pdf}
+}
+
 
