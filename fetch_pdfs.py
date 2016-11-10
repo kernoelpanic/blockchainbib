@@ -58,8 +58,8 @@ def main(file_name, output_dir):
     # Create download directories.
 
     try:
-        os.makedirs(os.path.join(output_dir, "pdf"))
-        os.makedirs(os.path.join(output_dir, "ps"))
+        #os.makedirs(os.path.join(output_dir, "pdf"))
+        #os.makedirs(os.path.join(output_dir, "ps"))
 	os.makedirs(os.path.join(output_dir, "other"))
     except OSError as exc:
         if exc.errno == errno.EEXIST:
@@ -81,12 +81,12 @@ def main(file_name, output_dir):
         _, ext = os.path.splitext(url)
         if ext:
             ext = ext[1:]
-	ext = ext.lower()	
+	ext = ext.lower()
         if ext not in ["pdf", "ps"]:
             print >> sys.stderr, ("Unsupported file extension %s" % url)
 	    outfolder="other"
 	else:
-	    outfolder=ext	
+	    outfolder=""
         file_name = os.path.join(os.path.join(output_dir, outfolder), bibkey + ".%s" % ext)
         if os.path.exists(file_name):
             print >> sys.stderr, ("Skipping %s because we already "
