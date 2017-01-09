@@ -547,7 +547,7 @@
 @inproceedings{stebila2011stronger,
   title={Stronger difficulty notions for client puzzles and denial-of-service-resistant protocols},
   author={Stebila, Douglas and Kuppusamy, Lakshmi and Rangasamy, Jothi and Boyd, Colin and Nieto, Juan Gonzalez},
-  booktitle={Cryptographers’ Track at the RSA Conference},
+  booktitle={Cryptographers Track at the RSA Conference},
   pages={284--301},
   year={2011},
   organization={Springer},
