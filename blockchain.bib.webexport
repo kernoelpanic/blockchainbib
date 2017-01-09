@@ -238,6 +238,16 @@
   url           = {http://people.dsv.su.se/~matei/courses/IK2001_SJE/Chaum90.pdf}
 }
 
+@inproceedings{dwork1992pricing,
+  title={Pricing via processing or combatting junk mail},
+  author={Dwork, Cynthia and Naor, Moni},
+  booktitle={Annual International Cryptology Conference},
+  pages={139--147},
+  year={1992},
+  organization={Springer},
+  url={https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf}  
+}
+
 @inproceedings{chandra1996unreliable,
   title={Unreliable failure detectors for reliable distributed systems},
   author={Chandra, Tushar Deepak and Toueg, Sam},
@@ -462,6 +472,16 @@
   url = {https://hal.inria.fr/hal-00325470/PDF/reliable.pdf}
 }
 
+@inproceedings{chen2009security,
+  title={Security notions and generic constructions for client puzzles},
+  author={Chen, Liqun and Morrissey, Paul and Smart, Nigel P and Warinschi, Bogdan},
+  booktitle={International Conference on the Theory and Application of Cryptology and Information Security},
+  pages={505--523},
+  year={2009},
+  organization={Springer},
+  url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.215.7179&rep=rep1&type=pdf}
+}
+
 % 2010
 
 @inproceedings{white2010overcoming,
@@ -522,6 +542,16 @@
   year={2011},
   organization={Springer},
   url={http://research.microsoft.com/en-us/um/people/lamport/pubs/disc-leaderless-web.pdf}
+}
+
+@inproceedings{stebila2011stronger,
+  title={Stronger difficulty notions for client puzzles and denial-of-service-resistant protocols},
+  author={Stebila, Douglas and Kuppusamy, Lakshmi and Rangasamy, Jothi and Boyd, Colin and Nieto, Juan Gonzalez},
+  booktitle={Cryptographers’ Track at the RSA Conference},
+  pages={284--301},
+  year={2011},
+  organization={Springer},
+  url={http://eprints.qut.edu.au/40036/6/40036-full-revised.pdf}
 }
 
 % 2012
@@ -999,6 +1029,17 @@
   url={http://secon.utulsa.edu/vasek/vasekbtc14.pdf}
 }
 
+@article{groza2014cryptographic,
+  title={Cryptographic puzzles and dos resilience, revisited},
+  author={Groza, Bogdan and Warinschi, Bogdan},
+  journal={Designs, Codes and Cryptography},
+  volume={73},
+  number={1},
+  pages={177--207},
+  year={2014},
+  publisher={Springer},
+  url={https://pdfs.semanticscholar.org/b823/a21ffc69e02d2913d112c8ab733629639577.pdf}
+}
 
 % 2015  
 
@@ -1399,6 +1440,15 @@
   month={February},
   year={2016},
   url={http://www.jbonneau.com/doc/VBCKM16-FC-bitcoin_brain_wallets.pdf},
+}
+
+@inproceedings{moeser2016bitcoin,
+  title={Bitcoin Covenants},
+  author={M{\"o}ser, Malte and Eyal, Ittay and Sirer, Emin G{\"u}n},
+  booktitle={FC '16: Proceedings of the the 20th International Conference on Financial Cryptography},
+  month={February},
+  year={2016},
+  url={http://fc16.ifca.ai/bitcoin/papers/MES16.pdf},
 }
 
 @inproceedings{schrijvers2016incentive,

@@ -1,4 +1,5 @@
-
+* 2017-01-09
+	- Added publications
 * 2016-12-14
 	- Added publication
 * 2016-11-10
