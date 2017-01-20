@@ -374,7 +374,7 @@
   author={Aspnes, James and Jackson, Collin and Krishnamurthy, Arvind},
   journal={Department of Computer Science, Yale University, New Haven, CT, Tech. Rep},
   year={2005},
-  url={ftp://haskell.cs.yale.edu/pub/TR/tr1332.pdf}
+  url={http://www.cs.yale.edu/homes/aspnes/papers/tr1332.pdf}
 }
 
 @inproceedings{angluin2006stabilizing,
@@ -449,6 +449,16 @@
   url={https://www.researchgate.net/profile/Bruce_Kapron/publication/220390388_Fast_asynchronous_Byzantine_agreement_and_leader_election_with_full_information/links/0912f5109e74191137000000.pdf}
 }
 
+%Differentiation between Las Vegas and Monte Carlo randomized consensus.
+@inproceedings{ishii2008vegas,
+  title={Las Vegas randomized algorithms in distributed consensus problems},
+  author={Ishii, Hideaki and Tempo, Roberto},
+  booktitle={2008 American Control Conference},
+  pages={2579--2584},
+  year={2008},
+  organization={IEEE},
+  url={http://www.nt.ntnu.no/users/skoge/prost/proceedings/acc08/data/papers/0446.pdf}
+}
 
 % 2009
 
@@ -1543,13 +1553,57 @@
 
 
 @inproceedings{rasmussen2016bitcoin,
-  title = "On Bitcoin Security in the Presence of Broken Cryptographic Primitives",
-  author = "Giechaskiel, Ilias and Cremers, Cas and Rasmussen, Kasper B.",
-  year = "2016",
-  booktitle = "European Symposium on Research in Computer Security ({ESORICS})",
-  month = "September",
+  title = {On Bitcoin Security in the Presence of Broken Cryptographic Primitives},
+  author = {Giechaskiel, Ilias and Cremers, Cas and Rasmussen, Kasper B.},
+  year = {2016},
+  booktitle = {European Symposium on Research in Computer Security ({ESORICS})},
+  month = {September},
   url={http://eprint.iacr.org/2016/167.pdf}
 }
+
+@inproceedings{tseng2016recent,
+  title={Recent results on fault-tolerant consensus in message-passing networks},
+  author={Tseng, Lewis},
+  booktitle={International Colloquium on Structural Information and Communication Complexity},
+  pages={92--108},
+  year={2016},
+  organization={Springer},
+  url={https://arxiv.org/pdf/1608.07923.pdf}
+}
+
+@inproceedings{zhang2016secure,
+  title={A Secure System For Pervasive Social Network-based Healthcare},
+  author={Zhang, Jie and Xue, Nian and Huang, Xin},
+  journal={IEEE Access},
+  year={2016},
+  month={Dec},
+  organization={IEEE},
+  url={http://ieeexplore.ieee.org/iel7/6287639/6514899/07801940.pdf}
+}
+
+@inproceedings{abeyratne2016blockchain,
+  title={Blockchain ready manufacturing supply chain using distributed ledger},
+  author={Abeyratne, Saveen A. and Monfared, Radmehr P.},
+  journal={International Journal of Research in Engineering and Technology},
+  volume={5},
+  number={09},
+  pages={1--10},
+  year={2016},
+  publisher={eSAT},
+  url={http://esatjournals.net/ijret/2016v05/i09/IJRET20160509001.pdf}
+}
+
+@inproceedings{anceaume2016safety,
+  title={Safety analysis of Bitcoin improvement proposals},
+  author={Anceaume, Emmanuelle and Lajoie-Mazenc, Thibaut and Ludinard, Romaric and Sericola, Bruno},
+  booktitle={Network Computing and Applications (NCA), 2016 IEEE 15th International Symposium on},
+  pages={318--325},
+  year={2016},
+  organization={IEEE},
+  url={www.irisa.fr/dionysos/pages_perso/sericola/PAPIERS/NCA16c.pdf}
+}
+
+
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -2194,7 +2248,7 @@
   author={Bentov, Iddo and Pass, Rafael and Shi, Elaine},
   publisher = {Cryptology ePrint Archive, Report 2016/919},
   year={2016},
-  note={\url{https://eprint.iacr.org/2016/919.pdf}},
+  howpublished={\url{https://eprint.iacr.org/2016/919.pdf}},
   note={Accessed: 2016-11-08},
   url={https://eprint.iacr.org/2016/919.pdf}
 }
@@ -2234,4 +2288,45 @@
   url = {http://eprint.iacr.org/2016/889.pdf}
 }
 
+% honey badger async. (randomized) bft protocol 
+@misc{miller2016honey,
+  title={The honey badger of BFT protocols},
+  author={Miller, Andrew and Xia, Yu and Croman, Kyle and Shi, Elaine and Song, Dawn},
+  publisher={Cryptology ePrint Archive: Report 2016/199},
+  year={2016},
+  howpublished={\url{https://eprint.iacr.org/2016/199.pdf}},
+  note={Accessed: 2017-01-10},
+  url={https://eprint.iacr.org/2016/199.pdf}
+}
+
+@misc{clack2016smart,
+  author    = {Christopher D. Clack and Vikram A. Bakshi and Lee Braine},
+  title     = {Smart Contract Templates: foundations, design landscape and research directions},
+  journal   = {CoRR},
+  volume    = {abs/1608.00771},
+  year      = {2016},
+  howpublished={\url{https://arxiv.org/pdf/1608.00771v2.pdf}},
+   note={Accessed: 2017-01-10},
+  url       = {https://arxiv.org/pdf/1608.00771v2.pdf}
+}
+
+@misc{lajoie2016increasing,
+  title={Increasing the robustness of the Bitcoincrypto-system in presence of undesirable behaviours},
+  author={Lajoie-Mazenc, Thibaut},
+  publisher={Master's Thesis sumbmitted at KTH CSC},
+  year={2016},
+  howpublished={\url{http://www.nada.kth.se/~ann/exjobb/thibaut_lajoie-mazenc.pdf}},
+  note={Accessed: 2017-01-19},
+  url={http://www.nada.kth.se/~ann/exjobb/thibaut_lajoie-mazenc.pdf}
+}
+
+@misc{baars2016towards,
+  title={Towards Self-Sovereign Identity using Blockchain Technology},
+  author={Baars, Djuri},
+  year={2016},
+  publisher={Master's Thesis at University of Twente},
+  howpublished={\url{http://essay.utwente.nl/71274/1/Baars_MA_BMS.pdf}},
+  note={Accessed: 2017-01-19},
+  url={http://essay.utwente.nl/71274/1/Baars_MA_BMS.pdf}
+}
 
