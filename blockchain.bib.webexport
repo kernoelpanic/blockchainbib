@@ -1696,7 +1696,6 @@
 @inproceedings{abeyratne2016blockchain,
   title={Blockchain ready manufacturing supply chain using distributed ledger},
   author={Abeyratne, Saveen A. and Monfared, Radmehr P.},
-  booktitle={International Journal of Research in Engineering and Technology},
   volume={5},
   number={09},
   pages={1--10},
@@ -1773,6 +1772,14 @@
  url={http://eprint.iacr.org/2017/249.pdf}
 } 
 
+@phdthesis{oja2016calculating,
+  title={Calculating the return on security investment of recording X-Road and Estonian electronic identity software into blockchain},
+  author={Oja, Rauno and others},
+  year={2016},
+  school={Tartu {\"U}likool},
+  url={http://dspace.ut.ee/bitstream/handle/10062/52269/oja_rauno.pdf}
+}
+
 % 2017
 
 @inproceedings{ohara2017smart,
@@ -1795,6 +1802,85 @@
   pages={1--15},
   year={2017},
   url={http://estsjournal.org/article/download/107/61.pdf}
+}
+
+@inproceedings{ruffing2017p2p,
+	author = {Ruffing, Tim and Moreno-Sanchez, Pedro and Kate, Aniket},
+	booktitle = {NDSS'17},
+	title = {P2P Mixing and Unlinkable Bitcoin Transactions},
+	year = {2017},
+        url={https://crypsys.mmci.uni-saarland.de/projects/FastDC/paper.pdf}
+}
+
+@phdthesis{stoffers2017trustworthy,
+  title={Trustworthy Provenance Recording using a blockchain-like database},
+  author={Stoffers, Martin},
+  year={2017},
+  school={Leipzig University},
+  url={http://elib.dlr.de/111772/1/thesis.pdf}
+}
+
+@inproceedings{dorri2017blockchain,
+  title={Blockchain for IoT security and privacy: The case study of a smart home},
+  author={Dorri, Ali and Kanhere, Salil S and Jurdak, Raja and Gauravaram, Praveen},
+  booktitle={Pervasive Computing and Communications Workshops (PerCom Workshops), 2017 IEEE International Conference on},
+  pages={618--623},
+  year={2017},
+  organization={IEEE},
+  url={https://www.researchgate.net/profile/Ali_Dorri5/publication/312218574_Blockchain_for_IoT_Security_and_Privacy_The_Case_Study_of_a_Smart_Home/links/5877309508ae329d6226e96f/Blockchain-for-IoT-Security-and-Privacy-The-Case-Study-of-a-Smart-Home.pdf}
+}
+
+@inproceedings{gaetani2017blockchain,
+  title={Blockchain-based database to ensure data integrity in cloud computing environments},
+  author={Gaetani, Edoardo and Aniello, Leonardo and Baldoni, Roberto and Lombardi, Federico and Margheri, Andrea and Sassone, Vladimiro},
+  journal={ITA-SEC. CEUR-WS. org, To Appear},
+  year={2017},
+  url={http://ceur-ws.org/Vol-1816/paper-15.pdf}
+}
+
+@inproceedings{sikorski2017blockchain,
+  title={Blockchain technology in the chemical industry: machine-to-machine electricity market},
+  author={Sikorski, Janusz J and Haughton, Joy and Kraft, Markus},
+  journal={Applied Energy},
+  volume={195},
+  pages={234--246},
+  year={2017},
+  publisher={Elsevier},
+  url={https://como.cheng.cam.ac.uk/preprints/c4e-Preprint-178.pdf}
+}
+
+@inproceedings{verma2017blockchain,
+  title={A blockchain based architecture for asset management in coalition operations},
+  author={Verma, Dinesh and Desai, Nirmit and Preece, Alun and Taylor, Ian},
+  booktitle={SPIE Defense+ Security},
+  pages={101900Y--101900Y},
+  year={2017},
+  organization={International Society for Optics and Photonics},
+  url={http://orca.cf.ac.uk/99880/1/Block-Chain-Coalitions-v03.pdf}
+}
+
+@inproceedings{crain2017blockchain,
+  title={Blockchain Consensus},
+  author={Crain, Tyler and Gramoli, Vincent and Larrea, Mikel and Raynal, Michel},
+  booktitle={ALGOTEL 2017-19{\`e}mes Rencontres Francophones sur les Aspects Algorithmiques des T{\'e}l{\'e}communications},
+  year={2017},
+  url={https://hal.inria.fr/hal-01518743/document}
+}
+
+@inproceedings{liang2017provchain,
+  title={ProvChain: A Blockchain-based Data Provenance Architecture in Cloud Environment with Enhanced Privacy and Availability},
+  author={Liang, Xueping and Shetty, Sachin and Tosh, Deepak and Kamhoua, Charles and Kwiat, Kevin and Njilla, Laurent},
+  booktitle={International Symposium on Cluster, Cloud and Grid Computing, IEEE/ACM},
+  year={2017},
+  url={https://www.cse.unr.edu/~toshd/assets/provchain.pdf}
+}
+
+@inproceedings{lindman2017opportunities,
+  title={Opportunities and Risks of Blockchain Technologies--A Research Agenda},
+  author={Lindman, Juho and Tuunainen, Virpi Kristiina and Rossi, Matti},
+  booktitle={Proceedings of the 50th Hawaii International Conference on System Sciences},
+  year={2017},
+  url={http://scholarspace.manoa.hawaii.edu/bitstream/10125/41338/1/paper0189.pdf}
 }
 
 % eprint/preprint blockchain bibliography
@@ -2798,6 +2884,50 @@
   url={http://eprint.iacr.org/2016/757.pdf}
 }
 
+@misc{apostolaki2016,
+  author    = {Maria Apostolaki and
+               Aviv Zohar and
+               Laurent Vanbever},
+  title     = {Hijacking Bitcoin: Large-scale Network Attacks on Cryptocurrencies},
+  journal   = {CoRR},
+  volume    = {abs/1605.07524},
+  year      = {2016},
+  howpublished={\url{https://arxiv.org/pdf/1605.07524.pdf}},
+  note={Accessed: 2017-03-28},
+  url={https://arxiv.org/pdf/1605.07524.pdf}
+}
+
+@misc{ozisik2016secure,
+  title={A Secure, Efficient, and Transparent Network Architecture for Bitcoin},
+  author={Ozisik, A Pinar and Andresen, Gavin and Bissias, George and Houmansadr, Amir and Levine, Brian N},
+  year={2016},
+  institution={UMass Amherst, Tech. Rep. UM-CS-2016-006, 2016},
+  note={Accessed: 2017-04-24},
+  url={https://people.cs.umass.edu/~gbiss/bitcoin_architecture.pdf}
+}
+
+@misc{reijers2016governance,
+  title={Governance in Blockchain Technologies \& Social Contract Theories},
+  author={Reijers, Wessel and O'Brolch{\'a}in, Fiachra and Haynes, Paul},
+  journal={Ledger},
+  volume={1},
+  pages={134--151},
+  year={2016},
+  howpublished  = {\url{http://ledger.pitt.edu/ojs/index.php/ledger/article/view/62}},
+  note={Accessed: 2017-05-09},
+  url={http://ledger.pitt.edu/ojs/index.php/ledger/article/download/62/51}
+}
+
+@misc{noyes2016bitav,
+  title={BitAV: Fast Anti-Malware by Distributed Blockchain Consensus and Feedforward Scanning},
+  author={Noyes, Charles},
+  journal={arXiv preprint arXiv:1601.01405},
+  year={2016},
+  howpublished  = {\url{https://arxiv.org/abs/1601.01405}},
+  note={Accessed: 2017-05-09},
+  url={https://arxiv.org/pdf/1601.01405.pdf}
+}
+
 @misc{vitalik2016chain,
   title ={Chain Interoperability},
   author ={Vitalik Buterin},
@@ -3018,5 +3148,75 @@
     howpublished = {\url{http://eprint.iacr.org/2017/216}},
     note={Accessed: 2017-03-24},
     url={http://eprint.iacr.org/2017/216.pdf}
+}
+
+@misc{miller2017empirical,
+  title={An Empirical Analysis of Linkability in the Monero Blockchain},
+  author={Miller, Andrew and Moeser, Malte and Lee, Kevin and Narayanan, Arvind},
+  journal={arXiv preprint arXiv:1704.04299},
+  year={2017},
+  howpublished = {\url{https://arxiv.org/abs/1704.04299}},
+  note={Accessed: 2017-04-24},
+  url={https://arxiv.org/pdf/1704.04299.pdf}
+}
+
+@misc{dorri2017blockchaindistributed,
+  title={BlockChain: A distributed solution to automotive security and privacy},
+  author={Dorri, Ali and Steger, Marco and Kanhere, Salil S and Jurdak, Raja},
+  journal={arXiv preprint arXiv:1704.00073},
+  year={2017},
+  howpublished = {\url{https://arxiv.org/abs/1704.00073}},
+  note={Accessed: 2017-04-24},
+  url={https://arxiv.org/pdf/1704.00073.pdf}
+}
+
+@misc{pappalardo2017blockchain,
+  title={Blockchain Inefficiency in the Bitcoin Peers Network},
+  author={Pappalardo, Giuseppe and Di Matteo, T and Caldarelli, Guido and Aste, Tomaso},
+  journal={arXiv preprint arXiv:1704.01414},
+  year={2017},
+  howpublished = {\url{https://arxiv.org/abs/1704.01414}},
+  note={Accessed: 2017-04-24},
+  url={https://arxiv.org/pdf/1704.01414.pdf}
+}
+
+@misc{rowan2017securing,
+  title={Securing Vehicle to Vehicle Communications using Blockchain through Visible Light and Acoustic Side-Channels},
+  author={Rowan, Sean and Clear, Michael and Gerla, Mario and Huggard, Meriel and Goldrick, Ciar{\'a}n Mc},
+  journal={arXiv preprint arXiv:1704.02553},
+  year={2017},
+  howpublished = {\url{https://arxiv.org/abs/1704.02553}},
+  note={Accessed: 2017-04-24},
+  url={https://arxiv.org/pdf/1704.02553.pdf}
+}
+
+@misc{danzi2017distributed,
+  title={Distributed Proportional-Fairness Control in MicroGrids via Blockchain Smart Contracts},
+  author={Danzi, Pietro and Angjelichinoski, Marko and Stefanovi{\'c}, {\v{C}}edomir and Popovski, Petar},
+  journal={arXiv preprint arXiv:1705.01453},
+  year={2017},
+  howpublished = {\url{https://arxiv.org/abs/1705.01453}},
+  note={Accessed: 2017-04-24},
+  url={https://arxiv.org/pdf/1705.01453.pdf}
+}
+
+@misc{english2017conditions,
+  title={Conditions of Full Disclosure: The Blockchain Remuneration Model},
+  author={English, S Matthew and Nezhadian, Ehsan},
+  journal={arXiv preprint arXiv:1703.04196},
+  year={2017},
+  howpublished = {\url{https://arxiv.org/abs/1703.04196}},
+  note={Accessed: 2017-04-24},
+  url={https://arxiv.org/pdf/1703.04196.pdf}
+}
+
+@article{porru2017blockchain,
+  title={Blockchain-oriented Software Engineering: Challenges and New Directions},
+  author={Porru, Simone and Pinna, Andrea and Marchesi, Michele and Tonelli, Roberto},
+  journal={arXiv preprint arXiv:1702.05146},
+  year={2017},
+  howpublished = {\url{https://arxiv.org/abs/1702.05146}},
+  note={Accessed: 2017-04-24},
+  url={https://arxiv.org/pdf/1702.05146.pdf}
 }
 
