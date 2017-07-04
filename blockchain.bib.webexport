@@ -1841,7 +1841,7 @@
 @inproceedings{sikorski2017blockchain,
   title={Blockchain technology in the chemical industry: machine-to-machine electricity market},
   author={Sikorski, Janusz J and Haughton, Joy and Kraft, Markus},
-  journal={Applied Energy},
+  booktitle={Applied Energy},
   volume={195},
   pages={234--246},
   year={2017},
@@ -1882,6 +1882,26 @@
   year={2017},
   url={http://scholarspace.manoa.hawaii.edu/bitstream/10125/41338/1/paper0189.pdf}
 }
+
+@inproceedings{kothapalli2017smartcast,
+  title={SmartCast: An Incentive Compatible Consensus Protocol Using Smart Contracts},
+  author={Kothapalli, Abhiram and Miller, Andrew and Borisov, Nikita},
+  booktitle={Financial Cryptography and Data Security},
+  year={2017},
+  month={Apr},
+  url={http://fc17.ifca.ai/wtsc/SmartCast%20-%20An%20Incentive%20Compatible%20Consensus%20Protocol%20Using%20Smart%20Contracts.pdf}
+}
+
+@inproceedings{gipp2017cryptsubmit,
+  title={CryptSubmit: Introducing Securely Timestamped Manuscript Submission and Peer Review Feedback using the Blockchain},
+  author={Gipp, Bela and Breitinger, Corinna and Meuschke, Norman and Beel, Joeran},
+  booktitle={JVDL},
+  year={2017},
+  url={https://www.gipp.com/wp-content/papercite-data/pdf/gipp2017b.pdf}
+}
+
+
+
 
 % eprint/preprint blockchain bibliography
 
@@ -2318,6 +2338,15 @@
   note = {Accessed: 2017-02-20},
   url={http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.696.93&amp=&rep=rep1&amp=&type=pdf}
 
+}
+
+@misc{park2015spacemint,
+    author = {Sunoo Park and Krzysztof Pietrzak and Albert Kwon and Jo{\"e}l Alwen and Georg Fuchsbauer and Peter Ga{\v z}i},
+    title = {SpaceMint: A Cryptocurrency Based on Proofs of Space},
+    howpublished = {Cryptology ePrint Archive, Report 2015/528},
+    year = {2015},
+    note = {Accessed: 2017-06-29},
+    url={https://eprint.iacr.org/2015/528.pdf}
 }
 
 % 2016
@@ -2937,6 +2966,16 @@
   url={https://static1.squarespace.com/static/55f73743e4b051cfcc0b02cf/t/5886800ecd0f68de303349b1/1485209617040/Chain+Interoperability.pdf}
 }
 
+@misc{malavolta2016silentwhispers,
+    author = {Giulio Malavolta and Pedro Moreno-Sanchez and Aniket Kate and Matteo Maffei},
+    title = {SilentWhispers: Enforcing Security and Privacy in Decentralized Credit Networks},
+    howpublished = {Cryptology ePrint Archive, Report 2016/1054},
+    year = {2016},
+    note ={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2016/1054}},
+    url={https://eprint.iacr.org/2016/1054.pdf}
+}
+
 %2017
 
 @misc{liao2017incentivizing,
@@ -3210,7 +3249,7 @@
   url={https://arxiv.org/pdf/1703.04196.pdf}
 }
 
-@article{porru2017blockchain,
+@misc{porru2017blockchain,
   title={Blockchain-oriented Software Engineering: Challenges and New Directions},
   author={Porru, Simone and Pinna, Andrea and Marchesi, Michele and Tonelli, Roberto},
   journal={arXiv preprint arXiv:1702.05146},
@@ -3220,3 +3259,250 @@
   url={https://arxiv.org/pdf/1702.05146.pdf}
 }
 
+@misc{malavolta2017concurrency,
+  title={Concurrency and Privacy with Payment-Channel Networks},
+  author={Malavolta, Giulio and Moreno-Sanchez, Pedro and Kate, Aniket and Maffei, Matteo and Ravi, Srivatsan},
+  year={2017},
+  howpublished={\url{https://www.cs.purdue.edu/homes/pmorenos/public/paychannels.pdf}},
+  note={Accessed: 2017-06-29},
+  url={https://www.cs.purdue.edu/homes/pmorenos/public/paychannels.pdf},
+}
+
+@misc{tarasov2017internet,
+    author = {Pavel Tarasov and Hitesh Tewari},
+    title = {Internet Voting Using Zcash},
+    howpublished = {Cryptology ePrint Archive, Report 2017/585},
+    year = {2017},
+    howpublished = {\url{http://eprint.iacr.org/2017/585}},
+    note={Accessed: 2017-06-29},
+    url={http://eprint.iacr.org/2017/585.pdf},
+}
+
+@misc{david2017ouroboros,
+    author = {Bernardo David and Peter Ga{\v{z}}i and Aggelos Kiayias and Alexander Russell},
+    title = {Ouroboros Praos: An adaptively-secure, semi-synchronous proof-of-stake protocol},
+    howpublished = {Cryptology ePrint Archive, Report 2017/573},
+    year = {2017},
+    howpublished = {\url{http://eprint.iacr.org/2017/573}},
+    note={Accessed: 2017-06-29},
+    url={http://eprint.iacr.org/2017/573.pdf},
+}
+
+@misc{campanelli2017zero,
+    author = {Matteo Campanelli and Rosario Gennaro and Steven Goldfeder and Luca Nizzardo},
+    title = {Zero-Knowledge Contingent Payments Revisited: Attacks and Payments for Services},
+    howpublished = {Cryptology ePrint Archive, Report 2017/566},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/566}},
+    url={http://eprint.iacr.org/2017/566.pdf},
+}
+
+@misc{altawy2017lelantos,
+    author = {Riham AlTawy and Muhammad ElSheikh and Amr M. Youssef and Guang Gong},
+    title = {Lelantos: A Blockchain-based Anonymous Physical Delivery System},
+    howpublished = {Cryptology ePrint Archive, Report 2017/465},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/465}},
+    url={http://eprint.iacr.org/2017/465.pdf},
+}
+
+@misc{gilad2017algorand,
+    author = {Yossi Gilad and Rotem Hemo and Silvio Micali and Georgios Vlachos and Nickolai Zeldovich},
+    title = {Algorand: Scaling Byzantine Agreements for Cryptocurrencies},
+    howpublished = {Cryptology ePrint Archive, Report 2017/454},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/454}},
+    url={http://eprint.iacr.org/2017/454.pdf},
+}
+
+@misc{li2017block,
+    author = {Huige Li and  Haibo Tian and Fangguo Zhang},
+    title = {Block Chain based Searchable Symmetric Encryption},
+    howpublished = {Cryptology ePrint Archive, Report 2017/447},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/447}},
+    url={http://eprint.iacr.org/2017/447.pdf},
+}
+
+@misc{li2017crowdbc,
+    author = {Ming Li and Jian Weng and Anjia Yang and Wei Lu},
+    title = {CrowdBC: A Blockchain-based Decentralized Framework for Crowdsourcing},
+    howpublished = {Cryptology ePrint Archive, Report 2017/444},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/444}},
+    url={http://eprint.iacr.org/2017/444.pdf},
+}
+
+@misc{kokoris2017omniledger,
+    author = {Eleftherios Kokoris-Kogias and Philipp Jovanovic and Linus Gasser and Nicolas Gailly and Bryan Ford},
+    title = {OmniLedger: A Secure, Scale-Out, Decentralized Ledger},
+    howpublished = {Cryptology ePrint Archive, Report 2017/406},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/406}},
+    url={http://eprint.iacr.org/2017/406.pdf},
+}
+
+@misc{perez2017double,
+    author = {Cristina P{\' e}rez-Sol{\` a} and Sergi Delgado-Segura and Guillermo Navarro-Arribas and Jordi Herrera-Joancomart{\' i} },
+    title = {Double-spending Prevention for Bitcoin zero-confirmation transactions},
+    howpublished = {Cryptology ePrint Archive, Report 2017/394},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/394}},
+    url={http://eprint.iacr.org/2017/394.pdf},
+}
+
+@misc{wust2017do,
+    author = {Karl W{\" u}st and Arthur Gervais},
+    title = {Do you need a Blockchain?},
+    howpublished = {Cryptology ePrint Archive, Report 2017/375},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/375}},
+    url={http://eprint.iacr.org/2017/375.pdf},
+}
+
+@misc{kumar2017traceability,
+    author = {Amrit Kumar and Cl\'{e}ment Fischer and Shruti Tople and Prateek Saxena},
+    title = {A Traceability Analysis of Monero's Blockchain},
+    howpublished = {Cryptology ePrint Archive, Report 2017/338},
+    year = {2017},
+    note={Accessed: 2017-06-29},
+    howpublished = {\url{http://eprint.iacr.org/2017/338}},
+    url={http://eprint.iacr.org/2017/338.pdf},
+}
+
+@misc{cecchetti2017solidus,
+    author = {Ethan Cecchetti and Fan Zhang and Yan Ji and Ahmed Kosba and Ari Juels and Elaine Shi},
+    title = {Solidus: Confidential Distributed Ledger Transactions via PVORM},
+    howpublished = {Cryptology ePrint Archive, Report 2017/317},
+    year = {2017},
+    howpublished = {\url{http://eprint.iacr.org/2017/317}},
+    note={Accessed: 2017-06-29},
+    url={http://eprint.iacr.org/2017/317.pdf},
+}
+
+@misc{bentov2017tortoise,
+    author = {Iddo Bentov and Pavel Hub\'{a}\v{c}ek and Tal Moran and Asaf Nadler},
+    title = {Tortoise and Hares Consensus: the Meshcash Framework for Incentive-Compatible, Scalable Cryptocurrencies},
+    howpublished = {Cryptology ePrint Archive, Report 2017/300},
+    year = {2017},
+    howpublished = {\url{http://eprint.iacr.org/2017/300}},
+    note={Accessed: 2017-06-29},
+    url={http://eprint.iacr.org/2017/300.pdf},
+}
+
+@misc{narayanan2017obfuscation,
+Author = {Arvind Narayanan and Malte M{\" o}ser},
+Title = {Obfuscation in Bitcoin: Techniques and Politics},
+Year = {2017},
+howpublished = {https://arxiv.org/abs/1706.05432},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1706.05432.pdf},
+}
+
+@misc{recabarren2017hardening,
+Author = {Ruben Recabarren and Bogdan Carbunar},
+Title = {Hardening Stratum, the Bitcoin Pool Mining Protocol},
+Year = {2017},
+howpublished = {arXiv:1703.06545},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1703.06545.pdf},
+}
+
+@misc{fanti2017anonymity,
+Author = {Giulia Fanti and Pramod Viswanath},
+Title = {Anonymity Properties of the Bitcoin P2P Network},
+Year = {2017},
+howpublished = {arXiv:1703.08761},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1703.08761.pdf},
+}
+
+@misc{ren2017practical,
+Author = {Ling Ren and Kartik Nayak and Ittai Abraham and Srinivas Devadas},
+Title = {Practical Synchronous Byzantine Consensus},
+Year = {2017},
+howpublished = {arXiv:1704.02397},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1704.02397.pdf},
+}
+
+@misc{riemann2017distributed,
+Author = {Robert Riemann and St{\' e}phane Grumbach},
+Title = {Distributed Protocols at the Rescue for Trustworthy Online Voting},
+Year = {2017},
+howpublished = {arXiv:1705.04480},
+Doi = {10.5220/0006228504990505},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1705.04480.pdf},
+}
+
+@misc{kiktenko2017quantum,
+Author = {E. O. Kiktenko and N. O. Pozhar and M. N. Anufriev and A. S. Trushechkin and R. R. Yunusov and Y. V. Kurochkin and A. I. Lvovsky and A. K. Fedorov},
+Title = {Quantum-secured blockchain},
+Year = {2017},
+howpublished = {arXiv:1705.09258},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1705.09258.pdf},
+}
+
+@misc{jaiyeola2017good,
+Author = {Mercy O. Jaiyeola and Kyle Patron and Jared Saia and Maxwell Young and Qian M. Zhou},
+Title = {Good Things Come in LogLog(n)-Sized Packages: Robustness with Small Quorums},
+Year = {2017},
+howpublished = {arXiv:1705.10387},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1705.10387.pdf},
+}
+
+@misc{ren2017implicit,
+Author = {Zhijie Ren and Kelong Cong and Johan Pouwelse and Zekeriya Erkin},
+Title = {Implicit Consensus: Blockchain with Unbounded Throughput},
+Year = {2017},
+howpublished = {arXiv:1705.11046},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1705.11046.pdf},
+}
+
+@misc{conti2017survey,
+Author = {Mauro Conti and Sandeep Kumar E and Chhagan Lal and Sushmita Ruj},
+Title = {A Survey on Security and Privacy Issues of Bitcoin},
+Year = {2017},
+howpublished = {arXiv:1706.00916},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1706.00916.pdf},
+}
+
+@misc{moinet2017blockchain,
+Author = {Axel Moinet and Beno{\^ i}t Darties and Jean-Luc Baril},
+Title = {Blockchain based trust {\&} authentication for decentralized sensor networks},
+Year = {2017},
+howpublished = {arXiv:1706.01730},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1706.01730.pdf},
+}
+
+@misc{moreno2017mind,
+Author = {Pedro Moreno-Sanchez and Navin Modi and Raghuvir Songhela and Aniket Kate and Sonia Fahmy},
+Title = {Mind Your Credit: Assessing the Health of the Ripple Credit Network},
+Year = {2017},
+howpublished = {arXiv:1706.02358},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1706.02358.pdf},
+}
+
+@misc{neisse2017blockchain,
+Author = {Ricardo Neisse and Gary Steri and Igor Nai-Fovino},
+Title = {A Blockchain-based Approach for Data Accountability and Provenance Tracking},
+Year = {2017},
+Eprint = {arXiv:1706.04507},
+ note={Accessed: 2017-06-29},
+url={https://arxiv.org/pdf/1706.04507.pdf},
+}
