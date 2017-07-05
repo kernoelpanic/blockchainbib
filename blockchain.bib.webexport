@@ -1140,6 +1140,16 @@
   url={https://pdfs.semanticscholar.org/b823/a21ffc69e02d2913d112c8ab733629639577.pdf}
 }
 
+@inproceedings{courtois2014could,
+  title={Could bitcoin transactions be 100x faster?},
+  author={Courtois, Nicolas T and Emirdag, Pinar and Nagy, Daniel A},
+  booktitle={Security and Cryptography (SECRYPT), 2014 11th International Conference on},
+  pages={1--6},
+  year={2014},
+  organization={IEEE},
+  url={http://www.nicolascourtois.com/bitcoin/POSTER_100x_Secrypt2014_v1.0.pdf}
+}
+
 % 2015  
 
 @article{yelowitz2015characteristics,
@@ -2058,7 +2068,7 @@
   url={http://e-collection.library.ethz.ch/eserv/eth:5606/eth-5606-01.pdf?pid=eth:5606&dsID=eth-5606-01.pdf}
 }
 
-% 2014
+% 2013
 
 @article{sompolinsky2013accelerating,
   author 		= {Sompolinsky, Yonatan and Zohar, Aviv},
@@ -2077,6 +2087,24 @@
   note          = {Accessed: 2016-09-02},
   url           = {http://web.mit.edu/felixsun/www/projects/bitcoin.pdf}
 
+}
+
+@misc{courtois2013unreasonable,
+  title={The unreasonable fundamental incertitudes behind bitcoin mining},
+  author={Courtois, Nicolas T and Grajek, Marek and Naik, Rahul},
+  howpublished={arXiv preprint arXiv:1310.7935},
+  year={2013},
+  note          = {Accessed: 2017-07-04},
+  url={https://arxiv.org/pdf/1310.7935.pdf}
+}
+
+@phdthesis{naik2013optimising,
+  title={Optimising the SHA256 Hashing Algorithm for Faster and More Efficient Bitcoin Mining},
+  author={Naik, Rahul P and Courtois, Nicolas T},
+  year={2013},
+  month={Sep},
+  school= {University College London},
+  url={http://www.nicolascourtois.com/bitcoin/Optimising%20the%20SHA256%20Hashing%20Algorithm%20for%20Faster%20and%20More%20Efficient%20Bitcoin%20Mining_Rahul_Naik.pdf}
 }
 
 % 2014
@@ -2221,6 +2249,24 @@
     year = {2014},
     note = {\url{http://eprint.iacr.org/2014/857}},
     url={http://eprint.iacr.org/2014/857.pdf}
+}
+
+@misc{courtois2014subversive,
+  title={On subversive miner strategies and block withholding attack in bitcoin digital currency},
+  author={Courtois, Nicolas T and Bahack, Lear},
+  howpublished={arXiv preprint arXiv:1402.1718},
+  year={2014},
+  note		= {Accessed: 2016-07-04},
+  url={https://arxiv.org/pdf/1402.1718.pdf}
+}
+
+@misc{courtois2014longest,
+  title={On the longest chain rule and programmed self-destruction of crypto currencies},
+  author={Courtois, Nicolas T},
+  howpublished={arXiv preprint arXiv:1405.0534},
+  year={2014},
+  note		= {Accessed: 2016-07-04},
+  url={https://arxiv.org/pdf/1405.0534.pdf}
 }
 
 % 2015
