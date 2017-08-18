@@ -306,6 +306,17 @@
 }
 %http://lambda.csail.mit.edu/~chet/papers/others/l/liskov/castro-thesis.pdf
 
+@inproceedings{jakobsson1999proofs,
+  title={Proofs of work and bread pudding protocols},
+  author={Jakobsson, Markus and Juels, Ari},
+  booktitle={Secure Information Networks},
+  pages={258--272},
+  year={1999},
+  publisher={Springer},
+  url={https://link.springer.com/content/pdf/10.1007/978-0-387-35568-9_18.pdf}
+}
+
+
 @inproceedings{miller2000capability,
   title={Capability-based financial instruments},
   author={Miller, Mark S and Morningstar, Chip and Frantz, Bill},
@@ -1790,6 +1801,18 @@
   url={http://dspace.ut.ee/bitstream/handle/10062/52269/oja_rauno.pdf}
 }
 
+@inproceedings{yli2016current,
+  title={Where Is Current Research on Blockchain Technology? -- A Systematic Review},
+  author={Yli-Huumo, Jesse and Ko, Deokyoon and Choi, Sujin and Park, Sooyong and Smolander, Kari},
+  journal={PloS one},
+  volume={11},
+  number={10},
+  pages={e0163477},
+  year={2016},
+  publisher={Public Library of Science},
+  url={https://www.researchgate.net/profile/Jesse_Yli-Huumo/publication/308877750_Where_Is_Current_Research_on_Blockchain_Technology-A_Systematic_Review/links/57f4a87208ae91deaa5ae601/Where-Is-Current-Research-on-Blockchain-Technology-A-Systematic-Review.pdf}
+}
+
 % 2017
 
 @inproceedings{ohara2017smart,
@@ -1908,6 +1931,16 @@
   booktitle={JVDL},
   year={2017},
   url={https://www.gipp.com/wp-content/papercite-data/pdf/gipp2017b.pdf}
+}
+
+@inproceedings{zhang2017publish,
+  title={Publish or Perish: A Backward-Compatible Defense against Selfish Mining in Bitcoin},
+  author={Zhang, Ren and Preneel, Bart},
+  booktitle={Cryptographers' Track at the RSA Conference},
+  pages={277--292},
+  year={2017},
+  organization={Springer},
+  url={https://securewww.esat.kuleuven.be/cosic/publications/article-2746.pdf}
 }
 
 
@@ -3018,8 +3051,25 @@
     howpublished = {Cryptology ePrint Archive, Report 2016/1054},
     year = {2016},
     note ={Accessed: 2017-06-29},
-    howpublished = {\url{http://eprint.iacr.org/2016/1054}},
     url={https://eprint.iacr.org/2016/1054.pdf}
+}
+
+@misc{green2016bolt,
+    author = {Matthew Green and Ian Miers},
+    title = {Bolt: Anonymous Payment Channels for Decentralized Currencies},
+    howpublished = {Cryptology ePrint Archive, Report 2016/701},
+    year = {2016},
+    note={Accessed: 2017-08-07},
+    url = {http://eprint.iacr.org/2016/701},
+}
+
+@misc{siamak2016,
+Author = {Siamak Solat and Maria Potop-Butucaru},
+Title = {ZeroBlock: Timestamp-Free Prevention of Block-Withholding Attack in Bitcoin},
+Year = {2016},
+    note={Accessed: 2017-08-03},
+ howpublished={\url{https://arxiv.org/abs/1605.02435}},
+ url={https://arxiv.org/pdf/1605.02435.pdf}
 }
 
 %2017
@@ -3142,7 +3192,12 @@
   year={2017},
   howpublished={\url{https://arxiv.org/pdf/1703.03779.pdf}},
   note={Accessed: 2017-03-22},
-  url={https://arxiv.org/pdf/1703.03779.pdf}
+  url={https://arxiv.org/pdf/17@misc{1605.02435,
+Author = {Siamak Solat and Maria Potop-Butucaru},
+Title = {ZeroBlock: Timestamp-Free Prevention of Block-Withholding Attack in Bitcoin},
+Year = {2016},
+Eprint = {arXiv:1605.02435},
+}03.03779.pdf}
 }
 
 @misc{miller2017sprites,
@@ -3195,7 +3250,7 @@
     url={http://eprint.iacr.org/2017/238.pdf}
 }
 
-@misc{cryptoeprint:2017:237,
+@misc{ruffing2017switch,
     author = {Tim Ruffing and Giulio Malavolta},
     title = {Switch Commitments: A Safety Switch for Confidential Transactions},
     journal = {Cryptology ePrint Archive, Report 2017/237},
@@ -3548,7 +3603,88 @@ url={https://arxiv.org/pdf/1706.02358.pdf},
 Author = {Ricardo Neisse and Gary Steri and Igor Nai-Fovino},
 Title = {A Blockchain-based Approach for Data Accountability and Provenance Tracking},
 Year = {2017},
-Eprint = {arXiv:1706.04507},
+ howpublised = {arXiv:1706.04507},
  note={Accessed: 2017-06-29},
 url={https://arxiv.org/pdf/1706.04507.pdf},
 }
+
+@misc{ball2017proofs,
+  title={Proofs of Useful Work},
+  author={Ball, Marshall and Rosen, Alon and Sabin, Manuel and Vasudevan, Prashant Nalini},
+  journal={IACR Cryptology ePrint Archive},
+  volume={2017},
+  pages={203},
+  year={2017}, 
+  note={Accessed: 2017-06-29},
+  url={http://eprint.iacr.org/2017/203.pdf}
+}
+
+  % howpublished = {Cryptology ePrint Archive, Report 2017/686},
+@misc{zhang2017necessity,
+    author = {Ren Zhang and Bart Preneel},
+    title = {On the Necessity of a Prescribed Block Validity Consensus: Analyzing Bitcoin Unlimited Mining Protocol},
+    year = {2017},
+    howpublished = {\url{http://eprint.iacr.org/2017/686}},
+    note={Accessed: 2017-07-20},
+    url={http://eprint.iacr.org/2017/686.pdf}
+}
+
+@misc{halpern2017knowledge,
+    author = {Joseph Y. Halpern and Rafael Pass},
+    title = {A Knowledge-Based Analysis of the Blockchain Protocol},
+    year = {2017},
+    howpublished = {arXiv:1707.08751},
+    volume = {EPTCS 251},
+    pages= {324-335},
+    Doi = {10.4204/EPTCS.251.22},
+    note={Accessed: 2017-08-03},
+    url={https://arxiv.org/pdf/1707.08751.pdf}
+}
+
+@misc{meshkov2017revisiting,
+    author = {Dmitry Meshkov and Alexander Chepurnoy and Marc Jansen},
+    title = {Revisiting Difficulty Control for Blockchain Systems},
+    howpublished = {Cryptology ePrint Archive, Report 2017/731},
+    year = {2017},
+    note={Accessed: 2017-08-03},
+    url={http://eprint.iacr.org/2017/731.pdf}
+}
+
+@misc{zhang2017anonymous,
+    author = {Huang Zhang and  Fangguo Zhang and  Haibo Tian and Man Ho Au},
+    title = {Anonymous Post-Quantum Cryptocash},
+    howpublished = {Cryptology ePrint Archive, Report 2017/716},
+    year = {2017},
+    note={Accessed: 2017-08-03},
+    url = {http://eprint.iacr.org/2017/716.pdf}
+}
+
+@misc{poon2017plasma,
+	author={Joseph Poon and Vitalik Buterin},
+	title={Plasma: Scalable Autonomous Smart Contracts},
+	howpublished={\url{https://www.plasma.io/}},
+	year={2017},
+	month={Aug},
+	note={Accessed: 2017-08-10},
+	url={https://plasma.io/plasma.pdf}
+}
+
+@article{tang2017improved,
+  title={Improved Hybrid Consensus Scheme with Privacy-preserving Property.},
+  author={Tang, Shuyang and Liu, Zhiqiang and Liu, Zhen and Long, Yu and Liu, Shengli},
+  howpublished={IACR Cryptology ePrint Archive},
+  pages={192},
+  year={2017},
+note={Accessed: 2017-08-11},
+  url={https://eprint.iacr.org/eprint-bin/getfile.pl?entry=2017/192&version=20170228:193152&file=192.pdf}
+}
+
+@misc{beccuti2017bitcoin,
+  title={The Bitcoin Mining Game: On the Optimality of Honesty in Proof-of-work Consensus Mechanism},
+  author={Beccuti, Juan and Jaag, Christian and others},
+  year={2017},
+  note={Accessed: 2017-08-11},
+  url={http://www.swiss-economics.ch/RePEc/files/0060JaagBeccuti.pdf}
+}
+
+
