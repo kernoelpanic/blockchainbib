@@ -3687,4 +3687,12 @@ note={Accessed: 2017-08-11},
   url={http://www.swiss-economics.ch/RePEc/files/0060JaagBeccuti.pdf}
 }
 
-
+@misc{setty2017enabling,
+author = {Setty, Srinath and Basu, Soumya and Zhou, Lidong and Roberts, Michael Lowell and Venkatesan, Ramarathnam},
+title = {Enabling secure and resource-efficient blockchain networks with VOLT},
+howpublished = {\url{https://www.microsoft.com/en-us/research/publication/enabling-secure-resource-efficient-blockchain-networks-volt/}},
+year = {2017},
+month = {August},
+  note={Accessed: 2017-08-21},
+url = {https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/volt.pdf},
+}
