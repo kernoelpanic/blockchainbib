@@ -1943,7 +1943,20 @@
   url={https://securewww.esat.kuleuven.be/cosic/publications/article-2746.pdf}
 }
 
+@inproceedings{rohrer17paymentchannels,
+Title = {Towards a Concurrent and Distributed Route Selection for Payment Channel Networks},
+Author = {Elias Rohrer and Jann-Frederik La{\ss} and Florian Tschorsch},
 
+}
+
+@inproceedings{judmayer2017merged,
+    author = {Aljosha Judmayer and Alexei Zamyatin and Nicholas Stifter and Artemios G. Voyiatzis and Edgar Weippl},
+    title = {Merged Mining: Curse of Cure?},
+    booktitle = {CBT'17: Proceedings of the International Workshop on Cryptocurrencies and Blockchain Technology},
+    year = {2017},
+    month = {Sep},
+    url = {https://eprint.iacr.org/2017/791.pdf}
+}
 
 
 % eprint/preprint blockchain bibliography
@@ -2426,6 +2439,15 @@
     year = {2015},
     note = {Accessed: 2017-06-29},
     url={https://eprint.iacr.org/2015/528.pdf}
+}
+
+@article{zyskind2015enigma,
+  title={Enigma: Decentralized computation platform with guaranteed privacy},
+  author={Zyskind, Guy and Nathan, Oz and Pentland, Alex},
+  howpublished={arXiv preprint arXiv:1506.03471},
+  year={2015},
+    note = {Accessed: 2017-08-22},
+  url={https://arxiv.org/pdf/1506.03471.pdf}
 }
 
 % 2016
@@ -3695,4 +3717,13 @@ year = {2017},
 month = {August},
   note={Accessed: 2017-08-21},
 url = {https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/volt.pdf},
+}
+
+@misc{garay2017proofs,
+    author = {Juan A. Garay and Aggelos Kiayias and Giorgos Panagiotakos},
+    title = {Proofs of Work for Blockchain Protocols},
+    howpublished = {Cryptology ePrint Archive, Report 2017/775},
+    year = {2017},
+    note = {\url{http://eprint.iacr.org/2017/775}},
+    url={https://eprint.iacr.org/2017/775.pdf}
 }
