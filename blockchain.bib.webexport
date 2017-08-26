@@ -3727,3 +3727,12 @@ url = {https://www.microsoft.com/en-us/research/wp-content/uploads/2017/08/volt.
     note = {\url{http://eprint.iacr.org/2017/775}},
     url={https://eprint.iacr.org/2017/775.pdf}
 }
+
+@misc{dinh2017untangling,
+  title={Untangling Blockchain: A Data Processing View of Blockchain Systems},
+  author={Dinh, Tien Tuan Anh and Liu, Rui and Zhang, Meihui and Chen, Gang and Ooi, Beng Chin and Wang, Ji},
+  howpublished={arXiv preprint arXiv:1708.05665},
+  year={2017},
+  note={Accessed: 2017-08-26},
+  url={https://arxiv.org/pdf/1708.05665.pdf},
+}
