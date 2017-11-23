@@ -237,6 +237,17 @@
   url={https://dspace.mit.edu/bitstream/handle/1721.1/14368/20051076-MIT.pdf}
 }
 
+@inproceedings{herlihy1988impossibility,
+  title={Impossibility and universality results for wait-free synchronization},
+  author={Herlihy, Maurice P},
+  booktitle={Proceedings of the seventh annual ACM Symposium on Principles of distributed computing},
+  pages={276--290},
+  year={1988},
+  organization={ACM},
+  url={https://pdfs.semanticscholar.org/3afd/1b2d4bbc8401e55af04d485ec7429aca27c1.pdf}
+}
+
+
 @inproceedings{goldwasser1989knowledge,
   title={The knowledge complexity of interactive proof systems},
   author={Goldwasser, Shafi and Micali, Silvio and Rackoff, Charles},
@@ -270,6 +281,19 @@
   organization  = {Springer-Verlag New York, Inc.},
   url           = {http://people.dsv.su.se/~matei/courses/IK2001_SJE/Chaum90.pdf}
 }
+
+@article{herlihy1991wait,
+  title={Wait-free synchronization},
+  author={Herlihy, Maurice},
+  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  volume={13},
+  number={1},
+  pages={124--149},
+  year={1991},
+  publisher={ACM},
+  url={https://cs.brown.edu/~mph/Herlihy91/p124-herlihy.pdf}
+}
+
 
 @inproceedings{dwork1992pricing,
   title={Pricing via processing or combatting junk mail},
@@ -424,6 +448,18 @@
   year={2003},
   publisher={Elsevier},
   url={http://ac.els-cdn.com/S157086670300025X/1-s2.0-S157086670300025X-main.pdf?_tid=0ce850b4-a744-11e6-a9cb-00000aab0f02&acdnat=1478782320_1c5fb3de333bc22d255442881f330e25}
+}
+
+@inproceedings{malkhi2003objects,
+  title={Objects shared by Byzantine processes},
+  author={Malkhi, Dahlia and Merritt, Michael and Reiter, Michael K and Taubenfeld, Gadi},
+  journal={Distributed Computing},
+  volume={16},
+  number={1},
+  pages={37--48},
+  year={2003},
+  publisher={Springer},
+  url={ftp://194.153.101.9/Faculty/gadi/MyPapers/2003MMRT-byz1.pdf}
 }
 
 
@@ -730,6 +766,18 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   year={2011},
   organization={ACM},
   url={https://hal-univ-diderot.archives-ouvertes.fr/docs/00/58/01/33/PDF/main.pdf}
+}
+
+@inproceedings{correia2011byzantine,
+  title={Byzantine consensus in asynchronous message-passing systems: a survey},
+  author={Correia, Miguel and Veronese, Giuliana Santos and Neves, Nuno Ferreira and Verissimo, Paulo},
+  journal={International Journal of Critical Computer-Based Systems},
+  volume={2},
+  number={2},
+  pages={141--161},
+  year={2011},
+  publisher={Inderscience Publishers},
+  url={http://homepages.di.fc.ul.pt/~nuno/PAPERS/IJCCBS11.pdf}
 }
 
 % 2012
@@ -1943,6 +1991,16 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   url={https://eprint.iacr.org/2016/168.pdf}
 }
 
+@inproceedings{natoli2016blockchain,
+  title={The blockchain anomaly},
+  author={Natoli, Christopher and Gramoli, Vincent},
+  booktitle={Network Computing and Applications (NCA), 2016 IEEE 15th International Symposium on},
+  pages={310--317},
+  year={2016},
+  organization={IEEE},
+  url={https://arxiv.org/pdf/1605.05438.pdf}
+}
+
 % 2017
 
 @inproceedings{ohara2017smart,
@@ -2091,6 +2149,15 @@ Author = {Elias Rohrer and Jann-Frederik La{\ss} and Florian Tschorsch},
     url = {https://eprint.iacr.org/2017/791.pdf}
 }
 
+@inproceedings{mccorry2017atomically,
+  title={Atomically Trading with Roger: Gambling on the success of a hardfork},
+  author={McCorry, Patrick and Heilman, Ethan and Miller, Andrew},
+  booktitle = {CBT'17: Proceedings of the International Workshop on Cryptocurrencies and Blockchain Technology},
+  year={2017},
+  month = {Sep},
+  url = {http://homepages.cs.ncl.ac.uk/patrick.mc-corry/atomically-trading-roger.pdf}
+}
+
 @inproceedings{halpern2017knowledge,
 Author = {Joseph Y. Halpern and Rafael Pass},
 Title = {A Knowledge-Based Analysis of the Blockchain Protocol},
@@ -2172,6 +2239,39 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   url={http://informationsecurity.uibk.ac.at/pdfs/FB2017-Ethereum-CallGraph-CBT.pdf}
 }
 
+@inproceedings{delgado2017fair,
+  title={A fair protocol for data trading based on Bitcoin transactions},
+  author={Delgado-Segura, Sergi and P{\'e}rez-Sol{\`a}, Cristina and Navarro-Arribas, Guillermo and Herrera-Joancomart{\'\i}, Jordi},
+  journal={Future Generation Computer Systems},
+  year={2017},
+  publisher={Elsevier},
+  url={https://eprint.iacr.org/2017/1018.pdf}
+}
+
+@inproceedings{narayanan2017bitcoin,
+ author = {Narayanan, Arvind and Clark, Jeremy},
+ title = {Bitcoin's Academic Pedigree},
+ journal = {Queue},
+ volume = {15},
+ number = {4},
+ month = {aug},
+ year = {2017},
+ issn = {1542-7730},
+ pages = {20:20--20:49},
+ numpages = {30},
+ url = {http://doi.acm.org/10.1145/3134434.3136559},
+ doi = {10.1145/3134434.3136559},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{buenz2017proofs,
+ author = {Benedikt B{\" u}nz and Steven Goldfeder and Joseph Bonneau},
+ title = {Proofs-of-delay and randomness beacons in Ethereum},
+ journal = {IEEE Security & Privacy on the Blockchain (IEEE S&B)},
+ year = {2017},
+ url = {http://www.jbonneau.com/doc/BGB17-IEEESB-proof_of_delay_ethereum.pdf}
+}
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -2329,7 +2429,15 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
 
 % 2013
 
-@article{sompolinsky2013accelerating,
+@misc{bahack2013theoretical,
+  title         = {Theoretical Bitcoin Attacks with less than Half of the Computational Power},
+  author        = {Bahack, Lear},
+  year          = {2013},
+  note          = {Accessed: 2017-11-23},
+  url           = {https://arxiv.org/pdf/1312.7013.pdf}
+}
+
+@misc{sompolinsky2013accelerating,
   author 		= {Sompolinsky, Yonatan and Zohar, Aviv},
   title 		= {Accelerating Bitcoin's Transaction Processing. Fast Money Grows on Trees, Not Chains},
   journal 		= {IACR Cryptology ePrint Archive},
@@ -2345,7 +2453,6 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   howpublished  = {\url{http://web.mit.edu/felixsun/www/projects/bitcoin.pdf}},
   note          = {Accessed: 2016-09-02},
   url           = {http://web.mit.edu/felixsun/www/projects/bitcoin.pdf}
-
 }
 
 @misc{courtois2013unreasonable,
@@ -4319,3 +4426,82 @@ howpublished = {arXiv:1710.02951},
    url={https://arxiv.org/pdf/1710.02951.pdf}
 }
 
+@misc{aggarwal2017quantum,
+Author = {Divesh Aggarwal and Gavin K. Brennen and Troy Lee and Miklos Santha and Marco Tomamichel},
+Title = {Quantum attacks on Bitcoin, and how to protect against them},
+Year = {2017},
+howpublished = {arXiv:1710.10377},
+    note={Accessed:2017-11-06},
+   url={https://arxiv.org/pdf/1710.10377.pdf}
+}
+
+@misc{buterin2017casper,
+Author = {Vitalik Buterin and Virgil Griffith},
+Title = {Casper the Friendly Finality Gadget},
+Year = {2017},
+howpublished = {arXiv:1710.09437},
+    note={Accessed:2017-11-06},
+   url={https://arxiv.org/pdf/1710.09437.pdf}
+}
+
+@misc{blass2017strain,
+    author = {Erik-Oliver Blass and Florian Kerschbaum},
+    title = {Strain: A Secure Auction for Blockchains},
+    howpublished = {Cryptology ePrint Archive, Report 2017/1044},
+    year = {2017},
+    note={Accessed:2017-11-06},
+    url = {http://eprint.iacr.org/2017/1044.pdf},
+}
+
+@misc{eze2017triplicate,
+  title={A Triplicate Smart Contract Model using Blockchain Technology},
+  author={Eze, Peter and Eziokwu, Tochukwu and Okpara, Chinedu},
+  year={2017},
+  note={Accessed:2017-11-06},
+  url={https://www.researchgate.net/profile/Peter_Eze7/publication/317349621_A_Triplicate_Smart_Contract_Model_using_Blockchain_Technology/links/5937782c4585158f6464595f/A-Triplicate-Smart-Contract-Model-using-Blockchain-Technology.pdf}
+}
+
+@misc{chepurnoy2017space,
+    author = {Alexander Chepurnoy and Dmitry Meshkov},
+    title = {On Space-Scarce Economy In Blockchain Systems},
+    howpublished = {Cryptology ePrint Archive, Report 2017/644},
+    year = {2017},
+    note={Accessed:2017-11-06},
+    url={http://eprint.iacr.org/2017/644.pdf},
+}
+
+@misc{bissias2017bobtail,
+Author = {George Bissias and Brian Neil Levine},
+Title = {Bobtail: A Proof-of-Work Target that Minimizes Blockchain Mining Variance},
+Year = {2017},
+howpublished = {arXiv:1709.08750},
+note={Accessed:2017-11-10},
+url={https://arxiv.org/pdf/1709.08750.pdf}
+}
+
+@misc{buenz2017efficient,
+Author = {Benedikt B{\" u}nz and Jonathan Bootle and Dan Boneh and Andrew Poelstra and Pieter Wuille and Greg Maxwell},
+Title = {Bulletproofs: Efficient Range Proofs for Confidential Transactions},
+Year = {2017},
+howpublished = {\url{http://web.stanford.edu/~buenz/pubs/}},
+note={Accessed:2017-11-10},
+url={http://web.stanford.edu/~buenz/pubs/bulletproofs.pdf}
+}
+
+@misc{espel2017proposal,
+    author = {Thomas Espel and Laurent Katz and Guillaume Robin},
+    title = {Proposal for Protocol on a Quorum Blockchain with Zero Knowledge},
+    howpublished = {Cryptology ePrint Archive, Report 2017/1093},
+    year = {2017},
+note={Accessed:2017-11-14},
+    url={https://eprint.iacr.org/2017/1093.pdf}
+}
+
+@misc{dziembowski2017perun,
+    author = {Stefan Dziembowski and Lisa Eckey and Sebastian Faust and Daniel Malinowski},
+    title = {PERUN: Virtual Payment Channels over Cryptographic Currencies},
+    howpublished = {Cryptology ePrint Archive, Report 2017/635},
+    year = {2017},
+note={Accessed:2017-11-20},
+    url={https://eprint.iacr.org/2017/635.pdf}
+}
