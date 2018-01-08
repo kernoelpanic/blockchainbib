@@ -426,6 +426,19 @@
   url={http://www.cs.cornell.edu/people/egs/cs6460-spring10/sybil.pdf}
 }
 
+@inproceedings{gilbert2002brewer,
+  title={Brewer's conjecture and the feasibility of consistent, available, partition-tolerant web services},
+  author={Gilbert, Seth and Lynch, Nancy},
+  journal={Acm Sigact News},
+  volume={33},
+  number={2},
+  pages={51--59},
+  year={2002},
+  publisher={ACM},
+  url={http://www.comp.nus.edu.sg/~gilbert/pubs/BrewersConjecture-SigAct.pdf}
+}
+
+
 @inproceedings{aspnes2003randomized,
   title={Randomized protocols for asynchronous consensus},
   author={Aspnes, James},
@@ -2272,6 +2285,26 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
  year = {2017},
  url = {http://www.jbonneau.com/doc/BGB17-IEEESB-proof_of_delay_ethereum.pdf}
 }
+
+@inproceedings{oconnor2017simplicity,
+ Author = {Russell O'Connor},
+ Title = {Simplicity: A New Language for Blockchains},
+ Year = {2017},
+ journal = {Proceedings of the 2017 Workshop on Programming Languages and Analysis for Security. ACM, New York, NY, USA},
+ Doi = {10.1145/3139337.3139340},
+ url={https://arxiv.org/pdf/1711.03028.pdf}
+}
+
+@inproceedings{juels2016ring,
+  title={The ring of Gyges: Investigating the future of criminal smart contracts},
+  author={Juels, Ari and Kosba, Ahmed and Shi, Elaine},
+  booktitle={Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={283--295},
+  year={2016},
+  organization={ACM},
+  url={http://www.arijuels.com/wp-content/uploads/2013/09/Gyges.pdf}
+}
+
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -2384,6 +2417,15 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   howpublished  = {\url{http://w.fipr.org/files/decentralised-currencies.pdf}},
   note          = {Accessed 2016-09-02},
   url           = {http://w.fipr.org/files/decentralised-currencies.pdf}
+}
+
+@article{rosenfeld2011analysis,
+  title         = {Analysis of Bitcoin pooled mining reward systems},
+  author        = {Rosenfeld, Meni},
+  journal       = {arXiv preprint arXiv:1112.4980},
+  year          = {2011},
+  note          = {Accessed 2017-11-24},
+  url           = {https://arxiv.org/pdf/1112.4980.pdf}
 }
 
 % 2012
@@ -2587,13 +2629,12 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
 }
 
 @misc{wood2014ethereum,
-  title         = {Ethereum: A secure decentralised generalised transaction ledger},
+  title         = {Ethereum: A secure decentralised generalised transaction ledger EIP-150 REVISION (759dccd - 2017-08-07)},
   author        = {Wood, Gavin},
   journal       = {Ethereum Project Yellow Paper},
-  year          = {2014},
-  howpublished  = {\url{http://bitcoinaffiliatelist.com/wp-content/uploads/ethereum.pdf}},
-  note          = {Accessed: 2016-08-22},
-  url           = {http://bitcoinaffiliatelist.com/wp-content/uploads/ethereum.pdf}
+  year          = {2017},
+  note          = {Accessed: 2018-01-03},
+  url           = {https://ethereum.github.io/yellowpaper/paper.pdf}
 }
 
 @misc{shomer2014phase,
@@ -4504,4 +4545,114 @@ note={Accessed:2017-11-14},
     year = {2017},
 note={Accessed:2017-11-20},
     url={https://eprint.iacr.org/2017/635.pdf}
+}
+
+@misc{atzei2017formal,
+    author = {Nicola Atzei and Massimo Bartoletti and Stefano Lande and Roberto Zunino},
+    title = {A formal model of Bitcoin transactions},
+    howpublished = {Cryptology ePrint Archive, Report 2017/1124},
+    year = {2017},
+    note={Accessed:2017-12-04},
+    url={https://eprint.iacr.org/2017/1124.pdf}
+}
+
+@misc{bentov2017tesseract,
+    author = {Iddo Bentov and Yan Ji and Fan Zhang and Yunqi Li and Xueyuan Zhao and Lorenz Breidenbach and Philip Daian and Ari Juels},
+    title = {Tesseract: Real-Time Cryptocurrency Exchange using Trusted Hardware},
+    howpublished = {Cryptology ePrint Archive, Report 2017/1153},
+    year = {2017},
+    note={Accessed:2017-12-04},
+    url={https://eprint.iacr.org/2017/1153.pdf}
+}
+
+@misc{mavridou2017designing,
+Author = {Anastasia Mavridou and Aron Laszka},
+Title = {Designing Secure Ethereum Smart Contracts: A Finite State Machine Based Approach},
+Year = {2017},
+ note={Accessed:2017-12-04},
+ howpublished = {arXiv:1711.09327},
+ url={https://arxiv.org/pdf/1711.09327.pdf}
+}
+
+@misc{kiran2017dynamic,
+Author = {Ravi Kiran Raman and Lav R. Varshney},
+Title = {Dynamic Distributed Storage for Scaling Blockchains},
+Year = {2017},
+note={Accessed:2017-12-04},
+Eprint = {arXiv:1711.07617},
+url={https://arxiv.org/pdf/1711.07617.pdf}
+}
+
+@misc{quesnelle2017linkability,
+Author = {Jeffrey Quesnelle},
+Title = {On the linkability of Zcash transactions},
+Year = {2017},
+howpublished = {arXiv:1712.01210},
+note={Accessed:2017-12-11},
+url={https://arxiv.org/pdf/1712.01210.pdf}
+}
+
+
+@misc{bano2017consensus,
+Author = {Shehar Bano and Alberto Sonnino and Mustafa Al-Bassam and Sarah Azouvi and Patrick McCorry and Sarah Meiklejohn and George Danezis},
+Title = {Consensus in the Age of Blockchains},
+Year = {2017},
+howpublished = {arXiv:1711.03936},
+note={Accessed:2017-12-11},
+url={https://arxiv.org/pdf/1711.03936.pdf}
+}
+
+@misc{engelmann2017towards,
+Author = {Felix Engelmann and Florian Glaser and Henning Kopp and Frank Kargl and Christof Weinhardt},
+Title = {Towards an Economic Analysis of Routing in Payment Channel Networks},
+Year = {2017},
+howpublished = {arXiv:1711.02597},
+Doi = {10.1145/3152824.3152826},
+note={Accessed:2017-12-11},
+url={https://arxiv.org/pdf/1711.02597.pdf}
+}
+
+@misc{norvill2017automated,
+  title={Automated labeling of unknown contracts in Ethereum},
+  author={Norvill, R and Awan, Irfan U and Pontiveros, BBF and Cullen, Andrea J and others},
+  year={2017},
+  note={Accessed:2017-12-11},
+  howpublished = {\url{https://bradscholars.brad.ac.uk/bitstream/handle/10454/12220/automated-labeling-unknown(5).pdf}},
+  url= {https://bradscholars.brad.ac.uk/bitstream/handle/10454/12220/automated-labeling-unknown(5).pdf}
+}
+
+@misc{liu2017strategy,
+    author = {Hanqing Liu and Na Ruan and Rongtian Du and Weijia Jia},
+    title = {On the Strategy and Behavior of Bitcoin Mining with N-attackers},
+    howpublished = {Cryptology ePrint Archive, Report 2017/1255},
+    year = {2017},
+    note={Accessed:2018-01-03},
+    url = {https://eprint.iacr.org/2017/1255.pdf}
+}
+
+@misc{branzei2017how,
+Author = {Simina Br{\^ a}nzei and Erel Segal-Halevi and Aviv Zohar},
+Title = {How to Charge Lightning},
+Year = {2017},
+howpublished = {arXiv:1712.10222},
+note={Accessed:2018-01-03},
+url={https://arxiv.org/pdf/1712.10222.pdf}
+}
+
+@misc{ersoy2017information,
+Author = {Oguzhan Ersoy and Zhijie Ren and Zekeriya Erkin and Reginald L. Lagendijk},
+Title = {Information Propagation on Permissionless Blockchains},
+Year = {2017},
+howpublished = {arXiv:1712.07564},
+note={Accessed:2018-01-03},
+url={https://arxiv.org/pdf/1712.07564.pdf}
+}
+
+@misc{albassam2017contour,
+Author = {Mustafa Al-Bassam and Sarah Meiklejohn},
+Title = {Contour: A Practical System for Binary Transparency},
+Year = {2017},
+howpublished = {arXiv:1712.08427},
+note={Accessed:2018-01-03},
+url={https://arxiv.org/pdf/1712.08427.pdf}
 }
