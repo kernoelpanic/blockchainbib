@@ -2002,6 +2002,15 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   year={2016},
   organization={ACM},
   url={https://eprint.iacr.org/2016/168.pdf}
+} 
+ @inproceedings{carlsten2016instability,
+  title={On the instability of bitcoin without the block reward},
+  author={Carlsten, Miles and Kalodner, Harry and Weinberg, S Matthew and Narayanan, Arvind},
+  booktitle={Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={154--167},
+  year={2016},
+  organization={ACM}
+
 }
 
 @inproceedings{natoli2016blockchain,
@@ -2303,6 +2312,16 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   year={2016},
   organization={ACM},
   url={http://www.arijuels.com/wp-content/uploads/2013/09/Gyges.pdf}
+}
+
+@inproceedings{abraham2017blockchain,
+  title={The Blockchain Consensus Layer and BFT},
+  author={Abraham, Ittai and Malkhi, Dahlia and others},
+  journal={Bulletin of EATCS},
+  volume={3},
+  number={123},
+  year={2017},
+  url ={http://bulletin.eatcs.org/index.php/beatcs/article/download/506/495.pdf}
 }
 
 % eprint/preprint blockchain bibliography
@@ -4753,5 +4772,34 @@ url={https://arxiv.org/pdf/1801.02531.pdf}
     year = {2018},
     note= {Accessed:2018-01-17},
     url = {https://eprint.iacr.org/2018/060.pdf}
+}
+
+@misc{maxwell2018simple,
+    author = {Gregory Maxwell and Andrew Poelstra and Yannick Seurin and Pieter Wuille},
+    title = {Simple Schnorr Multi-Signatures with Applications to Bitcoin},
+    howpublished = {Cryptology ePrint Archive, Report 2018/068},
+    year = {2018},
+    note = {Accessed:2018-01-22},
+    url = {https://eprint.iacr.org/2018/068.pdf}
+}
+
+@misc{chepurnoy2018systematic,
+    author = {Alexander Chepurnoy and Vasily Kharin and  Dmitry Meshkov},
+    title = {A Systematic Approach To Cryptocurrency Fees},
+    howpublished = {Cryptology ePrint Archive, Report 2018/078},
+    year = {2018},
+    note = {Accessed:2018-01-22},
+    url = {https://eprint.iacr.org/2018/078.pdf}
+}
+
+@misc{krafft2018experimental,
+  author = {Peter M Krafft and Nicol{\' a}s Della Penna and Alex Pentland},
+  title = {{A}n {E}xperimental {S}tudy of {C}ryptocurrency {M}arket {D}ynamics},
+  year = {2018},
+  eprint = {1801.05831},
+  howpublished = {Peter Krafft, Nicol\'as Della Penna, Alex Pentland. (2018). An Experimental Study of Cryptocurrency Market Dynamics. ACM CHI Conference on Human Factors in Computing Systems (CHI)},
+  doi = {10.1145/3173574.3174179},
+  note = {Accessed:2018-01-22},
+  url = {http://arxiv.org/pdf/1801.05831.pdf}
 }
 
