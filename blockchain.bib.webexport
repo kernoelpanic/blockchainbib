@@ -2324,6 +2324,16 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   url ={http://bulletin.eatcs.org/index.php/beatcs/article/download/506/495.pdf}
 }
 
+@inproceedings{pirlea2018mechanising,
+ author = {P{\^ i}rlea, George and Sergey, Ilya},
+ title = {Mechanising Blockchain Consensus},
+ journal = {Proceedings of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs},
+ series = {CPP 2018},
+ year = {2018},
+ pages = {78--90},
+ url = {http://ilyasergey.net/papers/toychain-cpp18.pdf}
+}
+
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -4803,3 +4813,11 @@ url={https://arxiv.org/pdf/1801.02531.pdf}
   url = {http://arxiv.org/pdf/1801.05831.pdf}
 }
 
+@misc{zhang2018paralysis,
+    author = {Fan Zhang and Philip Daian and Iddo Bentov and Ari Juels},
+    title = {Paralysis Proofs: Safe Access-Structure Updates for Cryptocurrencies and More},
+    howpublished = {Cryptology ePrint Archive, Report 2018/096},
+    year = {2018},
+    note = {Accessed:2018-01-29},
+    url={https://eprint.iacr.org/2018/096.pdf},
+}
