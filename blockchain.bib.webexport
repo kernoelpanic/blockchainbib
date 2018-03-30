@@ -2334,6 +2334,13 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
  url = {http://ilyasergey.net/papers/toychain-cpp18.pdf}
 }
 
+@inproceedings{golomb2018ciota,
+Author = {Tomer Golomb and Yisroel Mirsky and Yuval Elovici},
+Title = {CIoTA: Collaborative IoT Anomaly Detection via Blockchain},
+Year = {2018},
+journal = {Workshop on Decentralized IoT Security and Standards (DISS)},
+url ={https://arxiv.org/pdf/1803.03807.pdf}
+}
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -2887,7 +2894,7 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   author        = {Bentov, Iddo and Gabizon, Ariel and Zuckerman, David},
   journal		= {arXiv prepring arXiv:1605.04559},
   year			= {2016},
-  howpublished  = {\url{https://arxiv.org/pdf/1605.04559v2}},
+  howpublished  = { https://arxiv.org/pdf/1605.04559v2},
   note          = {Accessed: 2016-06-06},
   url 			= {https://arxiv.org/pdf/1605.04559v2}
 }
@@ -3085,7 +3092,7 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   author={Bentov, Iddo and Pass, Rafael and Shi, Elaine},
   publisher = {Cryptology ePrint Archive, Report 2016/919},
   year={2016},
-  howpublished={\url{https://eprint.iacr.org/2016/919.pdf}},
+  howpublished={ https://eprint.iacr.org/2016/919.pdf},
   note={Accessed: 2016-11-08},
   url={https://eprint.iacr.org/2016/919.pdf}
 }
@@ -3734,7 +3741,7 @@ Eprint = {arXiv:1605.02435},
     title = {SCRAPE: Scalable Randomness Attested by Public Entities},
     journal = {Cryptology ePrint Archive, Report 2017/216},
     year = {2017},
-    howpublished = {\url{http://eprint.iacr.org/2017/216}},
+    howpublished = {http://eprint.iacr.org/2017/216},
     note={Accessed: 2017-03-24},
     url={http://eprint.iacr.org/2017/216.pdf}
 }
@@ -4694,6 +4701,25 @@ url={https://arxiv.org/pdf/1712.08427.pdf}
   url={http://orbilu.uni.lu/bitstream/10993/32468/1/ethereum-sok.pdf}
 }
 
+@misc{abraham2017efficient,
+    author = {Ittai Abraham and Srinivas Devadas and Danny Dolev and Kartik Nayak and Ling Ren},
+    title = {Efficient Synchronous Byzantine Consensus},
+    howpublished = {Cryptology ePrint Archive, Report 2017/307},
+    year = {2017},
+    url = {https://eprint.iacr.org/2017/307.pdf},
+    note={Accessed:2018-02-07}
+}
+
+@misc{micali2017byzantine,
+	author = {Silvio Micali},
+	title = {Byzantine Agreement, Made Trivial},
+	howpublished = { https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Distributed%20Computation/ },
+	year = {2017},
+	month = {Apr},
+	note = {Accessed:2018-02-21},
+	url={https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Distributed%20Computation/BYZANTYNE%20AGREEMENT%20MADE%20TRIVIAL.pdf}
+}
+
 @misc{sergey2018scilla,
 Author = {Ilya Sergey and Amrit Kumar and Aquinas Hobor},
 Title = {Scilla: a Smart Contract Intermediate-Level LAnguage},
@@ -4847,4 +4873,162 @@ Year = {2018},
 howpublished = {arXiv:1801.09535},
 note = {Accessed:2018-01-31},
 url = {https://arxiv.org/pdf/1801.09535.pdf},
+}
+
+@misc{zhang2018smart,
+Author = {Yuanyu Zhang and Shoji Kasahara and Yulong Shen and Xiaohong Jiang and Jianxiong Wan},
+Title = {Smart Contract-Based Access Control for the Internet of Things},
+Year = {2018},
+howpublished = {arXiv:1802.04410},
+note = {Accessed:2018-02-16},
+url = {https://arxiv.org/pdf/1802.04410.pdf},
+}
+
+@misc{cohen2018simple,
+    author = {Bram Cohen and Krzysztof Pietrzak},
+    title = {Simple Proofs of Sequential Work},
+    howpublished = {Cryptology ePrint Archive, Report 2018/183},
+    year = {2018},
+    note = {Accessed:2018-02-16},
+    url = {https://eprint.iacr.org/2018/183.pdf},
+}
+
+@misc{badertscher2018but,
+    author = {Christian Badertscher and Juan Garay and Ueli Maurer and Daniel Tschudi and Vassilis Zikas},
+    title = {But Why does it Work? A Rational Protocol Design Treatment of Bitcoin},
+    howpublished = {Cryptology ePrint Archive, Report 2018/138},
+    year = {2018},
+    note = {Accessed:2018-02-16},
+    url = {https://eprint.iacr.org/2018/138.pdf},
+}
+
+@misc{matzutt2018thwarting,
+  title={Thwarting Unwanted Blockchain Content Insertion},
+  author={Matzutt, Roman and Henze, Martin and Ziegeldorf, Jan Henrik and Hiller, Jens and Wehrle, Klaus},
+  year = {2018},
+  note = {Accessed:2018-02-28},
+  url = {https://www.comsys.rwth-aachen.de/fileadmin/papers/2018/2018-matzutt-blockchain-contents-countermeasures.pdf}
+}
+
+@misc{atzei2018sok,
+  title={SoK: unraveling Bitcoin smart contracts},
+  author={Atzei, Nicola and Bartoletti, Massimo and Cimoli, Tiziana and Lande, Stefano and Zunino, Roberto},
+  year={2018},
+ note = {Accessed:2018-03-01},
+ url = {https://eprint.iacr.org/2018/192.pdf}
+}
+
+@misc{gazi2018stake,
+    author = {Peter Ga\v{z}i and Aggelos Kiayias and Alexander Russell},
+    title = {Stake-Bleeding Attacks on Proof-of-Stake Blockchains},
+    howpublished = {Cryptology ePrint Archive, Report 2018/248},
+    year = {2018},
+    note = {Accessed:2018-03-12},
+    url = {https://eprint.iacr.org/2018/248.pdf},
+}
+
+@misc{wang2018limit,
+    author = {Yongge Wang and Qutaibah m. Malluhi},
+    title = {The Limit of Blockchains: Infeasibility of a Smart Obama-Trump Contract},
+    howpublished = {Cryptology ePrint Archive, Report 2018/252},
+    year = {2018},
+    note = {Accessed:2018-03-12},
+    url = {https://eprint.iacr.org/2018/252.pdf},
+}
+
+@misc{eskandari2018first,
+Author = {Shayan Eskandari and Andreas Leoutsarakos and Troy Mursch and Jeremy Clark},
+Title = {A first look at browser-based Cryptojacking},
+Year = {2018},
+howpublished = {arXiv:1803.02887},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1803.02887.pdf},
+}
+
+@misc{fernandez2018formalizing,
+Author = {Antonio Fern\'{a}ndez Anta and Chryssis Georgiou and Kishori Konwar and Nicolas Nicolaou},
+Title = {Formalizing and Implementing Distributed Ledger Objects},
+Year = {2018},
+howpublished = {arXiv:1802.07817},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1802.07817.pdf},
+}
+
+@misc{grishchenko2018semantic,
+Author = {Ilya Grishchenko and Matteo Maffei and Clara Schneidewind},
+Title = {A Semantic Framework for the Security Analysis of Ethereum smart contracts},
+Year = {2018},
+howpublished = {arXiv:1802.08660},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1802.08660.pdf},
+}
+
+@misc{bartoletti2018data,
+Author = {Massimo Bartoletti and Barbara Pes and Sergio Serusi},
+Title = {Data mining for detecting Bitcoin Ponzi schemes},
+Year = {2018},
+howpublished = {arXiv:1803.006},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1803.00646.pdf},
+}
+
+@misc{martens2018reviewchain,
+Author = {Daniel Martens and Walid Maalej},
+Title = {ReviewChain: Untampered Product Reviews on the Blockchain},
+Year = {2018},
+howpublished = {arXiv:1803.01661},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1803.01661.pdf},
+}
+
+@misc{li2018survey,
+Author = {Xiaoqi Li and Peng Jiang and Ting Chen and Xiapu Luo and Qiaoyan Wen},
+Title = {A Survey on the Security of Blockchain Systems},
+Year = {2018},
+Howpublished = {Li X, Jiang P, Chen T, Luo X, Wen Q. A survey on the security of blockchain systems, Future Generation Computer Systems (2017)},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1802.06993.pdf},
+}
+
+@misc{macbrough2018cobalt,
+Author = {Ethan MacBrough},
+Title = {Cobalt: BFT Governance in Open Networks},
+Year = {2018},
+howpublished = {arXiv:1802.07240},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1802.07240.pdf},
+}
+
+@misc{chase2018analysis,
+Author = {Brad Chase and Ethan MacBrough},
+Title = {Analysis of the XRP Ledger Consensus Protocol},
+Year = {2018},
+howpublished = {arXiv:1802.07242},
+    note = {Accessed:2018-03-12},
+url = {https://arxiv.org/pdf/1802.07242.pdf},
+}
+
+@misc{covaci2018nectar,
+Author = {Alexandra Covaci and Simone Madeo and Patrick Motylinski and St{\'e}phane Vincent},
+Title = {NECTAR: Non-Interactive Smart Contract Protocol using Blockchain Technology},
+Year = {2018},
+howpublished = {arXiv:1803.04860},
+Doi = {10.1145/3194113.3194116},
+url = {https://arxiv.org/pdf/1803.04860.pdf},
+}
+
+@misc{abraham2018hotstuff,
+Author = {Ittai Abraham and Guy Gueta and Dahlia Malkhi},
+Title = {Hot-Stuff the Linear, Optimal-Resilience, One-Message BFT Devil},
+Year = {2018},
+howpublished = {arXiv:1803.05069},
+url = {https://arxiv.org/pdf/1803.05069.pdf},
+}
+
+@misc{cohen2018database,
+Author = {Sara Cohen and Aviv Zohar},
+Title = {Database Perspectives on Blockchains},
+Year = {2018},
+howpublished = {arXiv:1803.06015},
+url = {https://arxiv.org/pdf/1803.06015.pdf},
 }
