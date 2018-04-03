@@ -123,3 +123,5 @@ Python code and `.tpl` templates license: GNU GENERAL PUBLIC LICENSE
 * Nicolas Christin (Suggestion of publications)
 * Daniel Kraft (Suggestion of publications)
 * Nicholas Stifter (Suggestion of publications)
+* Philipp Schindler (Suggestion of publications)
+* Alexei Zamyatin (Suggestion of publications)
