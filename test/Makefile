@@ -14,6 +14,7 @@ INPUTS = inputs
 
 .PHONY: all
 all: clean makebib inputs latex clean fetch
+#all: clean makebib inputs latex clean fetch
 
 .PHONY: makebib
 makebib: 
