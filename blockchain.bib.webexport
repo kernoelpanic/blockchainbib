@@ -2324,6 +2324,7 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   url ={http://bulletin.eatcs.org/index.php/beatcs/article/download/506/495.pdf}
 }
 
+% 2018 
 @inproceedings{pirlea2018mechanising,
  author = {P{\^ i}rlea, George and Sergey, Ilya},
  title = {Mechanising Blockchain Consensus},
@@ -2341,6 +2342,135 @@ Year = {2018},
 journal = {Workshop on Decentralized IoT Security and Standards (DISS)},
 url ={https://arxiv.org/pdf/1803.03807.pdf}
 }
+
+@inproceedings{zamyatin2018wild,
+  title={{(Short Paper) A Wild Velvet Fork Appears! Inclusive Blockchain Protocol Changes in Practice}},
+  author={Zamyatin, Alexei and Stifter, Nicholas and Judmayer, Aljosha and Schindler, Philipp and Weippl, Edgar and Knottebelt, William J.},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+}
+@inproceedings{gencer2018decentralization,
+  title={Decentralization in Bitcoin and Ethereum Networks},
+  author={Gencer, Adem Efe and Basu, Soumya and Eyal, Ittay and van Renesse, Robbert and Sirer, Emin G{\"u}n},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/75.pdf}
+  }
+
+@inproceedings{huang2018estimating,
+  title={Short Paper: Estimating Profitability of Alternative Cryptocurrencies},
+  author={Huang, Danny Yuxing and Levchenko, Kirill and Snoeren, Alex C},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/12.pdf}
+  }
+
+@inproceedings{matzutt2018quantitative,
+  title={A Quantitative Analysis of the Impact of Arbitrary Blockchain Content on Bitcoin},
+  author={Matzutt, Roman and Hiller, Jens and Henze, Martin and Ziegeldorf, Jan Henrik and M{\"u}llmann, Dirk and Hohlfeld, Oliver and Wehrle, Klaus},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/6.pdf}
+}
+@inproceedings{zhang2018anonymous,
+  title={Anonymous Post-Quantum Cryptocash},
+  author={Zhang, Huang and Zhang, Fangguo and Tian, Haibo and Au, Man Ho},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/16.pdf}
+}
+@inproceedings{park2018spacemint,
+  title={SpaceMint: A Cryptocurrency Based on Proofs of Space},
+  author={Park, Sunoo and Kwon, Alber and Fuchbauer, Georg and Gazi, Peter and Alwen, J{\"o}el and Pietrzak, Krzysztof},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/78.pdf}
+}
+@inproceedings{david2018kaleidoscope,
+  title={Kaleidoscope: An Efficient Poker Protocol with Payment Distribution and Penalty Enforcement},
+  author={David, Bernardo and Dowsley, Rafael and Larangeira, Mario},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/19.pdf}
+}
+@inproceedings{mavridou2018designing,
+  title={Designing Secure Ethereum Smart Contracts: A Finite State Machine Based Approach},
+  author={Mavridou, Anastasia and Laszka, Aron},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/101.pdf}
+}
+@inproceedings{atzei2018formal,
+  title={A formal model of Bitcoin transactions},
+  author={Atzei, Nicola and Bartoletti, Massimo and Lande, Stefano and Zunino, Roberto},
+  booktitle={Proceedings of the 22nd International Conference on Financial Cryptography and Data Security (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/preproceedings/92.pdf}
+}
+@inproceedings{mccorry2018smart,
+  title={Smart Contracts for Bribing Miners},
+  author={McCorry, Patrick and Hicks, Alexander and Meiklejohn, Sarah},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final14.pdf}
+}
+@inproceedings{bowe2018multi,
+  title={A multi-party protocol for constructing the public parameters of the Pinocchio zk-SNARK},
+  author={Bowe, Sean and Gabizon, Ariel and Green, Matthew D},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-full1.pdf}
+}
+@inproceedings{zhang2018paralysis,
+  title={Paralysis Proofs: Safe Access-Structure Updates for Cryptocurrencies and More},
+  author={Zhang, Fan and Daian, Philip and Bentov, Iddo and Juels, Ari},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final20.pdf}
+}
+@inproceedings{vasek2018analyzing,
+  title={Analyzing the Bitcoin Ponzi Scheme Ecosystem},
+  author={Vasek, Marie and Moore, Tyler},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final11.pdf}
+}
+@inproceedings{chepurnoy2018systematic,
+  title={A Systematic Approach To Cryptocurrency Fees},
+  author={Chepurnoy, Alexander and Kharin, Vasily and Meshkov, Dmitry},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final18.pdf}
+}
+@inproceedings{azouvi2018egalitarian,
+  title={Egalitarian Society or Benevolent Dictatorship: The State of Cryptocurrency Governance},
+  author={Azouvi, Sarah and Maller, Mary and Meiklejohn, Sarah},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final13.pdf}
+}
+@inproceedings{bonneau2018hostile,
+  title={Hostile blockchain takeovers (short paper)},
+  author={Bonneau, Joseph},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final17.pdf}
+}
+@inproceedings{delgado2018analysis,
+  title={Analysis of the Bitcoin UTXO set},
+  author={Delgado-Segura, Sergi and P{\'e}rez-Sola, Cristina and Navarro-Arribas, Guillermo and Herrera-Joancomart{\i}, Jordi},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final6.pdf}
+}
+@inproceedings{grundmann2018exploiting,
+  title={Exploiting Transaction Accumulation and Double Spends for Topology Inference in Bitcoin},
+  author={Grundmann, Matthias and Neudecker, Till and Hartenstein, Hannes},
+  booktitle={5th Workshop on Bitcoin and Blockchain Research, Financial Cryptography and Data Security 18 (FC). Springer},
+  year={2018},
+  url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final10.pdf}
+}
+
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -2711,6 +2841,15 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   note		= {Accessed: 2016-07-04},
   url={https://arxiv.org/pdf/1405.0534.pdf}
 }
+
+@article{o2014bitcoin,
+  title={Bitcoin mining and its energy footprint},
+  author={O'Dwyer, Karl J and Malone, David},
+  year={2014},
+  publisher={IET},
+  url= {http://karlodwyer.com/publications/pdf/bitcoin_KJOD_2014.pdf}
+}
+
 
 % 2015
 
@@ -3527,8 +3666,17 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   note={Accessed: 2017-10-24}
 }
 
-
-%2017
+@article{rizun2016subchains,
+  title={Subchains: A Technique to Scale Bitcoin and Improve the User Experience},
+  author={Rizun, Peter R},
+  journal={Ledger},
+  volume={1},
+  pages={38--52},
+  year={2016},
+  url = {https://www.bitcoinunlimited.info/resources/subchains.pdf}
+}
+ 
+% 2017
 
 @misc{liao2017incentivizing,
   title={Incentivizing Double-spend Collusion in Bitcoin},
@@ -4756,14 +4904,6 @@ note={Accessed:2018-01-17},
 url={https://arxiv.org/pdf/1801.03294.pdf}
 }
 
-@misc{gencer2018decentralization,
-Author = {Adem Efe Gencer and Soumya Basu and Ittay Eyal and Robbert van Renesse and Emin G{\" u}n Sirer},
-Title = {Decentralization in Bitcoin and Ethereum Networks},
-Year = {2018},
-howpublished = {arXiv:1801.03998},
-note={Accessed:2018-01-17},
-url={https://arxiv.org/pdf/1801.03998.pdf}
-}
 
 @misc{singh2018violable,
 Author = {Munindar P. Singh and Amit K. Chopra},
@@ -4819,14 +4959,6 @@ url={https://arxiv.org/pdf/1801.02531.pdf}
     url = {https://eprint.iacr.org/2018/068.pdf}
 }
 
-@misc{chepurnoy2018systematic,
-    author = {Alexander Chepurnoy and Vasily Kharin and  Dmitry Meshkov},
-    title = {A Systematic Approach To Cryptocurrency Fees},
-    howpublished = {Cryptology ePrint Archive, Report 2018/078},
-    year = {2018},
-    note = {Accessed:2018-01-22},
-    url = {https://eprint.iacr.org/2018/078.pdf}
-}
 
 @misc{krafft2018experimental,
   author = {Peter M Krafft and Nicol{\' a}s Della Penna and Alex Pentland},
@@ -4839,14 +4971,6 @@ url={https://arxiv.org/pdf/1801.02531.pdf}
   url = {http://arxiv.org/pdf/1801.05831.pdf}
 }
 
-@misc{zhang2018paralysis,
-    author = {Fan Zhang and Philip Daian and Iddo Bentov and Ari Juels},
-    title = {Paralysis Proofs: Safe Access-Structure Updates for Cryptocurrencies and More},
-    howpublished = {Cryptology ePrint Archive, Report 2018/096},
-    year = {2018},
-    note = {Accessed:2018-01-29},
-    url={https://eprint.iacr.org/2018/096.pdf},
-}
 
 @misc{sompolinsky2018phantom,
     author = {Yonatan Sompolinsky and Aviv Zohar},
@@ -5040,3 +5164,12 @@ Year = {2018},
 note = {Rev. 1},
 url = {https://dfinity.org/pdf-viewer/library/dfinity-consensus.pdf},
 }
+
+@article{stewart2018committing,
+  title={Committing to Quantum Resistance: A Slow Defence for Bitcoin against a Fast Quantum Computing Attack},
+  author={Stewart, I and Ilie, D and Zamyatin, A and Werner, S and Torshizi, MF and Knottenbelt, WJ},
+  howpublished = {Cryptology ePrint Archive, Report 2018/213},
+  year = {2018},
+  url = {https://eprint.iacr.org/2018/213}
+}
+
