@@ -918,6 +918,16 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
 
 % 2013
 
+@inproceedings{kroll2013economics,
+  title={The economics of Bitcoin mining, or Bitcoin in the presence of adversaries},
+  author={Kroll, Joshua A and Davey, Ian C and Felten, Edward W},
+  booktitle={Proceedings of WEIS},
+  volume={2013},
+  pages={11},
+  year={2013},
+  url = {https://pdfs.semanticscholar.org/c55a/6c95b869938b817ed3fe3ea482bc65a7206b.pdf},
+}
+
 @InProceedings{christin2013traveling,
   author = "Nicolas Christin", 
   title = "Traveling the {Silk Road}: A measurement analysis of a large anonymous online marketplace",
