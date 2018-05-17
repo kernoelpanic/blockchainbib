@@ -93,6 +93,16 @@ A list of other collections of resources on this topic:
 
 ## Contribute 
 
+### Prerequisites
+
+Make sure python 2 is running on your system
+
+    python2 --version
+
+Make sure [Pybtex!](https://pybtex.org/) is installed
+    
+    pip install pybtex
+
 ### Add/Update an entry in the .bib file
 
 1. Add or update the bib entry in one of the three files: `blockchain_peerreviewed.bib`, `blockchain_eprint.bib` or `blockchain_online.bib`. 
