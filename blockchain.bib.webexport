@@ -3032,9 +3032,9 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   author        = {{Narayanan, Arvind and Bonneau, Joseph and Felten, Edward and Miller, Andrew and Goldfeder, Steven}},
   year={2016},
   booktitle     = {Bitcoin and Cryptocurrency Technologies},
-  howpublished  = {\url{https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1}},
+  howpublished  = {http://bitcoinbook.cs.princeton.edu/},
   note          = {Accessed: 2016-03-29},
-  url 			= {https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1}
+  url 		= {https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf}
 }
 
 @misc{judmayer2016c4,
