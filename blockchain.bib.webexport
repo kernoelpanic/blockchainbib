@@ -2333,6 +2333,16 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   url ={http://bulletin.eatcs.org/index.php/beatcs/article/download/506/495.pdf}
 }
 
+@inproceedings{liao2017incentivizing,
+  title={Incentivizing blockchain forks via whale transactions},
+  author={Liao, Kevin and Katz, Jonathan},
+  booktitle={International Conference on Financial Cryptography and Data Security},
+  pages={264--279},
+  year={2017},
+  organization={Springer},
+  url={http://www.cs.umd.edu/~jkatz/papers/whale-txs.pdf}
+}
+
 % 2018 
 @inproceedings{pirlea2018mechanising,
  author = {P{\^ i}rlea, George and Sergey, Ilya},
@@ -3687,15 +3697,6 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
 }
  
 % 2017
-
-@misc{liao2017incentivizing,
-  title={Incentivizing Double-spend Collusion in Bitcoin},
-  author={Kevin Liao and Jonathan Katz},
-  year={2017},
-  note={Accessed: 2017-02-06},
-  howpublished={\url{https://www.cs.umd.edu/~gasarch/reupapers/katzbitcoin16.pdf}},
-  url={https://www.cs.umd.edu/~gasarch/reupapers/katzbitcoin16.pdf}
-}
 
 @misc{bentov2017instantaneous,
   author        = {Iddo Bentov and
