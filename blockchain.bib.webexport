@@ -2033,6 +2033,16 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   url={https://arxiv.org/pdf/1605.05438.pdf}
 }
 
+@inproceedings{gervais2016security,
+  title={On the security and performance of proof of work blockchains},
+  author={Gervais, Arthur and Karame, Ghassan O and W{\"u}st, Karl and Glykantzis, Vasileios and Ritzdo
+rf, Hubert and Capkun, Srdjan},
+  booktitle={Proceedings of the 2016 ACM SIGSAC },
+  pages={3--16},
+  year={2016},
+  organization={ACM}
+}
+
 % 2017
 
 @inproceedings{ohara2017smart,
@@ -2343,7 +2353,17 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   url={http://www.cs.umd.edu/~jkatz/papers/whale-txs.pdf}
 }
 
+@inproceedings{velner2017smart,
+  title={Smart contracts make Bitcoin mining pools vulnerable},
+  author={Velner, Yaron and Teutsch, Jason and Luu, Loi},
+  booktitle={International Conference on Financial Cryptography and Data Security},
+  pages={298--316},
+  year={2017},
+  organization={Springer}
+}
+
 % 2018 
+
 @inproceedings{pirlea2018mechanising,
  author = {P{\^ i}rlea, George and Sergey, Ilya},
  title = {Mechanising Blockchain Consensus},
@@ -3134,15 +3154,6 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   url           = {https://pdfs.semanticscholar.org/a6a1/b70305b27c556aac779fb65429db9c2e1ef2.pdf}
 }
 
-@misc{gervais2016security,
-  title         = {On the Security and Performance of Proof of Work Blockchains},
-  author        = {Gervais, Arthur and Karame, Ghassan O and W{\"u}st, Karl and Glykantzis, Vasileios and Ritzdorf, Hubert and Capkun, Srdjan},
-  year          = {2016},
-  howpublished  = {\url{https://eprint.iacr.org/2016/555.pdf}},  
-  note          = {Accessed: 2016-08-10},
-  url           = {https://eprint.iacr.org/2016/555.pdf}
-}
-
 @misc{gramoli2016danger,
   title         = {On the Danger of Private Blockchains},
   author        = {Gramoli, Vincent},
@@ -3709,15 +3720,6 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   howpublished  = {\url{http://arxiv.org/abs/1701.06726.pdf}},
   note          ={Accessed: 2017-02-16},
   url           ={https://arxiv.org/pdf/1701.06726.pdf}
-}
-
-@misc{velner2017smart,
-    author = {Yaron Velner and Jason Teutsch and Loi Luu},
-    title = {Smart Contracts Make Bitcoin Mining Pools Vulnerable},
-    howpublished = {Cryptology ePrint Archive, Report 2017/230},
-    year = {2017},
-    note={Accessed: 2017-03-09},
-    url  = {https://eprint.iacr.org/2017/230.pdf}
 }
 
 @misc{bartoletti2017analysis,
