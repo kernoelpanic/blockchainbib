@@ -2511,6 +2511,21 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final10.pdf}
 }
 
+
+@inproceedings{judmayer2018pitchfork,
+  author = {Aljosha Judmayer and Nicholas Stifter and Philipp Schindler
+and Edgar Weippl},
+  title = {Pitchforks in Cryptocurrencies:
+Enforcing rule changes through offensive forking- and
+consensus techniques (Short Paper)},
+  booktitle = {CBT'18: Proceedings of the International Workshop on
+Cryptocurrencies and Blockchain Technology},
+  year = {2018},
+  month = {Sep},
+  url = {https://www.sba-research.org/wp-content/uploads/2018/09/judmayer2018pitchfork_2018-09-05.pdf},
+}
+
+
 % eprint/preprint blockchain bibliography
 
 % \usepackage{url}
@@ -4886,6 +4901,14 @@ url={https://arxiv.org/pdf/1712.08427.pdf}
     howpublished = {Cryptology ePrint Archive, Report 2017/775},
     year = {2017},
     url = {https://eprint.iacr.org/2017/775.pdf},
+}
+
+@misc{crain2017dbft,
+Author = {Tyler Crain and Vincent Gramoli and Mikel Larrea and Michel Raynal},
+Title = {DBFT: Efficient Byzantine Consensus with a Weak Coordinator and its Application to Consortium Blockchains},
+Year = {2017},
+howpublished = {https://arxiv.org/abs/1702.03068},
+url = {https://arxiv.org/pdf/1702.03068.pdf}
 }
 
 @misc{bentov2018tesseract,
