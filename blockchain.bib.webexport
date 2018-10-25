@@ -11,7 +11,7 @@
   pages={228--234},
   year={1980},
   publisher={ACM},
-  url={http://research.microsoft.com/en-us/um/people/lamport/pubs/reaching.pdf}
+  url={https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Reaching-Agreement-in-the-Presence-of-Faults.pdf}
 }
 
 @inproceedings{lamport1982byzantine,
@@ -177,7 +177,7 @@
   pages={824--840},
   year={1985},
   publisher={Citeseer},
-  url={https://pdfs.semanticscholar.org/130c/e1bcd496a7b9192f5f53dd8d7ef626e40675.pdf}
+  url={https://zoo.cs.yale.edu/classes/cs426/2017/bib/bracha85asynchronous.pdf}
 }
 
 @inproceedings{chor1985simple,
@@ -244,7 +244,7 @@
   pages={276--290},
   year={1988},
   organization={ACM},
-  url={https://pdfs.semanticscholar.org/3afd/1b2d4bbc8401e55af04d485ec7429aca27c1.pdf}
+  url={https://www.researchgate.net/profile/Maurice_Herlihy/publication/221343511_Impossibility_and_Universality_Results_for_Wait-Free_Synchronization/links/00b4952ce7370656ff000000/Impossibility-and-Universality-Results-for-Wait-Free-Synchronization.pdf}
 }
 
 
@@ -360,7 +360,7 @@
   pages={133--169},
   year={1998},
   publisher={ACM},
-  url={http://research.microsoft.com/en-us/um/people/lamport/pubs/lamport-paxos.pdf}
+  url={https://www.microsoft.com/en-us/research/uploads/prod/2016/12/The-Part-Time-Parliament.pdf}
 }
 
 @inproceedings{castro1999practical,
@@ -435,7 +435,7 @@
   pages={51--59},
   year={2002},
   publisher={ACM},
-  url={http://www.comp.nus.edu.sg/~gilbert/pubs/BrewersConjecture-SigAct.pdf}
+  url={https://www.glassbeam.com/sites/all/themes/glassbeam/images/blog/10.1.1.67.6951.pdf}
 }
 
 
@@ -493,7 +493,7 @@
   pages={174--183},
   year={2004},
   organization={IEEE},
-  url={https://pdfs.semanticscholar.org/e285/17f5ac25497335a4da80b40eefe588d59c32.pdf}
+  url={http://www.navigators.di.fc.ul.pt/archive/correia_m_sma.pdf}
 }
 
 @article{aspnes2005exposing,
@@ -752,13 +752,14 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
 }
 
 @inproceedings{lamport2011brief,
-  title={Brief announcement: leaderless byzantine paxos},
+  title={Leaderless Byzantine Paxos},
+  note={Previous title was: Brief announcement: leaderless byzantine paxos },
   author={Lamport, Leslie},
   booktitle={International Symposium on Distributed Computing},
   pages={141--142},
   year={2011},
   organization={Springer},
-  url={http://research.microsoft.com/en-us/um/people/lamport/pubs/disc-leaderless-web.pdf}
+  url={https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Leaderless-Byzantine-Paxos.pdf}
 }
 
 @inproceedings{stebila2011stronger,
@@ -1486,7 +1487,7 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   pages={219--230},
   year={2015},
   organization={ACM},
-  url={https://people.mmci.uni-saarland.de/~aniket/publications/Non-equivocationWithBitcoinPenalties.pdf}
+  url={https://crypsys.mmci.uni-saarland.de/projects/PenalizingEquivocation/penalizing.pdf}
 }
 
 @inproceedings{kumaresan2015poker,
@@ -1650,7 +1651,7 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
 }
 
 @inproceedings{luu2015demystifying,
-  title={Demystifying incentives in the consensus computer},
+  title={Demystifying incentives in the coluu2016securensensus computer},
   author={Luu, Loi and Teutsch, Jason and Kulkarni, Raghav and Saxena, Prateek},
   booktitle={Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security},
   pages={706--719},
@@ -1892,7 +1893,7 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   year={2016},
   month={Dec},
   organization={IEEE},
-  url={http://ieeexplore.ieee.org/iel7/6287639/6514899/07801940.pdf}
+  url={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7801940}
 }
 
 @inproceedings{abeyratne2016blockchain,
@@ -1922,7 +1923,7 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   booktitle={Financial Cryptography and Data Security (FC 2016)},
   year={2016},
   month={Feb},
-  url={http://www.comp.nus.edu.sg/~prateeks/papers/38Attack.pdf}
+  url={https://www.comp.nus.edu.sg/~prateeks/papers/38Attack.pdf}
 }
 
 @inproceedings{luu2016secure,
@@ -1932,7 +1933,7 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   pages={17--30},
   year={2016},
   organization={ACM},
-  url={http://www.comp.nus.edu.sg/~prateeks/papers/Elastico.pdf}
+  url={https://www.comp.nus.edu.sg/~prateeks/papers/Elastico.pdf}
 }
 
 @inproceedings{bouzid2016anonymity,
@@ -2054,7 +2055,7 @@ rf, Hubert and Capkun, Srdjan},
   pages={97--101},
   year={2017},
   publisher={IEEE},
-  url = {http://ieeexplore.ieee.org/iel7/4236/7867713/07867719.pdf}
+  url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7867719}
 }
 
 @inproceedings{levy2017book,
@@ -2342,6 +2343,16 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   year={2017},
   url ={http://bulletin.eatcs.org/index.php/beatcs/article/download/506/495.pdf}
 }
+
+@inproceedings{ermilov2017clustering, 
+  author={D. Ermilov and M. Panov and Y. Yanovich}, 
+  booktitle={2017 16th IEEE International Conference on Machine Learning and Applications (ICMLA)}, 
+  title={Automatic Bitcoin Address Clustering}, 
+  year={2017}, 
+  pages={461-466}, 
+  doi={10.1109/ICMLA.2017.0-118}, 
+  month={Dec},
+  url={http://bitfury.com/content/5-white-papers-research/clustering_whitepaper.pdf}
 
 @inproceedings{liao2017incentivizing,
   title={Incentivizing blockchain forks via whale transactions},
@@ -2746,7 +2757,7 @@ Cryptocurrencies and Blockchain Technology},
   year          = {2014},
   howpublished  = {\url{http://arxiv.org/abs/1402.2009}},
   note			= {Accessed: 2016-03-09},
-  url			= {http://arxiv.org/abs/1402.2009.pdf}
+  url			= {https://arxiv.org/pdf/1402.2009.pdf}
 }
 
 %fromknecht2014certcoin
@@ -3183,9 +3194,9 @@ Cryptocurrencies and Blockchain Technology},
   author={Bhargavan, Karthikeyan and Delignat-Lavaud, Antoine and Fournet, C{\'e}dric and Gollamudi, Anitha and Gonthier, Georges and Kobeissi, Nadim and Rastogi, Aseem and Sibut-Pinote, Thomas and Swamy, Nikhil and Zanella-B{\'e}guelin, Santiago},
   year={2016},
   month={Aug},
-  howpublished  = {\url{https://research.microsoft.com/en-us/um/people/nswamy/papers/solidether.pdf}},  
-  note          = {Accessed: 2016-08-10},
-  url={https://research.microsoft.com/en-us/um/people/nswamy/papers/solidether.pdf}
+  howpublished  = {\url{https://www.cs.umd.edu/~aseem/solidetherplas.pdf}},  
+  note          = {Accessed: 2018-09-19},
+  url={https://www.cs.umd.edu/~aseem/solidetherplas.pdf}
 }
 
 @misc{pettersson2016safer,
@@ -3501,9 +3512,9 @@ Cryptocurrencies and Blockchain Technology},
   title={Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol},
   author={Kiayias, Aggelos and Russell, Alexander and David, Bernardo and Oliynykov, Roman},
   year={2016},
-  howpublished={https://pdfs.semanticscholar.org/1c14/549f7ba7d6a000d79a7d12255eb11113e6fa.pdf},
-  note={Accessed: 2017-02-20},
-  url={https://pdfs.semanticscholar.org/1c14/549f7ba7d6a000d79a7d12255eb11113e6fa.pdf}
+  howpublished={https://pdfs.semanticscholar.org/a583/3270b14e251f0b16d86438d04652b1b8d7f3.pdf},
+  note={Accessed: 2018-08-19},
+  url={https://pdfs.semanticscholar.org/a583/3270b14e251f0b16d86438d04652b1b8d7f3.pdf}
 }
 
 @misc{sompolinsky2016spectre,
@@ -3540,8 +3551,8 @@ Cryptocurrencies and Blockchain Technology},
   year={2016},
   publisher={Newcastle University},
    note={Accessed: 2017-02-20},
-  howpublished={\url{https://internal.ncl.ac.uk/computing/annex/research/techreports/pdfs/1502.pdf}},
-  url={https://internal.ncl.ac.uk/computing/annex/research/techreports/pdfs/1502.pdf}
+  howpublished={\url{https://www.economist.com/sites/default/files/newcastle.pdf}},
+  url={https://www.economist.com/sites/default/files/newcastle.pdf}
   
 }
 
