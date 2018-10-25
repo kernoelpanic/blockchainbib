@@ -2033,6 +2033,16 @@ url={http://www.cs.utexas.edu/users/dahlin/papers/bar-gossip-apr-2006.pdf}
   url={https://arxiv.org/pdf/1605.05438.pdf}
 }
 
+@inproceedings{gervais2016security,
+  title={On the security and performance of proof of work blockchains},
+  author={Gervais, Arthur and Karame, Ghassan O and W{\"u}st, Karl and Glykantzis, Vasileios and Ritzdo
+rf, Hubert and Capkun, Srdjan},
+  booktitle={Proceedings of the 2016 ACM SIGSAC },
+  pages={3--16},
+  year={2016},
+  organization={ACM}
+}
+
 % 2017
 
 @inproceedings{ohara2017smart,
@@ -2300,9 +2310,8 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
 @inproceedings{buenz2017proofs,
  author = {Benedikt B{\" u}nz and Steven Goldfeder and Joseph Bonneau},
  title = {Proofs-of-delay and randomness beacons in Ethereum},
- journal = {IEEE Security & Privacy on the Blockchain (IEEE S&B)},
- year = {2017},
- url = {http://www.jbonneau.com/doc/BGB17-IEEESB-proof_of_delay_ethereum.pdf}
+ journal = {IEEE Security \& Privacy on the Blockchain (IEEE S\&B)},
+ year = {2017}
 }
 
 @inproceedings{oconnor2017simplicity,
@@ -2343,9 +2352,28 @@ url={http://www.ise.tu-berlin.de/fileadmin/fg308/publications/2017/2017-eberhard
   doi={10.1109/ICMLA.2017.0-118}, 
   month={Dec},
   url={http://bitfury.com/content/5-white-papers-research/clustering_whitepaper.pdf}
+
+@inproceedings{liao2017incentivizing,
+  title={Incentivizing blockchain forks via whale transactions},
+  author={Liao, Kevin and Katz, Jonathan},
+  booktitle={International Conference on Financial Cryptography and Data Security},
+  pages={264--279},
+  year={2017},
+  organization={Springer},
+  url={http://www.cs.umd.edu/~jkatz/papers/whale-txs.pdf}
+}
+
+@inproceedings{velner2017smart,
+  title={Smart contracts make Bitcoin mining pools vulnerable},
+  author={Velner, Yaron and Teutsch, Jason and Luu, Loi},
+  booktitle={International Conference on Financial Cryptography and Data Security},
+  pages={298--316},
+  year={2017},
+  organization={Springer}
 }
 
 % 2018 
+
 @inproceedings{pirlea2018mechanising,
  author = {P{\^ i}rlea, George and Sergey, Ilya},
  title = {Mechanising Blockchain Consensus},
@@ -2492,6 +2520,21 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   year={2018},
   url = {http://fc18.ifca.ai/bitcoin/papers/bitcoin18-final10.pdf}
 }
+
+
+@inproceedings{judmayer2018pitchfork,
+  author = {Aljosha Judmayer and Nicholas Stifter and Philipp Schindler
+and Edgar Weippl},
+  title = {Pitchforks in Cryptocurrencies:
+Enforcing rule changes through offensive forking- and
+consensus techniques (Short Paper)},
+  booktitle = {CBT'18: Proceedings of the International Workshop on
+Cryptocurrencies and Blockchain Technology},
+  year = {2018},
+  month = {Sep},
+  url = {https://www.sba-research.org/wp-content/uploads/2018/09/judmayer2018pitchfork_2018-09-05.pdf},
+}
+
 
 % eprint/preprint blockchain bibliography
 
@@ -3034,9 +3077,9 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   author        = {{Narayanan, Arvind and Bonneau, Joseph and Felten, Edward and Miller, Andrew and Goldfeder, Steven}},
   year={2016},
   booktitle     = {Bitcoin and Cryptocurrency Technologies},
-  howpublished  = {\url{https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1}},
+  howpublished  = {http://bitcoinbook.cs.princeton.edu/},
   note          = {Accessed: 2016-03-29},
-  url 			= {https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1}
+  url 		= {https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf}
 }
 
 @misc{judmayer2016c4,
@@ -3134,15 +3177,6 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   howpublished  = {\url{https://pdfs.semanticscholar.org/a6a1/b70305b27c556aac779fb65429db9c2e1ef2.pdf}},  
   note          = {Accessed: 2016-08-10},
   url           = {https://pdfs.semanticscholar.org/a6a1/b70305b27c556aac779fb65429db9c2e1ef2.pdf}
-}
-
-@misc{gervais2016security,
-  title         = {On the Security and Performance of Proof of Work Blockchains},
-  author        = {Gervais, Arthur and Karame, Ghassan O and W{\"u}st, Karl and Glykantzis, Vasileios and Ritzdorf, Hubert and Capkun, Srdjan},
-  year          = {2016},
-  howpublished  = {\url{https://eprint.iacr.org/2016/555.pdf}},  
-  note          = {Accessed: 2016-08-10},
-  url           = {https://eprint.iacr.org/2016/555.pdf}
 }
 
 @misc{gramoli2016danger,
@@ -3700,15 +3734,6 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
  
 % 2017
 
-@misc{liao2017incentivizing,
-  title={Incentivizing Double-spend Collusion in Bitcoin},
-  author={Kevin Liao and Jonathan Katz},
-  year={2017},
-  note={Accessed: 2017-02-06},
-  howpublished={\url{https://www.cs.umd.edu/~gasarch/reupapers/katzbitcoin16.pdf}},
-  url={https://www.cs.umd.edu/~gasarch/reupapers/katzbitcoin16.pdf}
-}
-
 @misc{bentov2017instantaneous,
   author        = {Iddo Bentov and
                    Ranjit Kumaresan and
@@ -3720,15 +3745,6 @@ url ={https://arxiv.org/pdf/1803.03807.pdf}
   howpublished  = {\url{http://arxiv.org/abs/1701.06726.pdf}},
   note          ={Accessed: 2017-02-16},
   url           ={https://arxiv.org/pdf/1701.06726.pdf}
-}
-
-@misc{velner2017smart,
-    author = {Yaron Velner and Jason Teutsch and Loi Luu},
-    title = {Smart Contracts Make Bitcoin Mining Pools Vulnerable},
-    howpublished = {Cryptology ePrint Archive, Report 2017/230},
-    year = {2017},
-    note={Accessed: 2017-03-09},
-    url  = {https://eprint.iacr.org/2017/230.pdf}
 }
 
 @misc{bartoletti2017analysis,
@@ -4887,7 +4903,38 @@ url={https://arxiv.org/pdf/1712.08427.pdf}
 	year = {2017},
 	month = {Apr},
 	note = {Accessed:2018-02-21},
-	url={https://people.csail.mit.edu/silvio/Selected%20Scientific%20Papers/Distributed%20Computation/BYZANTYNE%20AGREEMENT%20MADE%20TRIVIAL.pdf}
+}
+
+@misc{garay2017blockchain,
+    author = {Juan A. Garay and Aggelos Kiayias and Giorgos Panagiotakos},
+    title = {Blockchain and Consensus from Proofs of Work  without Random Oracles},
+    howpublished = {Cryptology ePrint Archive, Report 2017/775},
+    year = {2017},
+    url = {https://eprint.iacr.org/2017/775.pdf},
+}
+
+@misc{crain2017dbft,
+Author = {Tyler Crain and Vincent Gramoli and Mikel Larrea and Michel Raynal},
+Title = {DBFT: Efficient Byzantine Consensus with a Weak Coordinator and its Application to Consortium Blockchains},
+Year = {2017},
+howpublished = {https://arxiv.org/abs/1702.03068},
+url = {https://arxiv.org/pdf/1702.03068.pdf}
+}
+
+@misc{bentov2018tesseract,
+    author = {Iddo Bentov and Yan Ji and Fan Zhang and Yunqi Li and Xueyuan Zhao and Lorenz Breidenbach and Philip Daian and Ari Juels},
+    title = {Tesseract: Real-Time Cryptocurrency Exchange using Trusted Hardware},
+    howpublished = {Cryptology ePrint Archive, Report 2017/1153},
+    year = {2017},
+    url = {https://eprint.iacr.org/2017/1153.pdf},
+}
+
+@misc{li2018designing,
+    author = {Taotao Li and Parhat Abla and Mingsheng Wang and Qianwen Wei},
+    title = {Designing Proof of Transaction Puzzles for Cryptocurrency},
+    howpublished = {Cryptology ePrint Archive, Report 2017/1242},
+    year = {2017},
+    url = {https://eprint.iacr.org/2017/1242.pdf},
 }
 
 @misc{sergey2018scilla,
@@ -5187,11 +5234,124 @@ note = {Rev. 1},
 url = {https://dfinity.org/pdf-viewer/library/dfinity-consensus.pdf},
 }
 
-@article{stewart2018committing,
+@misc{stewart2018committing,
   title={Committing to Quantum Resistance: A Slow Defence for Bitcoin against a Fast Quantum Computing Attack},
   author={Stewart, I and Ilie, D and Zamyatin, A and Werner, S and Torshizi, MF and Knottenbelt, WJ},
   howpublished = {Cryptology ePrint Archive, Report 2018/213},
   year = {2018},
   url = {https://eprint.iacr.org/2018/213.pdf}
 }
+
+@misc{schindler2018hydrand,
+    author = {Philipp Schindler and Aljosha Judmayer and Nicholas Stifter and Edgar Weippl},
+    title = {HydRand: Practical Continuous Distributed Randomness},
+    howpublished = {Cryptology ePrint Archive, Report 2018/319},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/319.pdf},
+}
+
+@misc{stifter2018agreement,
+    author = {Nicholas Stifter and Aljosha Judmayer and Philipp Schindler and Alexei Zamyatin and Edgar Weippl},
+    title = {Agreement with Satoshi - On the Formalization of Nakamoto Consensus},
+    howpublished = {Cryptology ePrint Archive, Report 2018/400},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/400.pdf},
+}
+
+@misc{wan2018goshawk,
+    author = {Cencen Wan and Shuyang Tang and Yuncong Zhang and Chen Pan and Zhiqiang Liu and Yu Long and Zhen Liu and Yu Yu},
+    title = {Goshawk: A Novel Efficient, Robust and Flexible Blockchain Protocol},
+    howpublished = {Cryptology ePrint Archive, Report 2018/407},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/407.pdf},
+}
+
+@misc{yu2018repucoin,
+    author = {Jiangshan Yu and David Kozhaya and Jeremie Decouchant and Paulo Esteves-Verissimo},
+    title = {RepuCoin: Your Reputation is Your Power},
+    howpublished = {Cryptology ePrint Archive, Report 2018/239},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/239.pdf},
+}
+
+@misc{zamani2018rapidchain,
+    author = {Mahdi Zamani and Mahnush Movahedi and Mariana Raykova},
+    title = {RapidChain: A Fast Blockchain Protocol via Full Sharding},
+    howpublished = {Cryptology ePrint Archive, Report 2018/460},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/460.pdf},
+}
+
+@misc{boneh2018compact,
+    author = {Dan Boneh and Manu Drijvers and Gregory Neven},
+    title = {Compact Multi-Signatures for Smaller Blockchains},
+    howpublished = {Cryptology ePrint Archive, Report 2018/483},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/483.pdf},
+}
+
+@misc{zhang2018treasury,
+    author = {Bingsheng Zhang and Roman Oliynykov and Hamed Balogun},
+    title = {A Treasury System for Cryptocurrencies: Enabling Better Collaborative Intelligence},
+    howpublished = {Cryptology ePrint Archive, Report 2018/435},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/435.pdf},
+}
+
+@misc{yu2018platform,
+    author = {Bin Yu and Joseph Liu and Amin Sakzad and Surya Nepal and Paul Rimba and Ron Steinfeld and Man Ho Au},
+    title = {Platform-independent Secure Blockchain-Based Voting System},
+    howpublished = {Cryptology ePrint Archive, Report 2018/657},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/657.pdf},
+}
+
+@misc{zhou2018loamit,
+    author = {Lijing Zhou and Licheng Wang and Yiru Sun and Pin Lv},
+    title = {Loamit: A Blockchain-based Residual Loanable-limit Query System},
+    howpublished = {Cryptology ePrint Archive, Report 2018/655},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/655.pdf},
+}
+
+@misc{chalkias2018blockchained,
+    author = {Konstantinos Chalkias and James Brown and Mike Hearn and Tommy Lillehagen and  Igor Nitto and Thomas Schroeter},
+    title = {Blockchained Post-Quantum Signatures},
+    howpublished = {Cryptology ePrint Archive, Report 2018/658},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/658.pdf},
+}
+
+@misc{yi2018new,
+    author = {Xun Yi and Kwok-Yan Lam and Dieter Gollmann},
+    title = {A New Blind ECDSA Scheme for Bitcoin Transaction Anonymity},
+    howpublished = {Cryptology ePrint Archive, Report 2018/660},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/660.pdf},
+}
+
+@misc{boneh2018verifiable,
+    author = {Dan Boneh and Joseph Bonneau and Benedikt B\"unz and Ben Fisch},
+    title = {Verifiable Delay Functions},
+    howpublished = {Cryptology ePrint Archive, Report 2018/601},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/601.pdf},
+}
+
+@misc{ruffing2018burning,
+    author = {Tim Ruffing and Sri Aravinda Thyagarajan and Viktoria Ronge and Dominique Schr\"oder},
+    title = {Burning Zerocoins for Fun and for Profit: A Cryptographic Denial-of-Spending Attack on the Zerocoin Protocol},
+    howpublished = {Cryptology ePrint Archive, Report 2018/612},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/612.pdf},
+}
+
+@misc{pietrzak2018simple,
+    author = {Krzysztof Pietrzak},
+    title = {Simple Verifiable Delay Functions},
+    howpublished = {Cryptology ePrint Archive, Report 2018/627},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/627.pdf},
+}
+
 
