@@ -1,122 +1,111 @@
-# Bitcoin and Block chain bibliography 
-
-A Bibtex bibliography including publications related to, or of relevance in, the field of cryptographic currencies and consensus ledgers, commonly referred to as *block chains*.
-Topics include but are not limited to:
-* Predecessors of Bitcoin and other cryptographic currencies
-* PoW based consensus ledgers i.e. cryptographic currencies like Bitcoin and its derivatives (e.g. Namecoin, Litecoin, Dogecoin, ...)
-* BFT and BFT consensus ledgers
-* ...
-
-## Structure of this bibliography
-The scientific community adapted relatively slow to this emerging and fast moving field of cryptographic currencies and consensus ledgers, commonly refered to as *block chains*. 
-This was one reason, that for quite a while the only resources available have been the Bitcoin source code, blog/forum/mailing list posts, and other online publications. 
-Also the original Bitcoin [paper](https://bitcoin.org/bitcoin.pdf) which initiated the hype was published online without any prior peer-review. 
-
-Meanwhile a constant flow of peer-reviewed and non-peer-reviewed publications can be observed. 
-This leads to an increasing number of available publications. 
-Although peer-review is *not* always a guaranty for best quality, we initially distinguish publications in this field into three different categories. 
-The nonnegotiable hard requirement for any category is that the work must be **open-access** and not locked behind pay-walls. 
-
-**Note:** that only papers in `blockchain_peerreviewed.bib` and `blockchain_eprint.bib` are currently exported as `.html` to
-[https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib).
-
-* `blockchain_peerreviewed.bib`
-References in this category are peer-reviewed papers which have been (or will be) published on scientific venues 
-(e.g. conferences proceedings, journals, workshops, etc.)
-
-* `blockchain_eprint.bib`
-References in this category are preprints/eprints of papers (for example on http://arxiv.org) that have not been published at an peer-reviewed venue (yet).
-Also well written structured whitepapers of alt-coins fall into this category.
-The criteria for a paper/publication in this category is:
-    + based on facts 
-    + systematic structure 
-    + no marketing
-    + not pure speculation
-    + written in comprehensible English 
-
-* `blockchain_online.bib`
-References in this category are (fast changing) online resources like for example:  
-    + github projects
-    + block explorer websites
-    + developer references (wiki entries, etc.) 
-	+ Again the requirements form above hold:
-    	- not purely marketing (some banners on websites are acceptable)
-    	- not pure speculation
-    	- written in comprehensible English 
-
-In respect to the original *publication spirit* of Bitcoin, we combine all
-references into a single blob file called `blockchain.bib` when executing 
-`make` in the projects root directory.
-
+ README.md                                                                                                                                                                                                                                                                                                                                  
 
 ## Usage of this bibliography 
-Just reference the aggregated `blockchain.bib` in your bibtex `\bibliography{}`.
-See the `test` folder for an example based on an IEEE template.  
 
-### Download papers
+Just reference the `blockchain.bib` in your bibtex `\bibliography{}` and compile your latex files as usual.
+See the `test` folder for an example based on an IEEE template.
+
+### Advanced usage: Download all papers
+Make sure python 2 is running on your system
+
+    python2 --version
+
+Make sure [Pybtex!](https://pybtex.org/) is installed
+
+    pip install pybtex
+
 To download the papers into the `./papers` folder type:
 ```bash
-$ python fetch_pdfs.py ./blockchain_peerreviewed.bib papers/
+$ python fetch_pdfs.py ./blockchain.bib papers/
 ```
 
-### Generate html list
-To generate a html paper list you need to clone/install the [bibloograpy](https://github.com/NullHypothesis/bibliograpy) tool by Philipp Winter. 
+### Advanced usage: Generate html files
+To generate a html paper list you need to clone/install the [bibloograpy](https://github.com/NullHypothesis/bibliograpy) tool by Philipp Winter.
 ```bash
-$ git clone https://github.com/NullHypothesis/bibliograpy 
+$ git clone https://github.com/NullHypothesis/bibliograpy
 $ cd blockchainbib
 $ bash generate.sh
 ```
 
 
-## Related work
-A list of other collections of resources on this topic:
+## Contribute 
 
-* Jeremy Clarks collection:
+Generally contributions are welcome and might fall in the one of the following categories.
+
+### Contribute by adding/updating an entry in the blockchain.bib file
+
+The requirements for a paper to be added to the bib are:
+* It must be **open-access** and not locked behind a pay-wall
+* It is either:
+  1. A peer-reviewed paper which has been published on an academic venue (e.g., conferences proceeding, journal, workshop )
+  2. A pre-print/eprint of a paper (published for example on http://arxiv.org) that has not been published at an peer-reviewed venue (yet). The criteria for a paper in this category are:
+      + based on facts
+      + systematic structure
+      + no marketing
+      + not pure speculation
+      + written in comprehensible English
+
+#### How to add/update an entry
+
+1. Add or update the bib entry in `blockchain.bib`
+
+2. Run the `test/Makefile` to see if
+everything builds as expected.
+```shell
+$ cd ./test
+$ make test
+...
+  COMPILED SUCCESSFULLY!
+...
+```
+
+3. issue pull request on github
+
+### Contribute code 
+This project is a *quick-and-dirty* approach and various evolutionary steps are possible e.g., :
+  * Migrate to another dataformat for entries (e.g., JSON-LD)
+    + Add abstract to entries
+    + Add tags to entries
+  * Migrate to a github.io page and use some lightweight JavaScript to filter entries
+  * Provide a simple (local) interface to add entries
+  * Generate the resulting .bib files based on custom selection
+
+## Notes 
+Note that only papers in `blockchain.bib` are currently exported as `.html` to
+[https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib).
+There are also references in `blockchain_online.bib` to online resources like for example:
+    + github projects
+    + block explorer websites
+    + developer references (wiki entries, etc.)
+    + Again the requirements form above hold:
+      - not purely marketing (some banners on websites are acceptable)
+      - not pure speculation
+      - written in comprehensible English
+
+
+## Related bibliographies 
+A list of other (possibly outdated) collections of resources on this topic:
+
+* Collection by Christian Decker:
+  + https://github.com/cdecker/btcresearch
+
+* Collection by Jeremy Clark:
     + http://users.encs.concordia.ca/~clark/biblio.php#bitcoin
 
-* Brett Scott collection (huge):
+* Collection by Brett Scott:
     + https://docs.google.com/spreadsheets/d/1VaWhbAj7hWNdiE73P-W-wrl5a0WNgzjofmZXe0Rh5sg/htmlview?usp=sharing&pli=1&sle=true
 
 * Collection in the Bitcoin wiki (subset of the above)
     + https://en.bitcoin.it/wiki/Research
 
 * Reading list repository of *Blockstack*:
-	+ https://github.com/blockstack/reading-list
+  + https://github.com/blockstack/reading-list
 
 * Publications section of IC3:
-	+ http://www.initc3.org/publications
+  + http://www.initc3.org/publications
 
-* Collection in the Bitcoinbyte blog (outdated)
+* Collection in the Bitcoinbyte blog (outdated):
     + https://thebitcoinbyte.wordpress.com/annotated-bibliography/
-
-
-
-## Contribute 
-
-### Prerequisites
-
-Make sure python 2 is running on your system
-
-    python2 --version
-
-Make sure [Pybtex!](https://pybtex.org/) is installed
-    
-    pip install pybtex
-
-### Add/Update an entry in the .bib file
-
-1. Add or update the bib entry in one of the three files: `blockchain_peerreviewed.bib`, `blockchain_eprint.bib` or `blockchain_online.bib`. 
-**Note:** that only papers in `blockchain_peerreviewed.bib` and `blockchain_eprint.bib` are currently exported as `.html` to 
-[https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib). 
-Do not edit the `blockchain.bib` file it will be auto generated when running `make` in the root of the project. 
-
-2. Run the `test/Makefile` to see if 
-everything works as expected. 
-```shell
-$ cd ./test
-$ make 
-$ evince bare_jrnl.pdf
-```
 
 ## License
 
@@ -129,9 +118,11 @@ Python code and `.tpl` templates license: GNU GENERAL PUBLIC LICENSE
 
 * All authors that created the publications listed in this bibliography
 * Philipp Winter (phw[at]nymity.ch) for the python fetch code and the `.tpl` templates
-* Aljosha Judmayer (ajudmayer[at]sba-research[dot]org) initiator of this endeavor 
+* Aljosha Judmayer (ajudmayer[at]sba-research[dot]org) initiator of this endeavor
 * Nicolas Christin (Suggestion of publications)
 * Daniel Kraft (Suggestion of publications)
 * Nicholas Stifter (Suggestion of publications)
 * Philipp Schindler (Suggestion of publications)
 * Alexei Zamyatin (Suggestion of publications)
+* Bernhard Haslhofer (Suggestion of publications)
+* Andreas Kern (Suggestion of publications & code)
