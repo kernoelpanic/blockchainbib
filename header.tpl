@@ -83,7 +83,7 @@
       Sort by: (<a href="year_reverse.html">reverse</a>) <a href="year.html">year</a>,
       (<a href="author_reverse.html">reverse</a>) <a href="author.html">author</a> <br />
       <!-- Last updated: <a href="Changelog.txt">2017-09-29</a> <br /> <br /> -->
-      Last updated: 2018-03-30 <br /> <br />
+			<!-- Last updated: 2018-03-30 <br /> <br /> -->
       Feedback: <br />
 	  <a href="mailto:ajudmayer@sba-research.org">ajudmayer@sba-research.org</a> (<a
       href="https://www.sba-research.org/pgp/ajudmayer_0xE687AADD_pub.txt">OpenPGP</a>) <br /><br />
