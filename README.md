@@ -1,4 +1,23 @@
- README.md                                                                                                                                                                                                                                                                                                                                  
+# Blocks & Chains Bibliography 
+
+A Bibtex bibliography including eprints/pre-prints and peer-reviewed publications related to, or of relevance in, the field of cryptocurrencies and distributed ledger technologies, commonly referred to as *blockchains*.
+
+Papers in `blockchain.bib` are currently exported as `.html` to
+[https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib).
+
+The topics of the papers in this bibliography encompass various aspects that are directly or indirectly related to this interdisciplinary field e.g.,:
+* Bitcoin and other cryptocurrencies
+* Credit networks and payment channels
+* Smart contract platforms
+* Smart contract analysis and applications
+* Distributed systems aspects
+* Applied cryptography applicable in this context
+* Economics and game theory
+* Privacy and transparency
+* General IT-Security related issues
+* Regulatory and legal issues
+* Usability and usable-security
+* ...
 
 ## Usage of this bibliography 
 
@@ -74,13 +93,13 @@ This project is a *quick-and-dirty* approach and various evolutionary steps are 
 Note that only papers in `blockchain.bib` are currently exported as `.html` to
 [https://allquantor.at/blockchainbib](https://allquantor.at/blockchainbib).
 There are also references in `blockchain_online.bib` to online resources like for example:
-    + github projects
-    + block explorer websites
-    + developer references (wiki entries, etc.)
-    + Again the requirements form above hold:
-      - not purely marketing (some banners on websites are acceptable)
-      - not pure speculation
-      - written in comprehensible English
++ github projects
++ block explorer websites
++ developer references (wiki entries, etc.)
++ Again the requirements form above hold:
+ - not purely marketing (some banners on websites are acceptable)
+ - not pure speculation
+ - written in comprehensible English
 
 
 ## Related bibliographies 
