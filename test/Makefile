@@ -15,6 +15,9 @@ INPUTS = inputs
 .PHONY: all
 all: clean inputs latex clean2 fetch 
 
+.PHONY: test
+test: clean latex clean2
+
 .PHONY: inputs
 inputs: $(wildcard inputs/*.tex) 
 	ls inputs/*.tex | awk '{printf "\\input{%s}\n",latex  $$1}' > inputs.tex
@@ -24,7 +27,7 @@ latex:
 	$(LATEX) $(FILE).tex
 	bibtex $(FILE)
 	$(LATEX) $(FILE).tex
-	$(LATEX) $(FILE).tex
+	$(LATEX) $(FILE).tex && (echo "\n COMPILED SUCCESSFULLY! \n\ncleaning up ...";)
 
 .PHONY: clean
 clean:
