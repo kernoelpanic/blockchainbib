@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% eprint/preprint blockchain bibliography %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%
 % \usepackage{url}
 % Add this to your main .tex file
 % so that URLs with special chars
@@ -749,13 +749,14 @@
 }
 
 % honey badger async. (randomized) bft protocol
-@misc{miller2016honey,
+@inproceedings{miller2016honey,
   title={The honey badger of BFT protocols},
   author={Miller, Andrew and Xia, Yu and Croman, Kyle and Shi, Elaine and Song, Dawn},
-  publisher={Cryptology ePrint Archive: Report 2016/199},
+  booktitle={Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={31--42},
   year={2016},
-  note={Accessed: 2017-01-10},
-  url={https://eprint.iacr.org/2016/199.pdf}
+  url={https://eprint.iacr.org/2016/199.pdf},
+  organization={ACM}
 }
 
 @misc{clack2016smart,
@@ -2633,12 +2634,13 @@ url = {https://dfinity.org/pdf-viewer/library/dfinity-consensus.pdf},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@misc{schindler2018hydrand,
-    author = {Philipp Schindler and Aljosha Judmayer and Nicholas Stifter and Edgar Weippl},
-    title = {HydRand: Practical Continuous Distributed Randomness},
-    howpublished = {Cryptology ePrint Archive, Report 2018/319},
-    year = {2018},
-    url = {https://eprint.iacr.org/2018/319.pdf},
+@article{schindler2018hydrand,
+  title={HydRand: Practical Continuous Distributed Randomness},
+  author={Schindler, Philipp and Judmayer, Aljosha and Stifter, Nicholas and Weippl, Edgar},
+  journal={IACR Cryptology ePrint Archive},
+  volume={2018},
+  pages={319},
+  year={2018}
 }
 
 @misc{stifter2018agreement,
@@ -2673,12 +2675,15 @@ url = {https://dfinity.org/pdf-viewer/library/dfinity-consensus.pdf},
     url = {https://eprint.iacr.org/2018/460.pdf},
 }
 
-@misc{boneh2018compact,
-    author = {Dan Boneh and Manu Drijvers and Gregory Neven},
-    title = {Compact Multi-Signatures for Smaller Blockchains},
-    howpublished = {Cryptology ePrint Archive, Report 2018/483},
-    year = {2018},
-    url = {https://eprint.iacr.org/2018/483.pdf},
+
+@inproceedings{boneh2018compact,
+  title={Compact multi-signatures for smaller blockchains},
+  author={Boneh, Dan and Drijvers, Manu and Neven, Gregory},
+  booktitle={International Conference on the Theory and Application of Cryptology and Information Security},
+  pages={435--464},
+  year={2018},
+  organization={Springer},
+  url = {https://eprint.iacr.org/2018/483.pdf}
 }
 
 @misc{zhang2018treasury,
@@ -7033,4 +7038,196 @@ url={https://arxiv.org/pdf/1908.01051.pdf},
   year={2019},
   url={https://www.esat.kuleuven.be/cosic/publications/article-3005.pdf}
 }
+
+
+@article{blakley1979,
+  title={{Safeguarding cryptographic keys}},
+  author={Blakley, George Robert},
+  journal={Proc. of the National Computer Conference1979},
+  volume={48},
+  pages={313--317},
+  year={1979}
+}
+
+@inproceedings{gennaro1999secure,
+  title={Secure distributed key generation for discrete-log based cryptosystems},
+  author={Gennaro, Rosario and Jarecki, Stanis{\l}aw and Krawczyk, Hugo and Rabin, Tal},
+  booktitle={International Conference on the Theory and Applications of Cryptographic Techniques},
+  pages={295--310},
+  year={1999},
+  organization={Springer}
+}
+
+@article{gennaro2003revisiting,
+  title={Revisiting the distributed key generation for discrete-log based cryptosystems},
+  author={Gennaro, Rosario and Jarecki, Stanislaw and Krawczyk, Hugo and Rabin, Tal},
+  journal={RSA Security'03},
+  pages={89--104},
+  year={2003}
+}
+
+@article{neji2016distributed,
+  title={Distributed key generation protocol with a new complaint management strategy},
+  author={Neji, Wafa and Blibech, Kaouther and Ben Rajeb, Narjes},
+  journal={Security and communication networks},
+  volume={9},
+  number={17},
+  pages={4585--4595},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+
+@misc{eleftherios2018,
+  author = {Eleftherios Kokoris-Kogias and Enis Ceyhun Alp and Sandra Deepthy Siby and Nicolas Gailly and Linus Gasser and Philipp Jovanovic and Ewa Syta and Bryan Ford},
+  title = {CALYPSO: Auditable Sharing of Private Data over Blockchains},
+  howpublished = {Cryptology ePrint Archive, Report 2018/209},
+  year = {2018},
+  note = {\url{https://eprint.iacr.org/2018/209}},
+}
+
+@article{rabin1983transaction,
+  title={Transaction protection by beacons},
+  author={Rabin, Michael O},
+  journal={Journal of Computer and System Sciences},
+  volume={27},
+  number={2},
+  pages={256--267},
+  year={1983},
+  publisher={Elsevier}
+}
+
+@inproceedings{pedersen1991non,
+  title={Non-interactive and information-theoretic secure verifiable secret sharing},
+  author={Pedersen, Torben Pryds},
+  booktitle={Annual International Cryptology Conference},
+  pages={129--140},
+  year={1991},
+  organization={Springer}
+}
+
+@inproceedings{feldman1987,
+  title={{A Practical Scheme for Non-interactive Verifiable Secret Sharing}},
+  author={Feldman, Paul},
+  booktitle={Foundations of Computer Science, 1987., 28th Annual Symposium on},
+  pages={427--438},
+  year={1987},
+  organization={IEEE},
+  note = {{Accessed: 2017-08-30}}
+}
+
+@article{rivest1996time,
+  title={Time-lock puzzles and timed-release crypto},
+  author={Rivest, Ronald L and Shamir, Adi and Wagner, David A},
+  year={1996},
+  publisher={Massachusetts Institute of Technology}
+}
+
+@inproceedings{pedersen1991threshold,
+  title={A threshold cryptosystem without a trusted party},
+  author={Pedersen, Torben Pryds},
+  booktitle={Workshop on the Theory and Application of of Cryptographic Techniques},
+  pages={522--526},
+  year={1991},
+  organization={Springer}
+}
+
+@inproceedings{canetti1999adaptive,
+  title={Adaptive security for threshold cryptosystems},
+  author={Canetti, Ran and Gennaro, Rosario and Jarecki, Stanis{\l}aw and Krawczyk, Hugo and Rabin, Tal},
+  booktitle={Annual International Cryptology Conference},
+  pages={98--116},
+  year={1999},
+  organization={Springer}
+}
+
+@article{castro2002practical,
+  title={Practical Byzantine fault tolerance and proactive recovery},
+  author={Castro, Miguel and Liskov, Barbara},
+  journal={ACM Transactions on Computer Systems (TOCS)},
+  volume={20},
+  number={4},
+  pages={398--461},
+  year={2002},
+  publisher={ACM}
+}
+
+@article{elgamal1985public,
+  title={A public key cryptosystem and a signature scheme based on discrete logarithms},
+  author={ElGamal, Taher},
+  journal={IEEE transactions on information theory},
+  volume={31},
+  number={4},
+  pages={469--472},
+  year={1985},
+  publisher={IEEE}
+}
+
+@inproceedings{kate2009distributed,
+  title={Distributed key generation for the internet},
+  author={Kate, Aniket and Goldberg, Ian},
+  booktitle={2009 29th IEEE International Conference on Distributed Computing Systems},
+  pages={119--128},
+  year={2009},
+  organization={IEEE}
+}
+
+@article{kate2012distributed,
+  title={Distributed Key Generation in the Wild.},
+  author={Kate, Aniket and Huang, Yizhou and Goldberg, Ian},
+  journal={IACR Cryptology ePrint Archive},
+  volume={2012},
+  pages={377},
+  year={2012},
+  publisher={Citeseer}
+}
+
+@article{cramer1997secure,
+  title={A secure and optimally efficient multi-authority election scheme},
+  author={Cramer, Ronald and Gennaro, Rosario and Schoenmakers, Berry},
+  journal={European transactions on Telecommunications},
+  volume={8},
+  number={5},
+  pages={481--490},
+  year={1997},
+  publisher={Wiley Online Library}
+}
+
+@article{camenisch1997proof,
+  title={Proof systems for general statements about discrete logarithms},
+  author={Camenisch, Jan and Stadler, Markus},
+  journal={Technical report/Dept. of Computer Science, ETH Z{\"u}rich},
+  volume={260},
+  year={1997},
+  publisher={ETH Zurich}
+}
+
+
+@inproceedings{chaum1992wallet,
+  title={Wallet databases with observers},
+  author={Chaum, David and Pedersen, Torben Pryds},
+  booktitle={Annual International Cryptology Conference},
+  pages={89--105},
+  year={1992},
+  organization={Springer}
+}
+
+@inproceedings{boneh2001short,
+  title={Short signatures from the Weil pairing},
+  author={Boneh, Dan and Lynn, Ben and Shacham, Hovav},
+  booktitle={International Conference on the Theory and Application of Cryptology and Information Security},
+  pages={514--532},
+  year={2001},
+  organization={Springer}
+}
+
+@inproceedings{boneh2003aggregate,
+  title={Aggregate and verifiably encrypted signatures from bilinear maps},
+  author={Boneh, Dan and Gentry, Craig and Lynn, Ben and Shacham, Hovav},
+  booktitle={International Conference on the Theory and Applications of Cryptographic Techniques},
+  pages={416--432},
+  year={2003},
+  organization={Springer}
+}
+
+
 
