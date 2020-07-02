@@ -1482,7 +1482,7 @@ function doExport() {
 				var tag = item.tags[i];
 				tagString += ", "+tag.tag;
 			}
-			writeField("keywords", tagString.substr(2));
+			//writeField("keywords", tagString.substr(2));
 		}
 		
 		if (item.pages) {
@@ -1503,7 +1503,7 @@ function doExport() {
 		if (item.notes && Zotero.getOption("exportNotes")) {
 			for (var i in item.notes) {
 				var note = item.notes[i];
-				writeField("annote", Zotero.Utilities.unescapeHTML(note["note"]));
+				//writeField("annote", Zotero.Utilities.unescapeHTML(note["note"]));
 			}
 		}
 		
@@ -1533,7 +1533,7 @@ function doExport() {
 			}
 			
 			if (attachmentString) {
-				writeField("file", attachmentString.substr(1));
+				//writeField("file", attachmentString.substr(1));
 			}
 		}
 		
