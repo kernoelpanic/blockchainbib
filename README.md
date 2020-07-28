@@ -126,6 +126,17 @@ A list of other (possibly outdated) collections of resources on this topic:
 * Collection in the Bitcoinbyte blog (outdated):
     + https://thebitcoinbyte.wordpress.com/annotated-bibliography/
 
+## Related Projects
+
+* OpenCitations (in RDF or JSON-LD respectively)
+	+ https://github.com/essepuntato/opencitations
+	+ http://opencitations.net/
+	+ https://json-ld.org/
+* Paper on citation in RDF
+	+ http://ceur-ws.org/Vol-1155/paper-05.pdf
+* Zotero
+	+ https://de.wikipedia.org/wiki/Zotero
+
 ## License
 
 Bibliography license: CC BY
