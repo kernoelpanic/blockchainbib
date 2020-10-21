@@ -1,0 +1,6 @@
+bibtexparser
+scholarly
+jupyter
+requests
+sys
+time
