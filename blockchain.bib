@@ -2879,14 +2879,6 @@ Published: Peter Krafft, Nicol{\'a}s Della Penna, Alex Pentland. (2018). An Expe
 	note = {Published: Cryptology ePrint Archive, Report 2017/585}
 }
 
-@book{a2017double-spending,
-	title = {Double-spending {Prevention} for {Bitcoin} zero-confirmation transactions},
-	url = {http://eprint.iacr.org/2017/394.pdf},
-	author = {a, Cristina P{\textbackslash}' erez-Sol{\textbackslash}` and Delgado-Segura, Sergi and Navarro-Arribas, Guillermo and i, Jordi Herrera-Joancomart{\textbackslash}'},
-	year = {2017},
-	note = {Published: Cryptology ePrint Archive, Report 2017/394}
-}
-
 @book{li2017block,
 	title = {Block {Chain} based {Searchable} {Symmetric} {Encryption}},
 	url = {http://eprint.iacr.org/2017/447.pdf},
@@ -7045,14 +7037,6 @@ Published: IEEE Wireless Communications, 2020}
 	note = {Publication Title: arXiv preprint arXiv:1909.10645}
 }
 
-@book{xu2019redactable,
-	title = {Redactable {Proof}-of-{Stake} {Blockchain} with {Fast} {Confirmation}},
-	url = {https://eprint.iacr.org/2019/1110.pdf},
-	author = {Xu, Jing and Li, Xinyu and Yin, Lingyuan and Guo, Bingyong and Feng, Han and Zhang, Zhenfeng},
-	year = {2019},
-	note = {Published: Cryptology ePrint Archive, Report 2019/1110}
-}
-
 @book{ford2019rationality,
 	title = {Rationality is {Self}-{Defeating} in {Permissionless} {Systems}},
 	url = {https://arxiv.org/pdf/1910.08820.pdf},
@@ -7940,14 +7924,6 @@ Published: IEEE Wireless Communications, 2020}
 	month = jul,
 	year = {2020},
 	note = {arXiv: 2007.03531}
-}
-
-@book{ford2019rationality-1,
-	title = {Rationality is {Self}-{Defeating} in {Permissionless} {Systems}},
-	url = {https://arxiv.org/pdf/1910.08820.pdf},
-	author = {Ford, Bryan and B{\"o}hme, Rainer},
-	year = {2019},
-	note = {\_eprint: 1910.08820}
 }
 
 @techreport{pierrot2016malleability,
@@ -9388,4 +9364,1189 @@ We implemented both the passive and the active variants of our protocol and ran 
 	author = {Torres, Christof Ferreira and Iannillo, Antonio Ken and Gervais, Arthur and State, Radu},
 	year = {2021},
 	note = {\_eprint: 2101.06204}
+}
+
+@inproceedings{zhang2020txspector,
+	title = {{TXSPECTOR}: {Uncovering} {Attacks} in {Ethereum} from {Transactions}},
+	isbn = {978-1-939133-17-5},
+	url = {https://www.usenix.org/system/files/sec20-zhang-mengya.pdf},
+	booktitle = {29th {USENIX} {Security} {Symposium} ({USENIX} {Security} 20)},
+	publisher = {USENIX Association},
+	author = {Zhang, Mengya and Zhang, Xiaokuan and Zhang, Yinqian and Lin, Zhiqiang},
+	month = aug,
+	year = {2020},
+	pages = {2775--2792}
+}
+
+@article{wang2019contractguard,
+	title = {{ContractGuard}: {Defend} {Ethereum} {Smart} {Contracts} with {Embedded} {Intrusion} {Detection}},
+	issn = {1939-1374, 2372-0204},
+	shorttitle = {{ContractGuard}},
+	url = {http://arxiv.org/abs/1911.10472},
+	doi = {10.1109/TSC.2019.2949561},
+	abstract = {Ethereum smart contracts are programs that can be collectively executed by a network of mutually untrusted nodes. Smart contracts handle and transfer assets of values, offering strong incentives for malicious attacks. Intrusion attacks are a popular type of malicious attacks. In this paper, we propose ContractGuard, the first intrusion detection system (IDS) to defend Ethereum smart contracts against such attacks. Like IDSs for conventional programs, ContractGuard detects intrusion attempts as abnormal control flow. However, existing IDS techniques/tools are inapplicable to Ethereum smart contracts due to Ethereum's decentralized nature and its highly restrictive execution environment. To address these issues, we design ContractGuard by embedding it in the contracts to profile context-tagged acyclic paths, and optimizing it under the Ethereum gas-oriented performance model. The main goal is to minimize the overheads, to which the users will be extremely sensitive since the cost needs to be paid upfront in digital concurrency. Empirical investigation using real-life contracts deployed in the Ethereum mainnet shows that on average, ContractGuard only adds to 36.14\% of the deployment overhead and 28.27\% of the runtime overhead. Furthermore, we conducted controlled experiments and show that ContractGuard successfully guard against attacks on all real-world vulnerabilities and 83\% of the seeded vulnerabilities.},
+	urldate = {2021-09-20},
+	journal = {IEEE Transactions on Services Computing},
+	author = {Wang, Xinming and He, Jiahao and Xie, Zhijian and Zhao, Gansen and Cheung, Shing-Chi},
+	year = {2019},
+	note = {arXiv: 1911.10472},
+	pages = {1--1}
+}
+
+@article{moser2021resurrecting,
+	title = {Resurrecting {Address} {Clustering} in {Bitcoin}},
+	url = {http://arxiv.org/abs/2107.05749},
+	abstract = {Blockchain analysis is essential for understanding how cryptocurrencies like Bitcoin are used in practice, and address clustering is a cornerstone of blockchain analysis. However, current techniques rely on heuristics that have not been rigorously evaluated or optimized. In this paper, we tackle several challenges of change address identification and clustering. First, we build a ground truth set of transactions with known change from the Bitcoin blockchain that can be used to validate the efficacy of individual change address detection heuristics. Equipped with this data set, we develop new techniques to predict change outputs with low false positive rates. After applying our prediction model to the Bitcoin blockchain, we analyze the resulting clustering and develop ways to detect and prevent cluster collapse. Finally, we assess the impact our enhanced clustering has on two exemplary applications.},
+	urldate = {2021-09-20},
+	journal = {arXiv:2107.05749 [cs]},
+	author = {M{\"o}ser, Malte and Narayanan, Arvind},
+	month = jul,
+	year = {2021},
+	note = {arXiv: 2107.05749}
+}
+
+@article{pietrzak2021lightpir,
+	title = {{LightPIR}: {Privacy}-{Preserving} {Route} {Discovery} for {Payment} {Channel} {Networks}},
+	shorttitle = {{LightPIR}},
+	url = {http://arxiv.org/abs/2104.04293},
+	abstract = {Payment channel networks are a promising approach to improve the scalability of cryptocurrencies: they allow to perform transactions in a peer-to-peer fashion, along multi-hop routes in the network, without requiring consensus on the blockchain. However, during the discovery of cost-efficient routes for the transaction, critical information may be revealed about the transacting entities. This paper initiates the study of privacy-preserving route discovery mechanisms for payment channel networks. In particular, we present LightPIR, an approach which allows a source to efficiently discover a shortest path to its destination without revealing any information about the endpoints of the transaction. The two main observations which allow for an efficient solution in LightPIR are that: (1) surprisingly, hub labelling algorithms - which were developed to preprocess "street network like" graphs so one can later efficiently compute shortest paths - also work well for the graphs underlying payment channel networks, and that (2) hub labelling algorithms can be directly combined with private information retrieval. LightPIR relies on a simple hub labeling heuristic on top of existing hub labeling algorithms which leverages the specific topological features of cryptocurrency networks to further minimize storage and bandwidth overheads. In a case study considering the Lightning network, we show that our approach is an order of magnitude more efficient compared to a privacy-preserving baseline based on using private information retrieval on a database that stores all pairs shortest paths.},
+	urldate = {2021-09-20},
+	journal = {arXiv:2104.04293 [cs]},
+	author = {Pietrzak, Krzysztof and Salem, Iosif and Schmid, Stefan and Yeo, Michelle},
+	month = apr,
+	year = {2021},
+	note = {arXiv: 2104.04293}
+}
+
+@article{aquilina2021etherclue,
+	title = {{EtherClue}: {Digital} investigation of attacks on {Ethereum} smart contracts},
+	issn = {20967209},
+	shorttitle = {{EtherClue}},
+	url = {http://arxiv.org/abs/2104.05293},
+	doi = {10.1016/j.bcra.2021.100028},
+	abstract = {Programming errors in Ethereum smart contracts can result in catastrophic financial losses from stolen cryptocurrency. While vulnerability detectors can prevent vulnerable contracts from being deployed, this does not mean that such contracts will not be deployed. Once a vulnerable contract is instantiated on the blockchain and becomes the target of attacks, the identification of exploit transactions becomes indispensable in assessing whether it has been actually exploited and identifying which malicious or subverted accounts were involved. In this work, we study the problem of post-factum investigation of Ethereum attacks using Indicators of Compromise (IoCs) specially crafted for use in the blockchain. IoC definitions need to capture the side-effects of successful exploitation in the context of the Ethereum blockchain. Therefore, we define a model for smart contract execution, comprising multiple abstraction levels that mirror the multiple views of code execution on a blockchain. Subsequently, we compare IoCs defined across the different levels in terms of their effectiveness and practicality through EtherClue, a prototype tool for investigating Ethereum security incidents. Our results illustrate that coarse-grained IoCs defined over blocks of transactions can detect exploit transactions with less computation; however, they are contract-specific and suffer from false negatives. On the other hand, fine-grained IoCs defined over virtual machine instructions can avoid these pitfalls at the expense of increased computation which are nevertheless applicable for practical use.},
+	urldate = {2021-09-20},
+	journal = {Blockchain: Research and Applications},
+	author = {Aquilina, Simon Joseph and Casino, Fran and Vella, Mark and Ellul, Joshua and Patsakis, Constantinos},
+	month = aug,
+	year = {2021},
+	note = {arXiv: 2104.05293},
+	pages = {100028}
+}
+
+@techreport{liang2021epsilondelta-indistinguishable,
+	title = {($\epsilon$,$\delta$$\epsilon$,$\delta${\textbackslash}epsilon,{\textbackslash}delta)-indistinguishable {Mixing} for {Cryptocurrencies}},
+	url = {https://eprint.iacr.org/2021/1197},
+	abstract = {We propose a new theoretical approach for building anonymous mixing mechanisms for cryptocurrencies. Rather than requiring a fully uniform permutation during mixing, we relax the requirement, insisting only that neighboring permutations are similarly likely. This is defined formally by borrowing from the definition of differential privacy. This relaxed privacy definition allows us to greatly reduce the amount of interaction and computation in the mixing protocol. Our construction achievescomputation time for mixingaddresses, whereas all other mixing schemes requiretotal computation across all parties. Additionally, we support a smooth tolerance of fail-stop adversaries and do not require any trusted setup. We analyze the security of our generic protocol under the UC framework, and under a stand-alone, game-based definition. We finally describe an instantiation using ring signatures and confidential transactions.},
+	number = {1197},
+	urldate = {2021-09-20},
+	author = {Liang, Mingyu and Karantaidou, Ioanna and Baldimtsi, Foteini and Gordon, Dov and Varia, Mayank},
+	year = {2021}
+}
+
+@article{wang2021designing,
+	title = {Designing a {Combinatorial} {Financial} {Options} {Market}},
+	url = {http://arxiv.org/abs/2109.06443},
+	abstract = {Financial options are contracts that specify the right to buy or sell an underlying asset at a strike price by an expiration date. Standard exchanges offer options of predetermined strike values and trade options of different strikes independently, even for those written on the same underlying asset. Such independent market design can introduce arbitrage opportunities and lead to the thin market problem. The paper first proposes a mechanism that consolidates and matches orders on standard options related to the same underlying asset, while providing agents the flexibility to specify any custom strike value. The mechanism generalizes the classic double auction, runs in time polynomial to the number of orders, and poses no risk to the exchange, regardless of the value of the underlying asset at expiration. Empirical analysis on real-market options data shows that the mechanism can find new matches for options of different strike prices and reduce bid-ask spreads. Extending standard options written on a single asset, we propose and define a new derivative instrument -- combinatorial financial options that offer contract holders the right to buy or sell any linear combination of multiple underlying assets. We generalize our single-asset mechanism to match options written on different combinations of assets, and prove that optimal clearing of combinatorial financial options is coNP-hard. To facilitate market operations, we propose an algorithm that finds the exact optimal match through iterative constraint generation, and evaluate its performance on synthetically generated combinatorial options markets of different scales. As option prices reveal the market's collective belief of an underlying asset's future value, a combinatorial options market enables the expression of aggregate belief about future correlations among assets.},
+	urldate = {2021-09-15},
+	journal = {arXiv:2109.06443 [cs]},
+	author = {Wang, Xintong and Pennock, David M. and Devanur, Nikhil R. and Rothschild, David M. and Tao, Biaoshuai and Wellman, Michael P.},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.06443}
+}
+
+@techreport{aumayr2020generalized,
+	title = {Generalized {Channels} from {Limited} {Blockchain} {Scripts} and {Adaptor} {Signatures}},
+	url = {https://eprint.iacr.org/2020/476},
+	abstract = {Decentralized and permissionless ledgers offer an inherently low transaction rate, as a result of their consensus protocol demanding the storage of each transaction on-chain. A prominent proposal to tackle this scalability issue is to utilize off-chain protocols, where parties only need to post a limited number of transactions on-chain. Existing solutions can roughly be categorized into: (i) application-specific channels (e.g., payment channels), offering strictly weaker functionality than the underlying blockchain; and (ii) state channels, supporting arbitrary smart contracts at the cost of being compatible only with the few blockchains having Turing-complete scripting languages (e.g., Ethereum). In this work, we introduce and formalize the notion of generalized channels allowing users to perform any operation supported by the underlying blockchain in an off-chain manner. Generalized channels thus extend the functionality of payment channels and relax the definition of state channels. We present a concrete construction compatible with any blockchain supporting transaction authorization, time-locks and constant number of Booleanandoperations -- requirements fulfilled by many (non-Turing-complete) blockchains including the popular Bitcoin. To this end, we leverage adaptor signatures -- a cryptographic primitive already used in the cryptocurrency literature but formalized as a standalone primitive in this work for the first time. We formally prove the security of our generalized channel construction in the Universal Composability framework. As an important practical contribution, our generalized channel construction outperforms the state-of-the-art payment channel construction, the Lightning Network, in efficiency. Concretely, it halves the off-chain communication complexity and reduces the on-chain footprint in case of disputes from linear to constant in the number of off-chain applications funded by the channel. Finally, we evaluate the practicality of our construction via a prototype implementation and discuss various applications including financially secured fair two-party computation.},
+	number = {476},
+	urldate = {2021-09-14},
+	author = {Aumayr, Lukas and Ersoy, Oguzhan and Erwig, Andreas and Faust, Sebastian and Hostakova, Kristina and Maffei, Matteo and Moreno-Sanchez, Pedro and Riahi, Siavash},
+	year = {2020}
+}
+
+@techreport{babel2021clockwork,
+	title = {Clockwork {Finance}: {Automated} {Analysis} of {Economic} {Security} in {Smart} {Contracts}},
+	shorttitle = {Clockwork {Finance}},
+	url = {https://eprint.iacr.org/2021/1147},
+	abstract = {We introduce the Clockwork Finance Framework (CFF), a general purpose, formal verification framework for mechanized reasoning about the economic security properties of composed decentralized-finance (DeFi) smart contracts.
+
+CFF features three key properties. It is contract complete, meaning that it can model any smart contract platform and all its contracts---Turing complete or otherwise. It does so with asymptotically optimal model size. It is also attack-exhaustive by construction, meaning that it can automatically and mechanically extract all possible economic attacks on users' cryptocurrency across modeled contracts. Thanks to these properties, CFF can support multiple goals: economic security analysis of contracts by developers, analysis of DeFi trading risks by users, and optimization of arbitrage opportunities by bots or miners. Because CFF offers composability, it can support these goals with reasoning over any desired set of potentially interacting smart contract models.
+
+We instantiate CFF as an executable model for Ethereum contracts that incorporates a state-of-the-art deductive verifier. Building on previous work, we introduce extractable value (EV), a new formal notion of economic security in composed DeFi contracts that is both a basis for CFF analyses and of general interest.
+
+We construct modular, human-readable, composable CFF models of four popular, deployed DeFi protocols in Ethereum: Uniswap, Uniswap V2, Sushiswap, and MakerDAO, representing a combined 17 billion USD in value as of August 2021. We uses these models to show experimentally that CFF is practical and can drive useful, data-based EV-based insights from real world transaction activity. Without any explicitly programmed attack strategies, CFF uncovers on average an expected \$56 million of EV per month in the recent past.},
+	number = {1147},
+	urldate = {2021-09-14},
+	author = {Babel, Kushal and Daian, Philip and Kelkar, Mahimna and Juels, Ari},
+	year = {2021}
+}
+
+@article{zhao2020fork-resilient,
+	title = {Fork-{Resilient} {Cross}-{Blockchain} {Transactions} through {Algebraic} {Topology}},
+	url = {http://arxiv.org/abs/2004.08473},
+	abstract = {The cross-blockchain transaction (CBT) serves as a cornerstone for the next-generation, blockchain-based data management systems. However, state-of-the-art CBT models do not address the effect of the possible local fork suspension that might invalidate the entire CBT. This paper takes an algebraic-topological approach to abstract the blockchains and their transactions into simplicial complexes and shows that CBTs cannot complete in either a {\textbackslash}textit\{committed\} or an {\textbackslash}textit\{aborted\} status by a \$t\$-resilient message-passing protocol. This result implies that a more sophisticated model is in need to support CBTs and, thus, sheds light on the future blockchain designs.},
+	urldate = {2021-08-24},
+	journal = {arXiv:2004.08473 [cs]},
+	author = {Zhao, Dongfang},
+	month = may,
+	year = {2020},
+	note = {arXiv: 2004.08473}
+}
+
+@techreport{rohrer2021kadcast-ng,
+	title = {Kadcast-{NG}: {A} {Structured} {Broadcast} {Protocol} for {Blockchain} {Networks}},
+	shorttitle = {Kadcast-{NG}},
+	url = {https://eprint.iacr.org/2021/996},
+	abstract = {In order to propagate transactions and blocks, today{\textquoteright}s blockchain systems rely on unstructured peer-to-peer overlay networks. In such networks, broadcast is known to be an inefficient operation in terms of message complexity and overhead. In addition to the impact on the system performance, inefficient or delayed block propagation may have severe consequences regarding security and fairness of the consensus layer. In contrast, the Kadcast protocol is a structured peer-to-peer protocol for block and transaction propagation in blockchain networks. Kadcast utilizes the well-known overlay topology of Kademlia to realize an efficient broadcast operation with tunable overhead. We study the security and privacy of the Kadcast protocol based on probabilistic models and analyze its resilience to packet losses and node failures. Moreover, we evaluate Kadcast{\textquoteright}s block delivery performance, broadcast reliability, efficiency, and security based on advanced network simulations. Lastly, we introduce a QUIC-based prototype implementation of the Kadcast protocol and show its merits through deployment in a large-scale cloud-based testbed.},
+	number = {996},
+	urldate = {2021-08-24},
+	author = {Rohrer, Elias and Tschorsch, Florian},
+	year = {2021}
+}
+
+@techreport{kelkar2021themis,
+	title = {Themis: {Fast}, {Strong} {Order}-{Fairness} in {Byzantine} {Consensus}},
+	shorttitle = {Themis},
+	url = {https://eprint.iacr.org/2021/1465},
+	abstract = {We introduce Themis, a scheme for introducing fair ordering of transactions into (permissioned) Byzantine consensus protocols with at mostfaulty nodes among. Themis is the first such scheme to achieve (optimistic) linear communication complexity. At the same time, it enforces the strongest notion of fair ordering proposed to date. Themis also achieves standard liveness, rather than the weaker notion of previous work.
+
+We show experimentally that Themis can be integrated into state-of-the-art consensus protocols with minimal modification or performance overhead. Additionally, we introduce a suite of experiments of general interest for evaluating the practical strength of various notions of fair ordering and the resilience of fair-ordering protocols to adversarial manipulation. We use this suite of experiments to show that the notion of fair ordering enforced by Themis is significantly stronger in theory and for realistic workloads than those of competing systems.
+
+We believe Themis offers strong practical protection against many types of transaction-ordering attacks---such as front-running and back-running---that are currently impacting commonly used smart contract systems.},
+	number = {1465},
+	urldate = {2021-11-18},
+	author = {Kelkar, Mahimna and Deb, Soubhik and Long, Sishan and Juels, Ari and Kannan, Sreeram},
+	year = {2021}
+}
+
+@article{duvignau2021self-stabilizing,
+	title = {Self-stabilizing {Byzantine}- and {Intrusion}-tolerant {Consensus}},
+	url = {http://arxiv.org/abs/2110.08592},
+	abstract = {One of the most celebrated problems of fault-tolerant distributed computing is the consensus problem. It was shown to abstract a myriad of problems in which processes have to agree on a single value. Consensus applications include fundamental services for the environments of the Cloud or Blockchain. In such challenging environments, malicious behavior is often modeled as adversarial Byzantine faults. At OPODIS 2010, Most{\textbackslash}'efaoui and Raynal, in short, MR, presented a Byzantine- and intrusion-tolerant solution to consensus in which the decided value cannot be a value proposed only by Byzantine processes. In addition to this validity property, MR has optimal resilience since it can deal with up to \$t {\textless} n/3\$ Byzantine processes, where \$n\$ is the number of processes. We note that MR provides this multivalued consensus object (which accepts proposals taken from a set with a finite number of values) assuming the availability of a single Binary consensus object (which accepts proposals taken from the set \{0,1\}). This work, which focuses on multivalued consensus, aims at the design of an even more robust solution than MR. Our proposal expands MR's fault-model with self-stabilization, a vigorous notion of fault-tolerance. In addition to tolerating Byzantine and communication failures, self-stabilizing systems can automatically recover after the occurrence of {\textbackslash}emph\{arbitrary transient-faults\}. These faults represent any violation of the assumptions according to which the system was designed to operate (provided that the algorithm code remains intact). We propose, to the best of our knowledge, the first self-stabilizing solution for intrusion-tolerant multivalued consensus for asynchronous message-passing systems prone to Byzantine failures.},
+	urldate = {2021-11-17},
+	journal = {arXiv:2110.08592 [cs]},
+	author = {Duvignau, Romaric and Raynal, Michel and Schiller, Elad Michael},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.08592}
+}
+
+@article{benhaim2021scaling,
+	title = {Scaling {Blockchains}: {Can} {Elected} {Committees} {Help}?},
+	shorttitle = {Scaling {Blockchains}},
+	url = {http://arxiv.org/abs/2110.08673},
+	abstract = {In the high-stakes race to develop more scalable blockchains, some platforms (Cosmos, EOS, TRON, etc.) have adopted committee-based consensus protocols, whereby the blockchain's record-keeping rights are entrusted to a committee of elected block producers. In theory, the smaller the committee, the faster the blockchain can reach consensus and the more it can scale. What's less clear, is whether this mechanism ensures that honest committees can be consistently elected, given voters typically have limited information. Using EOS' Delegated Proof of Stake (DPoS) protocol as a backdrop, we show that identifying the optimal voting strategy is complex and practically out of reach. We empirically characterize some simpler (suboptimal) voting strategies that token holders resort to in practice and show that these nonetheless converge to optimality, exponentially quickly. This yields efficiency gains over other PoS protocols that rely on randomized block producer selection. Our results suggest that (elected) committee-based consensus, as implemented in DPoS, can be robust and efficient, despite its complexity.},
+	urldate = {2021-11-17},
+	journal = {arXiv:2110.08673 [cs, econ, math, q-fin]},
+	author = {Benhaim, Alon and Falk, Brett Hemenway and Tsoukalas, Gerry},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.08673}
+}
+
+@article{mou2021empirical,
+	title = {An {Empirical} {Study} of {Protocols} in {Smart} {Contracts}},
+	url = {http://arxiv.org/abs/2110.08983},
+	abstract = {Smart contracts are programs that are executed on a blockhain. They have been used for applications in voting, decentralized finance, and supply chain management. However, vulnerabilities in smart contracts have been abused by hackers, leading to financial losses. Understanding state machine protocols in smart contracts has been identified as important to catching common bugs, improving documentation, and optimizing smart contracts. We analyze Solidity smart contracts deployed on the Ethereum blockchain and study the prevalence of protocols and protocol-based bugs, as well as opportunities for gas optimizations.},
+	urldate = {2021-11-17},
+	journal = {arXiv:2110.08983 [cs]},
+	author = {Mou, Timothy and Coblenz, Michael and Aldrich, Jonathan},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.08983}
+}
+
+@article{dill2021fast,
+	title = {Fast and {Reliable} {Formal} {Verification} of {Smart} {Contracts} with the {Move} {Prover}},
+	url = {http://arxiv.org/abs/2110.08362},
+	abstract = {The Move Prover (MVP) is a formal verifier for smart contracts written in the Move programming language. MVP has an expressive specification language, and is fast and reliable enough that it can be run routinely by developers and in integration testing in a few minutes. Besides the simplicity of smart contracts and the Move language, three transformations are responsible for the practicality of MVP: (1) an alias-free memory model, (2) fine-grained invariant checking, and (3) monomorphization. The entirety of the Move code for the Diem blockchain has been extensively specified and can be completely verified by MVP in a few minutes. Changes in the Diem framework must be successfully verified before being integrated into the open source repository on GitHub.},
+	urldate = {2021-11-08},
+	journal = {arXiv:2110.08362 [cs]},
+	author = {Dill, David and Grieskamp, Wolfgang and Park, Junkil and Qadeer, Shaz and Xu, Meng and Zhong, Emma},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.08362}
+}
+
+@article{engel2021presentation,
+	title = {Presentation and {Publication}: {Loss} and {Slippage} in {Networks} of {Automated} {Market} {Makers}},
+	shorttitle = {Presentation and {Publication}},
+	url = {http://arxiv.org/abs/2110.09872},
+	abstract = {Automated market makers (AMMs) are smart contracts that automatically trade electronic assets according to a mathematical formula. This paper investigates how an AMM's formula affects the interests of liquidity providers, who endow the AMM with assets, and traders, who exchange one asset for another at the AMM's rates. *Linear slippage* measures how a trade's size affects the trader's return, *angular slippage* measures how a trade's size affects the subsequent market price, *divergence loss* measures the opportunity cost of providers' investments, and *load* balances the costs to traders and providers. We give formal definitions for these costs, show that they obey certain conservation laws: these costs can be shifted around but never fully eliminated. We analyze how these costs behave under *composition*, when simple individual AMMs are linked to form more complex networks of AMMs.},
+	urldate = {2021-11-08},
+	journal = {arXiv:2110.09872 [cs]},
+	author = {Engel, Daniel and Herlihy, Maurice},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.09872}
+}
+
+@article{casale-brunet2021networks,
+	title = {Networks of {Ethereum} {Non}-{Fungible} {Tokens}: {A} graph-based analysis of the {ERC}-721 ecosystem},
+	shorttitle = {Networks of {Ethereum} {Non}-{Fungible} {Tokens}},
+	url = {http://arxiv.org/abs/2110.12545},
+	abstract = {Non-fungible tokens (NFTs) as a decentralized proof of ownership represent one of the main reasons why Ethereum is a disruptive technology. This paper presents the first systematic study of the interactions occurring in a number of NFT ecosystems. We illustrate how to retrieve transaction data available on the blockchain and structure it as a graph-based model. Thanks to this methodology, we are able to study for the first time the topological structure of NFT networks and show that their properties (degree distribution and others) are similar to those of interaction graphs in social networks. Time-dependent analysis metrics, useful to characterize market influencers and interactions between different wallets, are also introduced. Based on those, we identify across a number of NFT networks the widespread presence of both investors accumulating NFTs and individuals who make large profits.},
+	urldate = {2021-11-08},
+	journal = {arXiv:2110.12545 [cs]},
+	author = {Casale-Brunet, S. and Ribeca, P. and Doyle, P. and Mattavelli, M.},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.12545}
+}
+
+@article{chung2021foundations,
+	title = {Foundations of {Transaction} {Fee} {Mechanism} {Design}},
+	url = {http://arxiv.org/abs/2111.03151},
+	abstract = {In blockchains such as Bitcoin and Ethereum, users compete in a transaction fee auction to get their transactions confirmed in the next block. A line of recent works set forth the desiderata for a "dream" transaction fee mechanism (TFM), and explored whether such a mechanism existed. A dream TFM should satisfy 1) user incentive compatibility (UIC), i.e., truthful bidding should be a user's dominant strategy; 2) miner incentive compatibility (MIC), i.e., the miner's dominant strategy is to faithfully implement the prescribed mechanism; and 3) miner-user side contract proofness (SCP), i.e., no coalition of the miner and one or more user(s) can increase their joint utility by deviating from the honest behavior. The weakest form of SCP is called 1-SCP, where we only aim to provide resilience against the collusion of the miner and a single user. Sadly, despite the various attempts, to the best of knowledge, no existing mechanism can satisfy all three properties in all situations. Since the TFM departs from classical mechanism design in modeling and assumptions, to date, our understanding of the design space is relatively little. In this paper, we further unravel the mathematical structure of transaction fee mechanism design by proving the following results: - Can we have a dream TFM? - Rethinking the incentive compatibility notions. - Do the new design elements make a difference?},
+	urldate = {2021-11-08},
+	journal = {arXiv:2111.03151 [cs, econ]},
+	author = {Chung, Hao and Shi, Elaine},
+	month = nov,
+	year = {2021},
+	note = {arXiv: 2111.03151}
+}
+
+@techreport{wust2021platypus,
+	title = {Platypus: {A} {Central} {Bank} {Digital} {Currency} with {Unlinkable} {Transactions} and {Privacy} {Preserving} {Regulation}},
+	shorttitle = {Platypus},
+	url = {https://eprint.iacr.org/2021/1443},
+	abstract = {Due to the popularity of blockchain-based cryptocurrencies, the increasing digitalization of payments, and the constantly reducing role of cash in society, central banks have shown an increased interest in deploying central bank digital currencies (CBDCs) that could serve as a replacement of cash. While most recent research on CBDCs focuses on blockchain technology, it is not clear that this choice of technology provides the optimal solution. In particular, the centralized trust model of a CBDC offers opportunities for different designs. In this paper, we depart from blockchain designs and instead build on ideas from traditional e-cash schemes. We propose a new style of building digital currencies that combines the transaction processing model of e-cash with the account model of managing funds that is commonly used in blockchain solutions. We argue that such a style of building digital currencies is especially well-suited to CBDCs. We also design the first such digital currency system, called Platypus, that provides strong privacy, massive scalability, and expressive but simple regulation, which are all critical features for a CBDC. Platypus achieves these properties by adapting techniques similar to those used in anonymous blockchain cryptocurrencies like Zcash and applying them to the e-cash context.},
+	number = {1443},
+	urldate = {2021-11-05},
+	author = {W{\"u}st, Karl and Kostiainen, Kari and Capkun, Srdjan},
+	year = {2021}
+}
+
+@article{cohen2021byzantine,
+	title = {Byzantine {Agreement} with {Less} {Communication}: {Recent} {Advances}},
+	shorttitle = {Byzantine {Agreement} with {Less} {Communication}},
+	url = {http://arxiv.org/abs/2111.02162},
+	abstract = {In recent years, Byzantine Agreement is being considered in increasing scales due to the proliferation of blockchains and other decentralized financial technologies. Consequently, a number of works have improved its communication complexity in various network models. In this short paper we survey recent advances and outline some open research questions on the subject.},
+	urldate = {2021-11-05},
+	journal = {arXiv:2111.02162 [cs]},
+	author = {Cohen, Shir and Keidar, Idit and Naor, Oded},
+	month = nov,
+	year = {2021},
+	note = {arXiv: 2111.02162}
+}
+
+@article{messias2021selfish,
+	title = {Selfish \& {Opaque} {Transaction} {Ordering} in the {Bitcoin} {Blockchain}: {The} {Case} for {Chain} {Neutrality}},
+	shorttitle = {Selfish \& {Opaque} {Transaction} {Ordering} in the {Bitcoin} {Blockchain}},
+	url = {http://arxiv.org/abs/2110.11740},
+	doi = {10.1145/3487552.3487823},
+	abstract = {Most public blockchain protocols, including the popular Bitcoin and Ethereum blockchains, do not formally specify the order in which miners should select transactions from the pool of pending (or uncommitted) transactions for inclusion in the blockchain. Over the years, informal conventions or "norms" for transaction ordering have, however, emerged via the use of shared software by miners, e.g., the GetBlockTemplate (GBT) mining protocol in Bitcoin Core. Today, a widely held view is that Bitcoin miners prioritize transactions based on their offered "transaction fee-per-byte." Bitcoin users are, consequently, encouraged to increase the fees to accelerate the commitment of their transactions, particularly during periods of congestion. In this paper, we audit the Bitcoin blockchain and present statistically significant evidence of mining pools deviating from the norms to accelerate the commitment of transactions for which they have (i) a selfish or vested interest, or (ii) received dark-fee payments via opaque (non-public) side-channels. As blockchains are increasingly being used as a record-keeping substrate for a variety of decentralized (financial technology) systems, our findings call for an urgent discussion on defining neutrality norms that miners must adhere to when ordering transactions in the chains. Finally, we make our data sets and scripts publicly available.},
+	urldate = {2021-11-05},
+	journal = {Proceedings of the 21st ACM Internet Measurement Conference},
+	author = {Messias, Johnnatan and Alzayat, Mohamed and Chandrasekaran, Balakrishnan and Gummadi, Krishna P. and Loiseau, Patrick and Mislove, Alan},
+	month = nov,
+	year = {2021},
+	note = {arXiv: 2110.11740},
+	pages = {320--335}
+}
+
+@article{liu2021defining,
+	title = {Defining {Blockchain} {Governance} {Principles}: {A} {Comprehensive} {Framework}},
+	shorttitle = {Defining {Blockchain} {Governance} {Principles}},
+	url = {http://arxiv.org/abs/2110.13374},
+	abstract = {Blockchain eliminates the need for trusted third party intermediaries in business by enabling decentralised architecture in software applications. However, vulnerabilities in on-chain autonomous decision-making and cumbersome off-chain coordination have led to serious concerns about blockchain's ability to behave and make decisions in a trustworthy and efficient way. Blockchain governance has received considerable attention to support the decision-making process during the use and evolution of blockchain. Nevertheless, conventional governance frameworks are not applicable to blockchain due to its inherent distributed architecture and decentralised decision process, which leads to the absence of clear source of authority. Currently, there is a lack of systematic guidance on how blockchain governance can be implemented. Therefore, in this paper, we present a comprehensive blockchain governance framework that elucidates an integrated view of the degree of decentralisation, decision rights, incentives, accountability, ecosystem, and legal and ethical responsibilities. The proposed framework is evaluated using four well-known blockchain platforms in terms of feasibility, applicability, and usability.},
+	urldate = {2021-11-05},
+	journal = {arXiv:2110.13374 [cs]},
+	author = {Liu, Yue and Lu, Qinghua and Paik, Hye-Young and Zhu, Liming},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.13374}
+}
+
+@article{zarick2021layerzero,
+	title = {{LayerZero}: {Trustless} {Omnichain} {Interoperability} {Protocol}},
+	shorttitle = {{LayerZero}},
+	url = {http://arxiv.org/abs/2110.13871},
+	abstract = {The proliferation of blockchains has given developers a variety of platforms on which to run their smart contracts based on application features and requirements for throughput, security, and cost. However, a consequence of this freedom is severe fragmentation; Each chain is isolated, forcing users to silo their liquidity and limiting options to move liquidity and state between walled ecosystems. This paper presents LayerZero, the first trustless omnichain interoperability protocol, which provides a powerful, low level communication primitive upon which a diverse set of cross-chain applications can be built. Using this new primitive, developers can implement seamless inter-chain applications like a cross-chain DEX or multi-chain yield aggregator without having to rely on a trusted custodian or intermediate transactions. Simply put, LayerZero is the first system to trustlessly enable direct transactions across all chains. Allowing transactions to flow freely between chains provides opportunities for users to consolidate fragmented pockets of liquidity while also making full use of applications on separate chains. With LayerZero, we provide the network fabric underlying the fully-connected omnichain ecosystem of the future.},
+	urldate = {2021-11-05},
+	journal = {arXiv:2110.13871 [cs]},
+	author = {Zarick, Ryan and Pellegrino, Bryan and Banister, Caleb},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.13871}
+}
+
+@article{zhang2021chaos,
+	title = {Chaos {Engineering} of {Ethereum} {Blockchain} {Clients}},
+	url = {http://arxiv.org/abs/2111.00221},
+	abstract = {The Ethereum blockchain is the operational backbone of major decentralized finance platforms. As such, it is expected to be exceptionally reliable. In this paper, we present ChaosETH, a chaos engineering tool for resilience assessment of Ethereum clients. ChaosETH operates in the following manner: First, it monitors Ethereum clients to determine their normal behavior. Then, it injects system call invocation errors into the Ethereum clients and observes the resulting behavior under perturbation. Finally, ChaosETH compares the behavior recorded before, during, and after perturbation to assess the impact of the injected system call invocation errors. The experiments are performed on the two most popular Ethereum client implementations: GoEthereum and OpenEthereum. We experiment with 22 different types of system call invocation errors. We assess their impact on the Ethereum clients with respect to 15 application-level metrics. Our results reveal a broad spectrum of resilience characteristics of Ethereum clients in the presence of system call invocation errors, ranging from direct crashes to full resilience. The experiments clearly demonstrate the feasibility of applying chaos engineering principles to blockchains.},
+	urldate = {2021-11-05},
+	journal = {arXiv:2111.00221 [cs]},
+	author = {Zhang, Long and Ron, Javier and Baudry, Benoit and Monperrus, Martin},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2111.00221}
+}
+
+@article{ranchal-pedrosa2021rational,
+	title = {Rational {Agreement} in the {Presence} of {Crash} {Faults}},
+	url = {http://arxiv.org/abs/2111.01425},
+	abstract = {Blockchain systems need to solve consensus despite the presence of rational users and failures. The notion of \$(k,t)\$-robustness has shown instrumental to list problems that cannot be solved if \$k\$ players are rational and \$t\$ players are Byzantine or act arbitrarily. What is less clear is whether one can solve such problems if the faults are benign. In this paper, we bridge the gap between games that are robust against Byzantine players and games that are robust against crash players. Our first result is an impossibility result: We show that no \$(k,t)\$-robust consensus protocol can solve consensus in the crash model if \$k+2t{\textbackslash}geq n\$ unless there is a particular punishment strategy, called the \$(k,t)\$-baiting strategy. This reveals the need to introduce baiting as the act of rewarding a colluding node when betraying its coalition, to make blockchains more secure. Our second result is an equivalence relation between crash fault tolerant games and Byzantine fault tolerant games, which raises an interesting research question on the power of baiting to solve consensus. To this end, we show, on the one hand, that a \$(k,t)\$-robust consensus protocol becomes \$(k+t,t)\$-robust in the crash model. We show, on the other hand, that the existence of a \$(k,t)\$-robust consensus protocol in the crash model that does not make use of a baiting strategy implies the existence of a \$(k-t,t)\$-robust consensus protocol in the Byzantine model, with the help of cryptography.},
+	urldate = {2021-11-05},
+	journal = {arXiv:2111.01425 [cs]},
+	author = {Ranchal-Pedrosa, Alejandro and Gramoli, Vincent},
+	month = nov,
+	year = {2021},
+	note = {arXiv: 2111.01425}
+}
+
+@article{motaqy2021bet,
+	title = {Bet and {Attack}: {Incentive} {Compatible} {Collaborative} {Attacks} {Using} {Smart} {Contracts}},
+	shorttitle = {Bet and {Attack}},
+	url = {http://arxiv.org/abs/2010.12280},
+	abstract = {Smart contract-enabled blockchains allow building decentralized applications in which mutually-distrusted parties can work together. Recently, oracle services emerged to provide these applications with real-world data feeds. Unfortunately, these capabilities have been used for malicious purposes under what is called criminal smart contracts. A few works explored this dark side and showed a variety of such attacks. However, none of them considered collaborative attacks against targets that reside outside the blockchain ecosystem. In this paper, we bridge this gap and introduce a smart contract-based framework that allows a sponsor to orchestrate a collaborative attack among (pseudo)anonymous attackers and reward them for that. While all previous works required a technique to quantify an attacker's individual contribution, which could be infeasible with respect to real-world targets, our framework avoids that. This is done by developing a novel scheme for trustless collaboration through betting. That is, attackers bet on an event (i.e., the attack takes place) and then work on making that event happen (i.e., perform the attack). By taking DDoS as a usecase, we formulate attackers' interaction as a game, and formally prove that these attackers will collaborate in proportion to the amount of their bets in the game's unique equilibrium. We also model our framework and its reward function as an incentive mechanism and prove that it is a strategy proof and budget-balanced one. Finally, we conduct numerical simulations to demonstrate the equilibrium behavior of our framework.},
+	urldate = {2021-11-05},
+	journal = {arXiv:2010.12280 [cs]},
+	author = {Motaqy, Z. and Almashaqbeh, G. and Bahrak, B. and Yazdani, N.},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2010.12280}
+}
+
+@article{bartoletti2021cryptocurrency,
+	title = {Cryptocurrency scams: analysis and perspectives},
+	issn = {2169-3536},
+	shorttitle = {Cryptocurrency scams},
+	doi = {10.1109/ACCESS.2021.3123894},
+	abstract = {Since the inception of Bitcoin in 2009, the market of cryptocurrencies has grown beyond the initial expectations, as witnessed by the thousands of tokenised assets available on the market, whose daily trades amount to dozens of USD billions. The pseudonymity features of these cryptocurrencies have attracted the attention of cybercriminals, who exploit them to carry out potentially untraceable scams. The wide range of cryptocurrency-based scams observed over the last ten years has fostered the research on the analysis of their effects, and the development of techniques to counter them. However, doing research in this field requires addressing several challenges: for instance, although a few data sources about cryptocurrency scams are publicly available, they often contain incomplete or misclassified data. Further, there is no standard taxonomy of scams, which leads to ambiguous and incoherent interpretations of their nature. Indeed, the unavailability of reliable datasets makes it difficult to train effective automatic classifiers that can detect and analyse cryptocurrency scams. In this paper, we perform an extensive review of the scientific literature on cryptocurrency scams, which we systematise according to a novel taxonomy. By collecting and homogenising data from different public sources, we build a uniform dataset of thousands of cryptocurrency scams.We devise an automatic tool that recognises scams and classifies them according to our taxonomy.We assess the effectiveness of our tool through standard performance metrics.We also give an in-depth analysis of the classification results, offering several insights into threat types, from their features to their connection with other types. Finally, we provide a set of guidelines that policymakers could follow to improve user protection against cryptocurrency scams.},
+	journal = {IEEE Access},
+	author = {Bartoletti, Massimo and Lande, Stefano and Loddo, Andrea and Pompianu, Livio and Serusi, Sergio},
+	year = {2021},
+	note = {Conference Name: IEEE Access},
+	pages = {1--1}
+}
+
+@techreport{aumayr2021sleepy,
+	title = {Sleepy {Channels}: {Bitcoin}-{Compatible} {Bi}-directional {Payment} {Channels} without {Watchtowers}},
+	shorttitle = {Sleepy {Channels}},
+	url = {https://eprint.iacr.org/2021/1445},
+	abstract = {Payment channels (PC) are a promising solution to the scalability issue of cryptocurrencies, allowing users to perform the bulk of the transactions off-chain without needing to post everything on the blockchain. Many PC proposals however, suffer from a severe limitation: Both parties need to constantly monitor the blockchain to ensure that the other party did not post an outdated transaction. If this event happens, the honest party needs to react promptly and engage in a punishment procedure. This means that prolonged absence periods (e.g., due to a power outage) may be exploited by malicious users. As a mitigation, the community has introduced watchtowers, a third-party monitoring the blockchain on behalf of off-line users. Unfortunately, watchtowers are either trusted, which is critical from a security perspective, or they have to lock a certain amount of coins, called collateral, for each monitored PC in order to be held accountable, which is financially infeasible for a large network.
+
+We present Sleepy Channels, the first bi-directional PC protocol without watchtowers (or any other third party) that supports an unbounded number of payments and does not require parties to be persistently online. The key idea is to confine the period in which PC updates can be validated on-chain to a short, pre-determined time window, which is where the PC parties have to be online. This behavior is incentivized by letting the parties lock a collateral in the PC, which can be adjusted depending on their mutual trust and which they get back much sooner if they are online during this time window. Our protocol is compatible with any blockchain that is capable of verifying digital signatures (e.g., Bitcoin), as shown by our proof of concept. Moreover, Sleepy Channels impose a communication and computation overhead similar to state-of-the-art PC protocols while removing watchtower's collateral and fees for the monitoring service.},
+	number = {1445},
+	urldate = {2021-11-03},
+	author = {Aumayr, Lukas and Thyagarajan, Sri AravindaKrishnan and Malavolta, Giulio and Monero-Sanchez, Pedro and Maffei, Matteo},
+	year = {2021}
+}
+
+@article{agarwal2021detecting,
+	title = {Detecting {Malicious} {Accounts} showing {Adversarial} {Behavior} in {Permissionless} {Blockchains}},
+	journal = {arXiv preprint arXiv:2101.11915},
+	author = {Agarwal, Rachit and Thapliyal, Tanmay and Shukla, Sandeep K.},
+	year = {2021}
+}
+
+@inproceedings{su2021evil,
+	title = {Evil {Under} the {Sun}: {Understanding} and {Discovering} {Attacks} on {Ethereum} {Decentralized} {Applications}},
+	shorttitle = {Evil {Under} the {Sun}},
+	booktitle = {30th \$\{\${USENIX}\$\}\$ {Security} {Symposium} (\$\{\${USENIX}\$\}\$ {Security} 21)},
+	author = {Su, Liya and Shen, Xinyue and Du, Xiangyu and Liao, Xiaojing and Wang, XiaoFeng and Xing, Luyi and Liu, Baoxu},
+	year = {2021}
+}
+
+@article{qin2021cefi,
+	title = {{CeFi} vs. {DeFi} -- {Comparing} {Centralized} to {Decentralized} {Finance}},
+	url = {http://arxiv.org/abs/2106.08157},
+	abstract = {To non-experts, the traditional Centralized Finance (CeFi) ecosystem may seem obscure, because users are typically not aware of the underlying rules or agreements of financial assets and products. Decentralized Finance (DeFi), however, is making its debut as an ecosystem claiming to offer transparency and control, which are partially attributable to the underlying integrity-protected blockchain, as well as currently higher financial asset yields than CeFi. Yet, the boundaries between CeFi and DeFi may not be always so clear cut. In this work, we systematically analyze the differences between CeFi and DeFi, covering legal, economic, security, privacy and market manipulation. We provide a structured methodology to differentiate between a CeFi and a DeFi service. Our findings show that certain DeFi assets (such as USDC or USDT stablecoins) do not necessarily classify as DeFi assets, and may endanger the economic security of intertwined DeFi protocols. We conclude this work with the exploration of possible synergies between CeFi and DeFi.},
+	urldate = {2021-10-27},
+	journal = {arXiv:2106.08157 [cs, q-fin]},
+	author = {Qin, Kaihua and Zhou, Liyi and Afonin, Yaroslav and Lazzaretti, Ludovico and Gervais, Arthur},
+	month = jun,
+	year = {2021},
+	note = {arXiv: 2106.08157}
+}
+
+@inproceedings{li2021clue,
+	title = {{CLUE}: towards discovering locked cryptocurrencies in ethereum},
+	shorttitle = {{CLUE}},
+	booktitle = {Proceedings of the 36th {Annual} {ACM} {Symposium} on {Applied} {Computing}},
+	author = {Li, Xiaoqi and Chen, Ting and Luo, Xiapu and Wang, Chenxu},
+	year = {2021},
+	pages = {1584--1587}
+}
+
+@inproceedings{ibba2021evaluating,
+	title = {Evaluating {Machine}-{Learning} {Techniques} for {Detecting} {Smart} {Ponzi} {Schemes}},
+	booktitle = {2021 {IEEE}/{ACM} 4th {International} {Workshop} on {Emerging} {Trends} in {Software} {Engineering} for {Blockchain} ({WETSEB})},
+	publisher = {IEEE},
+	author = {Ibba, Giacomo and Pierro, Giuseppe Antonio and Di Francesco, Marco},
+	year = {2021},
+	pages = {34--40}
+}
+
+@article{agarwal2021vulnerability,
+	title = {Vulnerability and {Transaction} behavior based detection of {Malicious} {Smart} {Contracts}},
+	journal = {arXiv preprint arXiv:2106.13422},
+	author = {Agarwal, Rachit and Thapliyal, Tanmay and Shukla, Sandeep Kumar},
+	year = {2021}
+}
+
+@inproceedings{ivanov2021targeting,
+	title = {Targeting the {Weakest} {Link}: {Social} {Engineering} {Attacks} in {Ethereum} {Smart} {Contracts}},
+	shorttitle = {Targeting the {Weakest} {Link}},
+	booktitle = {Proceedings of the 2021 {ACM} {Asia} {Conference} on {Computer} and {Communications} {Security}},
+	author = {Ivanov, Nikolay and Lou, Jianzhi and Chen, Ting and Li, Jin and Yan, Qiben},
+	year = {2021},
+	pages = {787--801}
+}
+
+@article{kell2021forsage,
+	title = {Forsage: {Anatomy} of a {Smart}-{Contract} {Pyramid} {Scheme}},
+	shorttitle = {Forsage},
+	url = {http://arxiv.org/abs/2105.04380},
+	abstract = {Pyramid schemes are investment scams in which top-level participants in a hierarchical network recruit and profit from an expanding base of defrauded newer participants. Pyramid schemes have existed for over a century, but there have been no in-depth studies of their dynamics and communities because of the opacity of participants' transactions. In this paper, we present an empirical study of Forsage, a pyramid scheme implemented as a smart contract and at its peak one of the largest consumers of resources in Ethereum. As a smart contract, Forsage makes its (byte)code and all of its transactions visible on the blockchain. We take advantage of this unprecedented transparency to gain insight into the mechanics, impact on participants, and evolution of Forsage. We quantify the (multi-million-dollar) gains of top-level participants as well as the losses of the vast majority (around 88\%) of users. We analyze Forsage code both manually and using a purpose-built transaction simulator to uncover the complex mechanics of the scheme. Through complementary study of promotional videos and social media, we show how Forsage promoters have leveraged the unique features of smart contracts to lure users with false claims of trustworthiness and profitability, and how Forsage activity is concentrated within a small number of national communities.},
+	urldate = {2021-10-27},
+	journal = {arXiv:2105.04380 [cs]},
+	author = {Kell, Tyler and Yousaf, Haaroon and Allen, Sarah and Meiklejohn, Sarah and Juels, Ari},
+	month = aug,
+	year = {2021},
+	note = {arXiv: 2105.04380}
+}
+
+@article{hu2021scsguard,
+	title = {{SCSGuard}: {Deep} {Scam} {Detection} for {Ethereum} {Smart} {Contracts}},
+	shorttitle = {{SCSGuard}},
+	url = {http://arxiv.org/abs/2105.10426},
+	abstract = {Smart contract is the building block of blockchain systems that enables automated peer-to-peer transactions and decentralized services. With the increasing popularity of smart contracts, blockchain systems, in particular Ethereum, have been the "paradise" of versatile fraud activities in which Ponzi, Honeypot and Phishing are the prominent ones. Formal verification and symbolic analysis have been employed to combat these destructive scams by analyzing the codes and function calls, yet the vulnerability of each {\textbackslash}emph\{individual\} scam should be predefined discreetly. In this work, we present SCSGuard, a novel deep learning scam detection framework that harnesses the automatically extractable bytecodes of smart contracts as their new features. We design a GRU network with attention mechanism to learn from the {\textbackslash}emph\{N-gram bytecode\} patterns, and determines whether a smart contract is fraudulent or not. Our framework is advantageous over the baseline algorithms in three aspects. Firstly, SCSGuard provides a unified solution to different scam genres, thus relieving the need of code analysis skills. Secondly, the inference of SCSGuard is faster than the code analysis by several order of magnitudes. Thirdly, experimental results manifest that SCSGuard achieves high accuracy (0.92\${\textbackslash}sim\$0.94), precision (0.94\${\textbackslash}sim\$0.96{\textbackslash}\%) and recall (0.97\${\textbackslash}sim\$0.98) for both Ponzi and Honeypot scams under similar settings, and is potentially useful to detect new Phishing smart contracts.},
+	urldate = {2021-10-27},
+	journal = {arXiv:2105.10426 [cs]},
+	author = {Hu, Huiwen and Xu, Yuedong},
+	month = may,
+	year = {2021},
+	note = {arXiv: 2105.10426}
+}
+
+@article{han2021adversarial,
+	title = {An {Adversarial} {Smart} {Contract} {Honeypot} in {Ethereum}},
+	volume = {128},
+	url = {https://www.techscience.com/CMES/v128n1/43012/pdf},
+	number = {1},
+	journal = {Computer Modeling in Engineering \& Sciences},
+	author = {Han, Yu and Ji, Tiantian and Wang, Zhongru and Liu, Hao and Jiang, Hai and Wang, Wendi and Cui, Xiang},
+	year = {2021},
+	note = {Publisher: Tech Science Press},
+	pages = {247--267}
+}
+
+@article{bartoletti2021maximizing,
+	title = {Maximizing {Extractable} {Value} from {Automated} {Market} {Makers}},
+	journal = {arXiv preprint arXiv:2106.01870},
+	author = {Bartoletti, Massimo and Chiang, James Hsin-yu and Lluch-Lafuente, Alberto},
+	year = {2021}
+}
+
+@article{stathakopoulounodateadding,
+	title = {Adding {Fairness} to {Order}: {Preventing} {Front}-{Running} {Attacks} in {BFT} {Protocols} using {TEEs}},
+	shorttitle = {Adding {Fairness} to {Order}},
+	author = {Stathakopoulou, Chrysoula and R{\"u}sch, Signe and Brandenburger, Marcus and Vukolic, Marko}
+}
+
+@inproceedings{jairam2021decentralized,
+	title = {A {Decentralized} {Fair} {Governance} {Model} for {Permissionless} {Blockchain} {Systems}},
+	abstract = {Blockchain systems are a new way to reduce or even eliminate the role of the middlemen in an ecosystem. For example, the Bit-coin, as one of the most well-known blockchain platforms, shows that it is possible to transfer money without the need of any (intermediate) bank at all. More generally, it allows for the decentralization of roles. In this paper, we focus on permissionless blockchains, which are systems that allow participation without upfront approval on other parties, as opposed to permissioned blockchains. Permissionless blockchain systems support direct business transactions between peers, so without any intermediate and centralized entity very well. However, the organization of the gover-nance of such systems is less obvious. We argue that, in order to arrive at a really decentralized ecosystem where power is fairly distributed, the governance should be decentralized; in other words, it should not be in the hand of one controlling entity. In this paper, we analyse, in a model-based way, for three well-known blockchain systems (Bitcoin, Ethereum, Tezos) the governance processes. Based on this analysis, we draft an improved governance process for permissionless blockchains.},
+	author = {Jairam, Shiva and Gordijn, Jaap and Da, Isaac and Torres, Silva and Kaya, F. and Makkes, Marc},
+	month = feb,
+	year = {2021}
+}
+
+@article{wesley2021compositional,
+	title = {Compositional {Verification} of {Smart} {Contracts} {Through} {Communication} {Abstraction} ({Extended})},
+	url = {http://arxiv.org/abs/2107.08583},
+	abstract = {Solidity smart contracts are programs that manage up to 2{\textasciicircum}160 users on a blockchain. Verifying a smart contract relative to all users is intractable due to state explosion. Existing solutions either restrict the number of users to under-approximate behaviour, or rely on manual proofs. In this paper, we present local bundles that reduce contracts with arbitrarily many users to sequential programs with a few representative users. Each representative user abstracts concrete users that are locally symmetric to each other relative to the contract and the property. Our abstraction is semi-automated. The representatives depend on communication patterns, and are computed via static analysis. A summary for the behaviour of each representative is provided manually, but a default summary is often sufficient. Once obtained, a local bundle is amenable to sequential static analysis. We show that local bundles are relatively complete for parameterized safety verification, under moderate assumptions. We implement local bundle abstraction in SmartACE, and show order-of-magnitude speedups compared to a state-of-the-art verifier.},
+	urldate = {2021-10-27},
+	journal = {arXiv:2107.08583 [cs]},
+	author = {Wesley, Scott and Christakis, Maria and Navas, Jorge A. and Trefler, Richard and W{\"u}stholz, Valentin and Gurfinkel, Arie},
+	month = aug,
+	year = {2021},
+	note = {arXiv: 2107.08583}
+}
+
+@article{schwarz-schilling2021three,
+	title = {Three {Attacks} on {Proof}-of-{Stake} {Ethereum}},
+	url = {http://arxiv.org/abs/2110.10086},
+	abstract = {Recently, two attacks were presented against Proof-of-Stake (PoS) Ethereum: one where short-range reorganizations of the underlying consensus chain are used to increase individual validators' profits and delay consensus decisions, and one where adversarial network delay is leveraged to stall consensus decisions indefinitely. We provide refined variants of these attacks, considerably relaxing the requirements on adversarial stake and network timing, and thus rendering the attacks more severe. Combining techniques from both refined attacks, we obtain a third attack which allows an adversary with vanishingly small fraction of stake and no control over network message propagation (assuming instead probabilistic message propagation) to cause even long-range consensus chain reorganizations. Honest-but-rational or ideologically motivated validators could use this attack to increase their profits or stall the protocol, threatening incentive alignment and security of PoS Ethereum. The attack can also lead to destabilization of consensus from congestion in vote processing.},
+	urldate = {2021-10-27},
+	journal = {arXiv:2110.10086 [cs]},
+	author = {Schwarz-Schilling, Caspar and Neu, Joachim and Monnot, Barnab{\'e} and Asgaonkar, Aditya and Tas, Ertem Nusret and Tse, David},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.10086}
+}
+
+@article{jalalzai2021fast-hotstuff,
+	title = {Fast-{HotStuff}: {A} {Fast} and {Resilient} {HotStuff} {Protocol}},
+	shorttitle = {Fast-{HotStuff}},
+	url = {http://arxiv.org/abs/2010.11454},
+	abstract = {The HotStuff protocol is a breakthrough in Byzantine Fault Tolerant (BFT) consensus that enjoys both responsiveness and linear view change. It creatively adds an additional round to classic BFT protocols (like PBFT) using two rounds. This brings us to an interesting question: Is this additional round really necessary in practice? In this paper, we answer this question by designing a new two-round BFT protocol called Fast-HotStuff, which enjoys responsiveness and efficient view change that is comparable to linear view change in terms of performance. Compared to (three-round) HotStuff, Fast-HotStuff has lower latency and is more robust against performance attacks that HotStuff is susceptible to.},
+	urldate = {2021-10-27},
+	journal = {arXiv:2010.11454 [cs]},
+	author = {Jalalzai, Mohammad M. and Niu, Jianyu and Feng, Chen and Gai, Fangyu},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2010.11454}
+}
+
+@article{korbel2021blockchain-based,
+	title = {Blockchain-based {Result} {Verification} for {Computation} {Offloading}},
+	url = {http://arxiv.org/abs/2110.11090},
+	abstract = {Offloading of computation, e.g., to the cloud, is today a major task in distributed systems. Usually, consumers which apply offloading have to trust that a particular functionality offered by a service provider is delivering correct results. While redundancy (i.e., offloading a task to more than one service provider) or (partial) reprocessing help to identify correct results, they also lead to significantly higher cost. Hence, within this paper, we present an approach to verify the results of offchain computations via the blockchain. For this, we apply zero-knowledge proofs to provide evidence that results are correct. Using our approach, it is possible to establish trust between a service consumer and arbitrary service providers. We evaluate our approach using a very well-known example task, i.e., the Traveling Salesman Problem.},
+	urldate = {2021-10-27},
+	journal = {arXiv:2110.11090 [cs]},
+	author = {K{\"o}rbel, Benjamin and Sigwart, Marten and Frauenthaler, Philip and Sober, Michael and Schulte, Stefan},
+	month = oct,
+	year = {2021},
+	note = {arXiv: 2110.11090}
+}
+
+@inproceedings{neiheiser2021kauri,
+	address = {New York, NY, USA},
+	series = {{SOSP} '21},
+	title = {Kauri: {Scalable} {BFT} {Consensus} with {Pipelined} {Tree}-{Based} {Dissemination} and {Aggregation}},
+	isbn = {978-1-4503-8709-5},
+	shorttitle = {Kauri},
+	url = {https://doi.org/10.1145/3477132.3483584},
+	doi = {10.1145/3477132.3483584},
+	abstract = {With the growing commercial interest in blockchains, permissioned implementations have received increasing attention. Unfortunately, the BFT consensus algorithms that are the backbone of most of these blockchains scale poorly and offer limited throughput. Many state-of-the-art algorithms require a single leader process to receive and validate votes from a quorum of processes and then broadcast the result, which is inherently non-scalable. Recent approaches avoid this bottleneck by using dissemination/aggregation trees to propagate values and collect and validate votes. However, the use of trees increases the round latency, which ultimately limits the throughput for deeper trees. In this paper we propose Kauri, a BFT communication abstraction that can sustain high throughput as the system size grows, leveraging a novel pipelining technique to perform scalable dissemination and aggregation on trees. Our evaluation shows that Kauri outperforms the throughput of state-of-the-art permissioned blockchain protocols, such as HotStuff, by up to 28x. Interestingly, in many scenarios, the parallelization provided by Kauri can also decrease the latency.},
+	urldate = {2021-10-26},
+	booktitle = {Proceedings of the {ACM} {SIGOPS} 28th {Symposium} on {Operating} {Systems} {Principles} {CD}-{ROM}},
+	publisher = {Association for Computing Machinery},
+	author = {Neiheiser, Ray and Matos, Miguel and Rodrigues, Lu{\'i}s},
+	month = oct,
+	year = {2021},
+	pages = {35--48}
+}
+
+@techreport{bicer2020fortis-1,
+	title = {{FORTIS}: {Selfish} {Mining} {Mitigation} by ({FOR})geable ({TI})me({S})tamps},
+	shorttitle = {{FORTIS}},
+	url = {https://eprint.iacr.org/2020/1290},
+	abstract = {Selfish mining (SM) attack of Eyal and Sirer (2018) endangers permissionless Proof-of-Work blockchains by allowing a rational mining pool with a hash power (a) much less than 50\% of the whole network to deviate from the honest mining algorithm and to steal from the fair shares of honest miners. Since then, the attack has been studied extensively in various settings, for understanding its interesting dynamics, optimizing it, and mitigating it. In this context, Heilman (14) ''Freshness Preferred'', we propose a timestamp based defence if timestamps are not generated by an authority. To use this proposal in a decentralized setting, we would like to remove the timestamp authority, but due to two natural and simple attacks this turns out to be a non-trivial task. These attacks are composed of Oracle mining by setting the timestamp to future and Bold mining by generating an alternative chain by starting from a previous block. Unfortunately, these attacks are hard to analyze and optimize, and the available tools, to our knowledge, fail to help us for this task. Thus, we propose generalized formulas for revenue and profitability of SM attacks to ease our job in analysis and optimization of these attacks. Our analyses show that although the use of timestamps would be promising for selfish mining mitigation, Freshness Preferred, in its current form, is quite vulnerable, as any rational miner with a{\textgreater}0 can directly benefit from our attacks. To cope with this problem, we propose an SM mitigation algorithm Fortis with forgeable timestamps (without the need for a trusted authority), which protects the honest miners' shares against any attacker with a{\textless}27.0\% against all the known SM-type attacks. By building upon the blockchain simulator BlockSim by Alharby and Moorsel (2019), we simulate our Oracle and Bold mining attacks against the Freshness Preferred and our Fortis defenses. Similar to our theoretical results, the simulation results demonstrate the effectiveness of these attacks against the former and their ineffectiveness against the latter.},
+	number = {1290},
+	urldate = {2021-10-18},
+	author = {Bi{\c c}er, Osman and K{\"u}p{\c c}{\"u}, Alptekin},
+	year = {2020}
+}
+
+@techreport{vesely2021plumo,
+	title = {Plumo: {An} {Ultralight} {Blockchain} {Client}},
+	shorttitle = {Plumo},
+	url = {https://eprint.iacr.org/2021/1361},
+	abstract = {Syncing the latest state of a blockchain can be a resource-intensive task, driving (especially mobile) end users towards centralized services offering instant access. To expand full decentralized access to anyone with a mobile phone, we introduce a consensus-agnostic compiler for constructing \{{\textbackslash}em ultralight clients\}, providing secure and highly efficient blockchain syncing via a sequence of SNARK-based state transition proofs, and prove its security formally. Instantiating this, we present Plumo, an ultralight client for the Celo blockchain capable of syncing the latest network state summary in just a few seconds even on a low-end mobile phone. In Plumo, each transition proof covers four months of blockchain history and can be produced for just \$25 USD of compute. Plumo achieves this level of efficiency thanks to two new SNARK-friendly constructions, which may also be of independent interest: a new BLS-based offline aggregate multisignature scheme in which signers do not have to know the members of their multisignature group in advance, and a new composite algebraic-symmetric cryptographic hash function.},
+	number = {1361},
+	urldate = {2021-10-18},
+	author = {Vesely, Psi and Gurkan, Kobi and Straka, Michael and Gabizon, Ariel and Jovanovic, Philipp and Konstantopoulos, Georgios and Oines, Asa and Olszewski, Marek and Tromer, {and} Eran},
+	year = {2021}
+}
+
+@techreport{fitzi2021ofelimos,
+	title = {Ofelimos: {Combinatorial} {Optimization} via {Proof}-of-{Useful}-{Work} {\textbackslash}{\textbackslash} {A} {Provably} {Secure} {Blockchain} {Protocol}},
+	shorttitle = {Ofelimos},
+	url = {https://eprint.iacr.org/2021/1379},
+	abstract = {Minimizing the energy cost and carbon footprint of the Bitcoin blockchain and related protocols is one of the most widely identified open questions in the cryptocurrency space. Substituting the proof-of-work (PoW) primitive in Nakamoto's longest chain protocol with a \{{\textbackslash}em proof of useful work\} (PoUW) has been long theorized as an ideal solution in many respects but, to this day, the concept still lacks a convincingly secure realization.
+
+In this work we put forth Ofelimos, a novel PoUW-based block{\textbackslash}-chain protocol whose consensus mechanism simultaneously realizes a decentralized optimization-problem solver. Our protocol is built around a novel local search algorithm, which we call Doubly Parallel Local Search (DPLS), that is especially crafted to suit implementation as the PoUW component of our blockchain protocol. We provide a thorough security analysis of our protocol and additionally present metrics that reflect the usefulness of the system. As an illustrative example we show how DPLS can implement a variant of WalkSAT and experimentally demonstrate its competitiveness with respect to a vanilla WalkSAT implementation. In this way, our work paves the way for safely using blockchain systems as generic optimization engines for a variety of hard optimization problems for which a publicly verifiable solution is desired.},
+	number = {1379},
+	urldate = {2021-10-18},
+	author = {Fitzi, Matthias and Kiayias, Aggelos and Panagiotakos, Giorgos and Russell, Alexander},
+	year = {2021}
+}
+
+@techreport{avarikioti2021hide,
+	title = {{HIDE} \& {SEEK}: {Privacy}-{Preserving} {Rebalancing} on {Payment} {Channel} {Networks}},
+	shorttitle = {{HIDE} \& {SEEK}},
+	url = {https://eprint.iacr.org/2021/1401},
+	abstract = {Payment channels effectively move the transaction load off-chain thereby successfully addressing the inherent scalability problem most cryptocurrencies face. A major drawback of payment channels is the need to ``top up'' funds on-chain when a channel is depleted. Rebalancing was proposed to alleviate this issue, where parties with depleting channels move their funds along a cycle to replenish their channels off-chain. Protocols for rebalancing so far either introduce local solutions or compromise privacy.
+
+In this work, we present an opt-in rebalancing protocol that is both private and globally optimal, meaning our protocol maximizes the total amount of rebalanced funds. We study rebalancing from the framework of linear programming. To obtain full privacy guarantees, we leverage multi-party computation in solving the linear program, which is executed by selected participants to maintain efficiency. Finally, we efficiently decompose the rebalancing solution into incentive-compatible cycles which conserve user balances when executed atomically.},
+	number = {1401},
+	urldate = {2021-10-18},
+	author = {Avarikioti, Zeta and Pietrzak, Krzysztof and Salem, Iosif and Schmid, Stefan and Tiwari, Samarth and Yeo, Michelle},
+	year = {2021}
+}
+
+@article{oskarsdottir2021strangely,
+	title = {Strangely mined bitcoins: {Empirical} analysis of anomalies in the bitcoin blockchain transaction network},
+	volume = {16},
+	shorttitle = {Strangely mined bitcoins},
+	url = {https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0258001/1/pone.0258001.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20211007%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20211007T104134Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=1e5cff82682baf3b6d2fa44e73e82ee93c4235edc052be64bd1110d0739605f668607e3a3ce12577da24b27b846a3a77a437c7ba5ce4ca8566933756c5b48d6aa1abd55d63b837bdf83591055df982b2f06299bf30fcc3c22220908efb9f9dc93079b7f288677f80fab131320516939b3ac0bedd380aa55be692f640054566df88599462b90db46c15cbd0f713d837cb548a917ae8cea96be1407c32607fe92cbdb4188a815ae3c00caa037076cd6da9b5403c820209ad6be2d1057c78b493e3a52c7922303ab10ec71bd51b33794e961489b5d010983a3e960092887d1de69f4696fbae7fec40c0c357fcb2cf143d2f7a32299f4afd4cff206959ce8e26feef},
+	number = {9},
+	journal = {Plos one},
+	author = {{\'O}skarsd{\'o}ttir, Mar{\'i}a and Mallett, Jacky},
+	year = {2021},
+	note = {Publisher: Public Library of Science San Francisco, CA USA},
+	pages = {e0258001}
+}
+
+@article{li2021toposhot,
+	title = {{TopoShot}: {Uncovering} {Ethereum}'s {Network} {Topology} {Leveraging} {Replacement} {Transactions}},
+	shorttitle = {{TopoShot}},
+	url = {http://arxiv.org/abs/2109.14794},
+	doi = {10.1145/3487552.3487814},
+	abstract = {Ethereum relies on a peer-to-peer overlay network to propagate information. The knowledge of Ethereum network topology holds the key to understanding Ethereum's security, availability, and user anonymity. From a measurement perspective, an Ethereum network's topology is routing-table information hidden inside individual Ethereum nodes, measuring which poses challenges and remains an open research problem in the existing literature. This paper presents TopoShot, a new method uniquely repurposing Ethereum's transaction replacement/eviction policies for topology measurement. TopoShot can be configured to support Geth, Parity, and other major Ethereum clients. As validated on local nodes, TopoShot achieves 100\% measurement precision and high recall 88\% - 97\%. To efficiently measure the large Ethereum networks in the wild, we propose a non-trivial schedule to run pair-wise measurements in parallel. To enable ethical measurement on Ethereum mainnet, we propose workload-adaptive configurations of TopoShot to minimize the service interruption to target nodes/network. We systematically measure a variety of Ethereum networks and obtain new knowledge including the full-network topology in major testnets (Ropsten, Rinkeby and Goerli) and critical sub-network topology in the mainnet. The results on testnets show interesting graph-theoretic properties, such as all testnets exhibit graph modularity significantly lower than random graphs, implying resilience to network partitions. The mainnet results show biased neighbor selection strategies adopted by critical Ethereum services such as mining pools and transaction relays, implying a degree of centralization in real Ethereum networks.},
+	urldate = {2021-10-06},
+	journal = {arXiv:2109.14794 [cs]},
+	author = {Li, Kai and Tang, Yuzhe and Chen, Jiaqi and Wang, Yibo and Liu, Xianghong},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.14794}
+}
+
+@techreport{dong2018betrayal,
+	title = {Betrayal, {Distrust}, and {Rationality}: {Smart} {Counter}-{Collusion} {Contracts} for {Verifiable} {Cloud} {Computing}},
+	shorttitle = {Betrayal, {Distrust}, and {Rationality}},
+	url = {https://eprint.iacr.org/2018/489},
+	abstract = {Cloud computing has become an irreversible trend. Together comes the pressing need for verifiability, to assure the client the correctness of computation outsourced to the cloud. Existing verifiable computation techniques all have a high overhead, thus if being deployed in the clouds, would render cloud computing more expensive than the on-premises counterpart. To achieve verifiability at a reasonable cost, we leverage game theory and propose a smart contract based solution. In a nutshell, a client lets two clouds compute the same task, and uses smart contracts to stimulate tension, betrayal and distrust between the clouds, so that rational clouds will not collude and cheat. In the absence of collusion, verification of correctness can be done easily by crosschecking the results from the two clouds. We provide a formal analysis of the games induced by the contracts, and prove that the contracts will be effective under certain reasonable assumptions. By resorting to game theory and smart contracts, we are able to avoid heavy cryptographic protocols. The client only needs to pay two clouds to compute in the clear, and a small transaction fee to use the smart contracts. We also conducted a feasibility study that involves implementing the contracts in Solidity and running them on the official Ethereum network.},
+	number = {489},
+	urldate = {2021-10-05},
+	author = {Dong, Changyu and Wang, Yilei and Aldweesh, Amjad and McCorry, Patrick and Moorsel, Aad van},
+	year = {2018}
+}
+
+@article{lewis-pye2021how,
+	title = {How {Does} {Blockchain} {Security} {Dictate} {Blockchain} {Implementation}?},
+	url = {http://arxiv.org/abs/2109.04848},
+	abstract = {Blockchain protocols come with a variety of security guarantees. For example, BFT-inspired protocols such as Algorand tend to be secure in the partially synchronous setting, while longest chain protocols like Bitcoin will normally require stronger synchronicity to be secure. Another fundamental distinction, directly relevant to scalability solutions such as sharding, is whether or not a single untrusted user is able to point to *certificates*, which provide incontrovertible proof of block confirmation. Algorand produces such certificates, while Bitcoin does not. Are these properties accidental? Or are they inherent consequences of the paradigm of protocol design? Our aim in this paper is to understand what, fundamentally, governs the nature of security for permissionless blockchain protocols. Using the framework developed in (Lewis-Pye and Roughgarden, 2021), we prove general results showing that these questions relate directly to properties of the user selection process, i.e., the method (such as proof-of-work or proof-of-stake) which is used to select users with the task of updating state. Our results suffice to establish, for example, that the production of certificates is impossible for proof-of-work protocols, but is automatic for standard forms of proof-of-stake protocols. As a byproduct of our work, we also define a number of security notions and identify the equivalences and inequivalences among them.},
+	urldate = {2021-10-05},
+	journal = {arXiv:2109.04848 [cs]},
+	author = {Lewis-Pye, Andrew and Roughgarden, Tim},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.04848}
+}
+
+@article{pasdar2021blockchain,
+	title = {Blockchain {Oracle} {Design} {Patterns}},
+	journal = {arXiv preprint arXiv:2106.09349},
+	author = {Pasdar, Amirmohammad and Dong, Zhongli and Lee, Young Choon},
+	year = {2021}
+}
+
+@article{caldarelli2021blockchain,
+	title = {The {Blockchain} {Oracle} {Problem} in {Decentralized} {Finance}{\textemdash}{A} {Multivocal} {Approach}},
+	volume = {11},
+	number = {16},
+	journal = {Applied Sciences},
+	author = {Caldarelli, Giulio and Ellul, Joshua},
+	year = {2021},
+	note = {Publisher: Multidisciplinary Digital Publishing Institute},
+	pages = {7572}
+}
+
+@article{kocaogullar2021towards,
+	title = {Towards {Private} {On}-{Chain} {Algorithmic} {Trading}},
+	url = {http://arxiv.org/abs/2109.11270},
+	abstract = {While quantitative automation related to trading crypto-assets such as ERC-20 tokens has become relatively commonplace, with services such as 3Commas and Shrimpy offering user-friendly web-driven services for even the average crypto trader, we have not yet seen the emergence of on-chain trading as a phenomenon. We hypothesize that just like decentralized exchanges (DEXes) that by now are by some measures more popular than traditional exchanges, process in the space of decentralized finance (DeFi) may enable attractive online trading automation options. In this paper we present ChainBot, an approach for creating algorithmic trading bots with the help of blockchain technology. We show how to partition the computation into on- and off-chain components in a way that provides a measure of end-to-end integrity, while preserving the algorithmic "secret sauce". Our system is enabled with a careful use of algorithm partitioning, zero-knowledge proofs and smart contracts. We also show that with layer-2 (L2) technologies, trades can be kept private, which means that algorithmic parameters are difficult to recover by a chain observer. Our approach offers more transparent access to liquidity and better censorship-resistance compared to traditional off-chain trading approaches. We develop a sample ChainBot and train it on historical data, resulting in returns that are up to 2.4x the buy-and-hold strategy, which we use as our baseline. Our measurements show that across 1000 runs, the end-to-end average execution time for our system is 48.4 seconds. We demonstrate that the frequency of trading does not significantly affect the rate of return and Sharpe ratio, which indicates that we do not have to trade at every block, thereby significantly saving in terms of gas fees. In our implementation, a user who invests {\textbackslash}\$1,000 would earn {\textbackslash}\$105, and spend {\textbackslash}\$3 on gas; assuming a user pool of 1,000 subscribers.},
+	urldate = {2021-10-05},
+	journal = {arXiv:2109.11270 [cs]},
+	author = {Kocao{\u g}ullar, Ceren and Gervais, Arthur and Livshits, Benjamin},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.11270}
+}
+
+@techreport{graf2021security,
+	title = {A {Security} {Framework} for {Distributed} {Ledgers}},
+	url = {https://eprint.iacr.org/2021/145},
+	abstract = {In the past few years blockchains have been a major focus for security research, resulting in significant progress in the design, formalization, and analysis of blockchain protocols. However, the more general class of distributed ledgers, which includes not just blockchains but also prominent non-blockchain protocols, such as Corda and OmniLedger, cannot be covered by the state-of-the-art in the security literature yet. These distributed ledgers often break with traditional blockchain paradigms, such as block structures to store data, system-wide consensus, or global consistency.},
+	number = {145},
+	urldate = {2021-09-30},
+	author = {Graf, Mike and Rausch, Daniel and Ronge, Viktoria and Egger, Christoph and Kuesters, Ralf and Schr{\"o}der, Dominique},
+	year = {2021}
+}
+
+@techreport{chaidos2021mithril,
+	title = {Mithril: {Stake}-based {Threshold} {Multisignatures}},
+	shorttitle = {Mithril},
+	url = {https://eprint.iacr.org/2021/916},
+	abstract = {Stake-based multiparty cryptographic primitives operate in a setting where participants are associated with their stake, security is argued against an adversary that is bounded by the total stake it possesses {\textemdash}as opposed to number of parties{\textemdash} and we are interested in scalability, i.e., the complexity of critical operations depends only logarithmically in the number of participants (that are assumed to be numerous).
+
+In this work we put forth a new stake-based primitive, stake-based threshold multisignatures (STM, or {\textquotedblleft}Mithril{\textquotedblright} signatures), which allows the aggregation of individual signatures into a compact multisignature pro- vided the stake that supports a given message exceeds a stake threshold. This is achieved by having for each message a pseudorandomly sampled subset of participants eligible to issue an individual signature; this ensures the scalability of signing, aggregation and verification.
+
+We formalize the primitive in the universal composition setting and propose efficient constructions for STMs. We also showcase that STMs are eminently useful in the cryptocurrency setting by providing two applications: (i) stakeholder decision-making for Proof of Work (PoW) blockchains, specifically, Bitcoin, and (ii) fast bootstrapping for Proof of Stake (PoS) blockchains.},
+	number = {916},
+	urldate = {2021-09-30},
+	author = {Chaidos, Pyrros and Kiayias, Aggelos},
+	year = {2021}
+}
+
+@techreport{ieee2021ivycross,
+	title = {{IvyCross}: {A} {Trustworthy} and {Privacy}-preserving {Framework} for {Blockchain} {Interoperability}},
+	shorttitle = {{IvyCross}},
+	url = {https://eprint.iacr.org/2021/1244},
+	abstract = {Blockchain interoperability is essential for the long-envisioned cross-chain decentralized applications. Existing hardware-based approaches demand several Trusted Execution Environments (TEEs) and large storage on the storage-limited TEEs. This paper presents a TEE-based privacy-preserving blockchain interoperability framework, calls as IvyCross, which decreases the requirement of TEE numbers and TEE's storage sizes by enforcing honest behaviors of TEE hosts with economic incentives. Specifically, IvyCross runs privacy-preserving cross-chain smart contracts atop two distributed TEE-powered hosts, and utilizes a sequential game between rational hosts to guarantee the correctness of contracts execution. IvyCross enables arbitrarily complex smart contracts execution across heterogenous blockchains at low costs. We formally prove the security of IvyCross in the Universal Composability framework. We also implement a prototype of IvyCross atop Bitcoin, Ethereum, and FISCO BOCS. The experiments indicate that (i) IvyCross is able to support privacy-preserving and multiple-round smart contracts for cross-chain communication; (ii) IvyCross successfully decreases the off-chain costs on storage and communication of a TEE without using complex cryptographic primitives; and (iii) the on-chain transaction fees in cross-chain communication are relatively low.},
+	number = {1244},
+	urldate = {2021-09-30},
+	author = {IEEE, Jian Weng*, Member, IEEE, Yi Li, Yongdong Wu, Jiasi Weng, Dingcheng Li, Robert Deng, Fellow, Ming Li},
+	year = {2021}
+}
+
+@techreport{han2021security,
+	title = {On the {Security} and {Performance} of {Blockchain} {Sharding}},
+	url = {https://eprint.iacr.org/2021/1276},
+	abstract = {In this paper, we perform a comprehensive evaluation on blockchain sharding protocols. We deconstruct the blockchain sharding protocol into four foundational layers with orthogonal functionalities, securing some properties. We evaluate each layer of seven state-of-the-art blockchain sharding protocols, and identify a considerable number of new attacks, questionable design trade-offs and some open challenges. The layered evaluation allows us to unveil security and performance problems arising from a fundamental design choice, namely the coherence of system settings across layers. In particular, most sharded blockchains use different trust and synchrony assumptions across layers, without corresponding architectural guarantees. Unless a hybrid architecture were used, assuming differentiated system settings across layers can introduce subtle but severe failure syndromes or reduce the system{\textquoteright}s performance.},
+	number = {1276},
+	urldate = {2021-09-30},
+	author = {Han, Runchao and Yu, Jiangshan and Lin, Haoyu and Chen, Shiping and Esteves-Ver{\'i}ssimo, Paulo},
+	year = {2021}
+}
+
+@techreport{baek2021claims,
+	title = {On the {Claims} of {Weak} {Block} {Synchronization} in {Bitcoin}},
+	url = {https://eprint.iacr.org/2021/1282},
+	abstract = {Recent Bitcoin attacks [CCS'21, CCS'21, ICDCS'19] commonly exploit the phenomenon of so-called weak block synchronization in Bitcoin. The attacks use two independently-operated Bitcoin monitors {\textemdash} i.e., Bitnodes and a system of customized supernodes {\textemdash} to confirm that block propagation in Bitcoin is surprisingly slow. In particular, Bitnodes constantly reports that around 30\% of nodes are 3 blocks (or more) behind the blockchain tip and the supernodes show that on average more than 60\% of nodes do not receive the latest block even after waiting for 10 minutes. In this paper, we carefully re-evaluate these controversial claims with our own experiments in the live Bitcoin network and show that block propagation in Bitcoin is, in fact, fast enough (e.g., most peers we monitor receive new blocks in about 4 seconds) for its safety property. We identify several limitations and bugs of the two monitors, which have led to these inaccurate claims about the Bitcoin block synchronization. We finally ask several open-ended questions regarding the technical and ethical issues around monitoring blockchain networks.},
+	number = {1282},
+	urldate = {2021-09-30},
+	author = {Baek, Seungjin and Nam, Hocheol and Oh, Yongwoo and Tran, Muoi and Kang, Min Suk},
+	year = {2021}
+}
+
+@techreport{meisami2021using,
+	title = {Using {Blockchain} to {Achieve} {Decentralized} {Privacy} {In} {IoT} {Healthcare}},
+	url = {https://eprint.iacr.org/2021/1302},
+	abstract = {With the advent of the Internet of Things (IoT), e-health has become one of the main topics of research. Due to the sensitivity of patient information, patient privacy seems challenging. Nowadays, patient data is usually stored in the cloud in healthcare programs, making it difficult for users to have enough control over their data. The recent increment in announced cases of security and surveillance breaches compromising patients' privacy call into question the conventional model, in which third-parties gather and control immense amounts of patients' Healthcare data. In this work, we try to resolve the issues mentioned above by using blockchain technology. We propose a blockchain-based protocol suitable for e-health applications that does not require trust in a third party and provides an efficient privacy-preserving access control mechanism. Transactions in our proposed system, unlike Bitcoin, are not entirely financial, and we do not use conventional methods for consensus operations in blockchain like Proof of Work (PoW). It is not suitable for IoT applications because IoT devices have resources-constraints. Usage of appropriate consensus method helps us to increase network security and efficiency, as well as reducing network cost, i.e., bandwidth and processor usage. Finally, we provide security and privacy analysis of our proposed protocol.},
+	number = {1302},
+	urldate = {2021-09-30},
+	author = {Meisami, Sajad and Beheshti-Atashgah, Mohammad and Aref, Mohammad Reza},
+	year = {2021}
+}
+
+@techreport{takahashi2021probabilistic,
+	title = {Probabilistic micropayments with transferability},
+	url = {https://eprint.iacr.org/2021/1306},
+	abstract = {Micropayments are one of the challenges in cryptocurrencies. The problems in realizing micropayments in the blockchain are the low throughput and the high blockchain transaction fee. As a solution, decentralized probabilistic micropayment has been proposed. The winning amount is registered in the blockchain, and the tickets are issued to be won with probability, which allows us to aggregate approximatelytransactions into one. Unfortunately, existing solutions do not allow for ticket transferability, and the smaller, the more difficult it is to use them in the real world.},
+	number = {1306},
+	urldate = {2021-09-30},
+	author = {Takahashi, Taisei and Otsuka, Akira},
+	year = {2021}
+}
+
+@techreport{giridharan2021no-commit,
+	title = {No-{Commit} {Proofs}: {Defeating} {Livelock} in {BFT}},
+	shorttitle = {No-{Commit} {Proofs}},
+	url = {https://eprint.iacr.org/2021/1308},
+	abstract = {This paper presents the design and evaluation of Wendy, the first Byzantine consensus protocol that achieves optimal latency (two phases), linear authenticator complexity, and optimistic responsiveness. Wendy's core technical contribution is a novel aggregate signature scheme that allows leaders to prove, with constant pairing cost, that an operation did not commit. This No-commit proof addresses prior liveness concerns in protocols with linear authenticator complexity (including view change), allowing Wendy to commit operations in two-phases only.},
+	number = {1308},
+	urldate = {2021-09-30},
+	author = {Giridharan, Neil and Howard, Heidi and Abraham, Ittai and Crooks, Natacha and Tomescu, Alin},
+	year = {2021}
+}
+
+@techreport{das2021exact,
+	title = {The {Exact} {Security} of {BIP32} {Wallets}},
+	url = {https://eprint.iacr.org/2021/1287},
+	abstract = {In many cryptocurrencies, the problem of key management has become one of the most fundamental security challenges. Typically, keys are kept in designated schemes called 'Wallets', whose main purpose is to store these keys securely. One such system is the BIP32 wallet (Bitcoin Improvement Proposal 32), which since its introduction in 2012 has been adopted by countless Bitcoin users and is one of the most frequently used wallet system today. Surprisingly, very little is known about the concrete security properties offered by this system. In this work, we propose the first formal analysis of the BIP32 system in its entirety and without any modification. Building on the recent work of Das et al. (CCS `19), we put forth a formal model for hierarchical deterministic wallet systems (such as BIP32) and give a security reduction in this model from the existential unforgeability of the ECDSA signature algorithm that is used in BIP32. We conclude by giving concrete security parameter estimates achieved by the BIP32 standard, and show that by moving to an alternative key derivation method we can achieve a tighter reduction offering an additional 20 bits of security (111 vs. 91 bits of security) at no additional costs.},
+	number = {1287},
+	urldate = {2021-09-30},
+	author = {Das, Poulami and Erwig, Andreas and Faust, Sebastian and Loss, Julian and Riahi, Siavash},
+	year = {2021}
+}
+
+@techreport{judmayer2021estimating,
+	title = {Estimating ({Miner}) {Extractable} {Value} is {Hard}, {Let}{\textquoteright}s {Go} {Shopping}!},
+	url = {https://eprint.iacr.org/2021/1231},
+	abstract = {The term miner extractable value (MEV) has been coined to describe the value which can be extracted by a miner from manipulating the order of transactions within a given timeframe. MEV has been deemed an important factor to assess the overall economic stability of a cryptocurrency. This stability also influences the economically rational choice of the security parameter k, by which a merchant defines the number of required confirmation blocks in cryptocurrencies based on Nakamoto consensus. Unfortunately, to the best of our knowledge, currently no exact definition of MEV exists. In this paper, we provide a definition in accordance to its usage throughout the community and show that a narrow definition of MEV fails to capture the extractable value of other actors like users. Moreover, we show that there is no globally unique MEV which can readily be determined. We further highlight why it is hard, or even impossible, to estimate extractable value precisely, considering the uncertainties in real world systems. Finally, we outline a peculiar yet straightforward technique for choosing the security parameter k, which can act as a workaround to transfer the risk of an insufficiently chosen k to another merchant.},
+	number = {1231},
+	urldate = {2021-09-30},
+	author = {Judmayer, Aljosha and Stifter, Nicholas and Schindler, Philipp and Weippl, Edgar},
+	year = {2021}
+}
+
+@article{chinen2021ra,
+	title = {{RA}: {A} {Static} {Analysis} {Tool} for {Analyzing} {Re}-{Entrancy} {Attacks} in {Ethereum} {Smart} {Contracts}},
+	volume = {29},
+	shorttitle = {{RA}},
+	journal = {Journal of Information Processing},
+	author = {Chinen, Yuichiro and Yanai, Naoto and Cruz, Jason Paul and Okamura, Shingo},
+	year = {2021},
+	note = {Publisher: Information Processing Society of Japan},
+	pages = {537--547}
+}
+
+@article{marson2021mitosis,
+	title = {{MITOSIS}: {Practically} {Scaling} {Permissioned} {Blockchains}},
+	shorttitle = {{MITOSIS}},
+	url = {http://arxiv.org/abs/2109.10302},
+	abstract = {Scalability remains one of the biggest challenges to the adoption of permissioned blockchain technologies for large-scale deployments. Permissioned blockchains typically exhibit low latencies, compared to permissionless deployments -- however at the cost of poor scalability. Various solutions were proposed to capture "the best of both worlds", targeting low latency and high scalability simultaneously, the most prominent technique being blockchain sharding. However, most existing sharding proposals exploit features of the permissionless model and are therefore restricted to cryptocurrency applications. We present MITOSIS, a novel approach to practically improve scalability of permissioned blockchains. Our system allows the dynamic creation of blockchains, as more participants join the system, to meet practical scalability requirements. Crucially, it enables the division of an existing blockchain (and its participants) into two -- reminiscent of mitosis, the biological process of cell division. MITOSIS inherits the low latency of permissioned blockchains while preserving high throughput via parallel processing. Newly created chains in our system are fully autonomous, can choose their own consensus protocol, and yet they can interact with each other to share information and assets -- meeting high levels of interoperability. We analyse the security of MITOSIS and evaluate experimentally the performance of our solution when instantiated over Hyperledger Fabric. Our results show that MITOSIS can be ported with little modifications and manageable overhead to existing permissioned blockchains, such as Hyperledger Fabric.},
+	urldate = {2021-09-28},
+	journal = {arXiv:2109.10302 [cs]},
+	author = {Marson, Giorgia Azzurra and Andreina, Sebastien and Alluminio, Lorenzo and Munichev, Konstantin and Karame, Ghassan},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.10302}
+}
+
+@article{stockinger2021pinpointing,
+	title = {Pinpointing and {Measuring} {Wasabi} and {Samourai} {CoinJoins} in the {Bitcoin} {Ecosystem}},
+	url = {http://arxiv.org/abs/2109.10229},
+	abstract = {We present a first measurement study on two popular wallets with built-in distributed CoinJoin functionality, Wasabi and Samourai, in the context of the broader Bitcoin ecosystem. By applying two novel heuristics, we can effectively pinpoint 25,070 Wasabi and 134,569 Samourai transactions within the first 689,255 (2021-07-01) blocks. Our study reveals a somewhat steady adoption of these services and found a growing trend with a total amount of 190,777.11 mixed BTC with a value of ca. 3.02 B USD. Within the recent six months, we measured an average monthly mixing throughput of 5410.98 BTC (ca. 240.14 M USD). Among all actors, which were directly or indirectly involved in CoinJoins, we also found a lower-bound of 32 distinct exchanges and traced a lower-bound of 6683.19 BTC (ca. 95.98 M USD) mixed coins received by exchanges. Our analysis further shows that linking heuristics over Wasabi and Samourai transactions allows us to narrow down the anonymity set provided by these wallets over time. Furthermore, we estimate the number of mixing outputs that are handled in Wasabi and Samourai correspondingly over time. Overall, this is the first paper to provide a comprehensive picture of the adoption of distributed CoinJoin and to discuss implications for end-users, cryptoasset exchanges, and regulatory bodies.},
+	urldate = {2021-09-28},
+	journal = {arXiv:2109.10229 [cs]},
+	author = {Stockinger, Johann and Haslhofer, Bernhard and Moreno-Sanchez, Pedro and Maffei, Matteo},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.10229}
+}
+
+@article{cohennodatebe,
+	title = {Be {Aware} of {Your} {Leaders}},
+	url = {http://sonnino.com/papers/leader-reputation.pdf},
+	abstract = {Advances in blockchains have influenced the State-Machine-
+Replication (SMR) world and many state-of-the-art blockchain-SMR so-
+lutions are based on two pillars: Chaining and Leader-rotation. A prede-
+termined round-robin mechanism used for Leader-rotation, however, has
+an undesirable behavior: crashed parties become designated leaders in-
+finitely often, slowing down overall system performance. In this paper, we
+provide a new Leader-Aware SMR framework that, among other desir-
+able properties, formalizes a Leader-utilization requirement that bounds
+the number of rounds whose leaders are faulty in crash-only executions.
+We introduce Carousel, a novel, reputation-based Leader-rotation solu-
+tion to achieve Leader-Aware SMR. The challenge in adaptive Leader-
+rotation is that it cannot rely on consensus to determine a leader, since
+consensus itself needs a leader. Carousel uses the available on-chain in-
+formation to determine a leader locally and achieves Liveness despite this
+difficulty. A HotStuff implementation fitted with Carousel demonstrates
+drastic performance improvements: it increases throughput over 2x in
+faultless settings and provided a 20x throughput increase and 5x latency
+reduction in the presence of faults.},
+	author = {Cohen, Shir and Gelashvili, Rati and Kokoris-Kogias, Lefteris and Li, Zekun and Malkhi, Dahlia and Sonnino, Alberto and Spiegelman, Alexander}
+}
+
+@article{amores-sesar2021generalizing,
+	title = {Generalizing {Weighted} {Trees}: {A} {Bridge} from {Bitcoin} to {GHOST}},
+	shorttitle = {Generalizing {Weighted} {Trees}},
+	url = {http://arxiv.org/abs/2108.13502},
+	abstract = {Despite the tremendous interest in cryptocurrencies like Bitcoin and Ethereum today, many aspects of the underlying consensus protocols are poorly understood. Therefore, the search for protocols that improve either throughput or security (or both) continues. Bitcoin always selects the longest chain (i.e., the one with most work). Forks may occur when two miners extend the same block simultaneously, and the frequency of forks depends on how fast blocks are propagated in the network. In the GHOST protocol, used by Ethereum, all blocks involved in the fork contribute to the security. However, the greedy chain selection rule of GHOST does not consider the full information available in the block tree, which has led to some concerns about its security. This paper introduces a new family of protocols, called Medium, which takes the structure of the whole block tree into account, by weighting blocks differently according to their depths. Bitcoin and GHOST result as special cases. This protocol leads to new insights about the security of Bitcoin and GHOST and paves the way for developing network- and application-specific protocols, in which the influence of forks on the chain-selection process can be controlled. It is shown that almost all protocols in this family achieve strictly greater throughput than Bitcoin (at the same security level) and resist attacks that can be mounted against GHOST.},
+	urldate = {2021-09-28},
+	journal = {arXiv:2108.13502 [cs]},
+	author = {Amores-Sesar, Ignacio and Cachin, Christian and Parker, Anna},
+	month = aug,
+	year = {2021},
+	note = {arXiv: 2108.13502}
+}
+
+@article{peresini2021dag-oriented,
+	title = {{DAG}-{Oriented} {Protocols} {PHANTOM} and {GHOSTDAG} under {Incentive} {Attack} via {Transaction} {Selection} {Strategy}},
+	url = {http://arxiv.org/abs/2109.01102},
+	abstract = {In response to the bottleneck of processing throughput inherent to single chain PoW blockchains, several proposals have substituted a single chain for Directed Acyclic Graphs (DAGs). In this work, we investigate two notable DAG-oriented designs. We focus on PHANTOM (and its optimization GHOSTDAG), which proposes a custom transaction selection strategy that enables to increase the throughput of the network. However, the related work lacks a thorough investigation of corner cases that deviate from the protocol in terms of transaction selection strategy. Therefore, we build a custom simulator that extends open source simulation tools to support multiple chains and enables us to investigate such corner cases. Our experiments show that malicious actors who diverge from the proposed transaction selection strategy make more profit as compared to honest miners. Moreover, they have a detrimental effect on the processing throughput of the PHANTOM (and GHOSTDAG) due to same transactions being included in more than one block of different chains. Finally, we show that multiple miners not following the transaction selection strategy are incentivized to create a shared mining pool instead of mining independently, which has a negative impact on decentralization.},
+	urldate = {2021-09-21},
+	journal = {arXiv:2109.01102 [cs]},
+	author = {Pere{\v s}{\'i}ni, Martin and Ben{\v c}i{\'c}, Federico Matteo and Malinka, Kamil and Homoliak, Ivan},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.01102}
+}
+
+@article{rain2021towards,
+	title = {Towards a {Game}-{Theoretic} {Security} {Analysis} of {Off}-{Chain} {Protocols}},
+	url = {http://arxiv.org/abs/2109.07429},
+	abstract = {Off-chain protocols constitute one of the most promising approaches to solve the inherent scalability issue of blockchain technologies. The core idea is to let parties transact on-chain only once to establish a channel between them, leveraging later on the resulting channel paths to perform arbitrarily many peer-to-peer transactions off-chain. While significant progress has been made in terms of proof techniques for off-chain protocols, existing approaches do not capture the game-theoretic incentives at the core of their design, which led to overlooking significant attack vectors like the Wormhole attack in the past. This work introduces the first game-theoretic model that is expressive enough to reason about the security of off-chain protocols. We advocate the use of Extensive Form Games - EFGs and introduce two instances of EFGs to capture security properties of the closing and the routing of the Lightning Network. Specifically, we model the closing protocol, which relies on punishment mechanisms to disincentivize the uploading on-chain of old channel states, as well as the routing protocol, thereby formally characterizing the Wormhole attack, a vulnerability that undermines the fee-based incentive mechanism underlying the Lightning Network.},
+	urldate = {2021-09-28},
+	journal = {arXiv:2109.07429 [cs]},
+	author = {Rain, Sophie and Avarikioti, Zeta and Kov{\'a}cs, Laura and Maffei, Matteo},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.07429}
+}
+
+@article{sharma2021reinshard,
+	title = {Reinshard: {An} optimally sharded dual-blockchain for concurrency resolution},
+	shorttitle = {Reinshard},
+	url = {http://arxiv.org/abs/2109.07316},
+	abstract = {Decentralized control, low-complexity, flexible and efficient communications are the requirements of an architecture that aims to scale blockchains beyond the current state. Such properties are attainable by reducing ledger size and providing parallel operations in the blockchain. Sharding is one of the approaches that lower the burden of the nodes and enhance performance. However, the current solutions lack the features for resolving concurrency during cross-shard communications. With multiple participants belonging to different shards, handling concurrent operations is essential for optimal sharding. This issue becomes prominent due to the lack of architectural support and requires additional consensus for cross-shard communications. Inspired by hybrid Proof-of-Work/Proof-of-Stake (PoW/PoS), like Ethereum, hybrid consensus and 2-hop blockchain, we propose Reinshard, a new blockchain that inherits the properties of hybrid consensus for optimal sharding. Reinshard uses PoW and PoS chain-pairs with PoS sub-chains for all the valid chain-pairs where the hybrid consensus is attained through Verifiable Delay Function (VDF). Our architecture provides a secure method of arranging nodes in shards and resolves concurrency conflicts using the delay factor of VDF. The applicability of Reinshard is demonstrated through security and experimental evaluations. A practical concurrency problem is considered to show the efficacy of Reinshard in providing optimal sharding.},
+	urldate = {2021-09-28},
+	journal = {arXiv:2109.07316 [cs, stat]},
+	author = {Sharma, Vishal and Li, Zengpeng and Szalachowski, Pawel and Tan, Teik Guan and Zhou, Jianying},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.07316}
+}
+
+@article{eskandari2021sok,
+	title = {{SoK}: {Oracles} from the {Ground} {Truth} to {Market} {Manipulation}},
+	shorttitle = {{SoK}},
+	url = {http://arxiv.org/abs/2106.00667},
+	doi = {10.1145/3479722.3480994},
+	abstract = {One fundamental limitation of blockchain-based smart contracts is that they execute in a closed environment. Thus, they only have access to data and functionality that is already on the blockchain, or is fed into the blockchain. Any interactions with the real world need to be mediated by a bridge service, which is called an oracle. As decentralized applications mature, oracles are playing an increasingly prominent role. With their evolution comes more attacks, necessitating greater attention to their trust model. In this systemization of knowledge paper (SoK), we dissect the design alternatives for oracles, showcase attacks, and discuss attack mitigation strategies.},
+	urldate = {2021-09-25},
+	journal = {arXiv:2106.00667 [cs, eess]},
+	author = {Eskandari, Shayan and Salehi, Mehdi and Gu, Wanyun Catherine and Clark, Jeremy},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2106.00667}
+}
+
+@techreport{sompolinsky2018phantom-1,
+	title = {{PHANTOM} and {GHOSTDAG}: {A} {Scalable} {Generalization} of {Nakamoto} {Consensus}},
+	shorttitle = {{PHANTOM} and {GHOSTDAG}},
+	url = {https://eprint.iacr.org/2018/104},
+	abstract = {In 2008 Satoshi Nakamoto invented the basis for blockchain-based distributed ledgers. The core concept of this system is an open and anonymous network of nodes, or miners, which together maintain a public ledger of transactions. The ledger takes the form of a chain of blocks, the blockchain, where each block is a batch of new transactions collected from users. One primary problem with Satoshi's blockchain is its highly limited scalability. The security of Satoshi's longest chain rule, more generally known as the Bitcoin protocol, requires that all honest nodes be aware of each other's blocks very soon after the block's creation. To this end, the throughput of the system is artificially suppressed so that each block fully propagates before the next one is created, and that very few ``orphan blocks'' that fork the chain be created spontaneously.
+
+PHANTOM solves an optimization problem over the blockDAG to distinguish between blocks mined properly by honest nodes and those created by non-cooperating nodes who chose to deviate from the mining protocol. Using this distinction, PHANTOM provides a robust total order on the blockDAG in a way that is eventually agreed upon by all honest nodes. Implementing PHANTOM requires solving an NP-hard problem, and to avoid this prohibitive computation, we devised an efficient greedy algorithm GHOSTDAG that captures the essence of PHANTOM.
+
+We provide a formal proof of the security of GHOSTDAG, namely, that its ordering of blocks is irreversible up to an exponentially negligible factor. We discuss the properties of GHOSTDAG and how it compares to other DAG based protocols.},
+	number = {104},
+	urldate = {2021-09-25},
+	author = {Sompolinsky, Yonatan and Wyborski, Shai and Zohar, Aviv},
+	year = {2018}
+}
+
+@article{azouvi2021private,
+	title = {Private {Attacks} in {Longest} {Chain} {Proof}-of-stake {Protocols} with {Single} {Secret} {Leader} {Elections}},
+	url = {http://arxiv.org/abs/2109.07440},
+	doi = {10.1145/3479722.3480996.},
+	abstract = {Single Secret Leader Elections have recently been proposed as an improved leader election mechanism for proof-of-stake (PoS) blockchains. However, the security gain they provide has not been quantified. In this work, we present a comparison of PoS longest-chain protocols that are based on Single Secret Leader Elections (SSLE) - that elect exactly one leader per round - versus those based on Probabilistic Leader Elections (PLE) - where one leader is elected on expectation. Our analysis shows that when considering the private attack - the worst attack on longest-chain protocols - the security gained from using SSLE is substantial: the settlement time is decreased by roughly 25\% for a 33\% or 25\% adversary. Furthermore, when considering grinding attacks, we find that the security threshold is increased by 10\% (from 0.26 in the PLE case to 0.36 inthe SSLE case) and the settlement time is decreased by roughly 70\% for a 20\% adversary in the SSLE case.},
+	urldate = {2021-09-25},
+	journal = {arXiv:2109.07440 [cs]},
+	author = {Azouvi, Sarah and Cappelletti, Daniele},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.07440}
+}
+
+@article{saad2019exploring-1,
+	title = {Exploring {Spatial}, {Temporal}, and {Logical} {Attacks} on the {Bitcoin} {Network}},
+	url = {http://arxiv.org/abs/1902.03636},
+	abstract = {In this paper, we explore the partitioning attacks on the Bitcoin network, which is shown to exhibit spatial bias, and temporal and logical diversity. Through data-driven study we highlight: 1) the centralization of Bitcoin nodes across autonomous systems, indicating the possibility of BGP attacks, 2)the non-uniform consensus among nodes, that can be exploited to partition the network, and 3)the diversity in the Bitcoin software usage that can lead to privacy attacks. Atop the prior work, which focused on spatial partitioning, our work extends the analysis of the Bitcoin network to understand the temporal and logical effects on the robustness of the Bitcoin network.},
+	urldate = {2021-09-21},
+	journal = {arXiv:1902.03636 [cs]},
+	author = {Saad, Muhammad and Cook, Victor and Nguyen, Lan and Thai, My T. and Mohaisen, Aziz},
+	month = feb,
+	year = {2019},
+	note = {arXiv: 1902.03636}
+}
+
+@article{franzoni2021clover,
+	title = {Clover: an {Anonymous} {Transaction} {Relay} {Protocol} for the {Bitcoin} {P2P} {Network}},
+	shorttitle = {Clover},
+	url = {http://arxiv.org/abs/2109.00376},
+	abstract = {The Bitcoin P2P network currently represents a reference benchmark for modern cryptocurrencies. Its underlying protocol defines how transactions and blocks are distributed through all participating nodes. To protect user privacy, the identity of the node originating a message is kept hidden. However, an adversary observing the whole network can analyze the spread pattern of a transaction to trace it back to its source. This is possible thanks to the so-called rumor centrality, which is caused by the symmetry in the spreading of gossip-like protocols. Recent works try to address this issue by breaking the symmetry of the Diffusion protocol, currently used in Bitcoin, and leveraging proxied broadcast. Nonetheless, the complexity of their design can be a barrier to their adoption in real life. In this work, we propose Clover, a novel transaction relay protocol that protects the source of transaction messages with a simple, yet effective, design. Compared to previous solutions, our protocol does not require building propagation graphs, and reduces the ability of the adversary to gain precision by opening multiple connections towards the same node. Experimental results show that the deanonymization accuracy of an eavesdropper adversary against Clover is up to 10 times smaller compared to Diffusion.},
+	urldate = {2021-09-21},
+	journal = {arXiv:2109.00376 [cs]},
+	author = {Franzoni, Federico and Daza, Vanesa},
+	month = sep,
+	year = {2021},
+	note = {arXiv: 2109.00376}
+}
+
+@inproceedings{sonnino2020replay,
+	title = {Replay attacks and defenses against cross-shard consensus in sharded distributed ledgers},
+	url = {https://arxiv.org/pdf/1901.11218.pdf},
+	booktitle = {2020 {IEEE} {European} {Symposium} on {Security} and {Privacy} ({EuroS}\&{P})},
+	publisher = {IEEE},
+	author = {Sonnino, Alberto and Bano, Shehar and Al-Bassam, Mustafa and Danezis, George},
+	year = {2020},
+	pages = {294--308}
+}
+
+@inproceedings{gudgeon2020sok,
+	title = {Sok: {Layer}-two blockchain protocols},
+	url = {http://fc20.ifca.ai/preproceedings/150.pdf},
+	booktitle = {International {Conference} on {Financial} {Cryptography} and {Data} {Security}},
+	publisher = {Springer},
+	author = {Gudgeon, Lewis and Moreno-Sanchez, Pedro and Roos, Stefanie and McCorry, Patrick and Gervais, Arthur},
+	year = {2020},
+	pages = {201--226}
+}
+
+@inproceedings{mai2020user,
+	title = {User {Mental} {Models} of {Cryptocurrency} {Systems}-{A} {Grounded} {Theory} {Approach}},
+	url = {https://www.usenix.org/system/files/soups2020-mai.pdf},
+	booktitle = {Sixteenth {Symposium} on {Usable} {Privacy} and {Security} (\$\{\${SOUPS}\$\}\$ 2020)},
+	author = {Mai, Alexandra and Pfeffer, Katharina and Gusenbauer, Matthias and Weippl, Edgar and Krombholz, Katharina},
+	year = {2020},
+	pages = {341--358}
+}
+
+@inproceedings{fratantonio2016triggerscope,
+	title = {Triggerscope: {Towards} detecting logic bombs in android applications},
+	url = {http://seclab.nu/static/publications/sp2016triggerscope.pdf},
+	booktitle = {2016 {IEEE} symposium on security and privacy ({SP})},
+	publisher = {IEEE},
+	author = {Fratantonio, Yanick and Bianchi, Antonio and Robertson, William and Kirda, Engin and Kruegel, Christopher and Vigna, Giovanni},
+	year = {2016},
+	pages = {377--396}
+}
+
+@inproceedings{ferreira_torres2019aegis,
+	title = {{\AE}gis: {Smart} shielding of smart contracts},
+	url = {https://core.ac.uk/download/pdf/287734805.pdf},
+	booktitle = {Proceedings of the 2019 {ACM} {SIGSAC} {Conference} on {Computer} and {Communications} {Security}},
+	author = {Ferreira Torres, Christof and Baden, Mathis and Norvill, Robert and Jonker, Hugo},
+	year = {2019},
+	pages = {2589--2591}
+}
+
+@inproceedings{brands1993untraceable,
+	title = {Untraceable off-line cash in wallet with observers},
+	url = {https://link.springer.com/content/pdf/10.1007/3-540-48329-2_26.pdf},
+	booktitle = {Annual international cryptology conference},
+	publisher = {Springer},
+	author = {Brands, Stefan},
+	year = {1993},
+	pages = {302--318}
+}
+
+@inproceedings{botta2021shielded,
+	title = {Shielded {Computations} in {Smart} {Contracts} {Overcoming} {Forks}},
+	url = {https://eprint.iacr.org/2019/891.pdf},
+	booktitle = {Financial {Cryptography} and {Data} {Security}-25th {International} {Conference}, {FC}},
+	author = {Botta, Vincenzo and Friolo, Daniele and Venturi, Daniele and Visconti, Ivan},
+	year = {2021},
+	pages = {1--5}
+}
+
+@inproceedings{osipkov2007combating,
+	title = {Combating double-spending using cooperative {P2P} systems},
+	url = {https://people.cis.ksu.edu/~eyv/papers/ecash-icdcs07.pdf},
+	booktitle = {27th {International} {Conference} on {Distributed} {Computing} {Systems} ({ICDCS}'07)},
+	publisher = {IEEE},
+	author = {Osipkov, Ivan and Vasserman, Eugene Y and Hopper, Nicholas and Kim, Yongdae},
+	year = {2007},
+	pages = {41--41}
+}
+
+@inproceedings{yang2003ppay,
+	title = {{PPay}: micropayments for peer-to-peer systems},
+	url = {http://www.cs.cornell.edu/people/egs/714-spring05/ppay.pdf},
+	booktitle = {Proceedings of the 10th {ACM} conference on {Computer} and communications security},
+	author = {Yang, Beverly and Garcia-Molina, Hector},
+	year = {2003},
+	pages = {300--310}
+}
+
+@inproceedings{chakravarty2020extended,
+	title = {The extended {UTXO} model},
+	url = {http://jmchapman.io/papers/eutxo.pdf},
+	booktitle = {International {Conference} on {Financial} {Cryptography} and {Data} {Security}},
+	publisher = {Springer},
+	author = {Chakravarty, Manuel MT and Chapman, James and MacKenzie, Kenneth and Melkonian, Orestis and Jones, Michael Peyton and Wadler, Philip},
+	year = {2020},
+	pages = {525--539}
+}
+
+@phdthesis{lovejoy2020empirical,
+	type = {{PhD} {Thesis}},
+	title = {An empirical analysis of chain reorganizations and double-spend attacks on proof-of-work cryptocurrencies},
+	url = {https://dspace.mit.edu/bitstream/handle/1721.1/127476/1193019932-MIT.pdf},
+	school = {Massachusetts Institute of Technology},
+	author = {Lovejoy, James Peter Thomas},
+	year = {2020}
+}
+
+@article{moroz2020double-spend,
+	title = {Double-{Spend} {Counterattacks}: {Threat} of {Retaliation} in {Proof}-of-{Work} {Systems}},
+	shorttitle = {Double-{Spend} {Counterattacks}},
+	url = {http://arxiv.org/abs/2002.10736},
+	abstract = {Proof-of-Work mining is intended to provide blockchains with robustness against double-spend attacks. However, an economic analysis that follows from Budish (2018), which considers free entry conditions together with the ability to rent sufficient hashrate to conduct an attack, suggests that the resulting block rewards can make an attack cheap. We formalize a defense to double-spend attacks. We show that when the victim can counterattack in the same way as the attacker, this leads to a variation on the classic game-theoretic War of Attrition model. The threat of this kind of counterattack induces a subgame perfect equilibrium in which no attack occurs in the first place.},
+	urldate = {2021-08-24},
+	journal = {arXiv:2002.10736 [cs]},
+	author = {Moroz, Daniel J. and Aronoff, Daniel J. and Narula, Neha and Parkes, David C.},
+	month = feb,
+	year = {2020},
+	note = {arXiv: 2002.10736}
+}
+
+@inproceedings{di_angelo2020wallet,
+	title = {Wallet contracts on {Ethereum}},
+	url = {https://publik.tuwien.ac.at/files/publik_288973.pdf},
+	booktitle = {2020 {IEEE} {International} {Conference} on {Blockchain} and {Cryptocurrency} ({ICBC})},
+	publisher = {IEEE},
+	author = {Di Angelo, Monika and Salzer, Gernot},
+	year = {2020},
+	pages = {1--2}
+}
+
+@article{di_angelo2020wallet-1,
+	title = {Wallet {Contracts} on {Ethereum}{\textendash}{Identification}, {Types}, {Usage}, and {Profiles}},
+	url = {https://arxiv.org/pdf/2001.06909.pdf},
+	journal = {arXiv preprint arXiv:2001.06909},
+	author = {Di Angelo, Monika and Salzer, Gernot},
+	year = {2020}
+}
+
+@inproceedings{kerber2019ouroboros,
+	title = {Ouroboros crypsinous: {Privacy}-preserving proof-of-stake},
+	url = {https://eprint.iacr.org/2018/1132.pdf},
+	booktitle = {2019 {IEEE} {Symposium} on {Security} and {Privacy} ({SP})},
+	publisher = {IEEE},
+	author = {Kerber, Thomas and Kiayias, Aggelos and Kohlweiss, Markulf and Zikas, Vassilis},
+	year = {2019},
+	pages = {157--174}
+}
+
+@article{iqbal2021exploring,
+	title = {Exploring {Sybil} and {Double}-{Spending} {Risks} in {Blockchain} {Systems}},
+	volume = {9},
+	url = {https://ieeexplore.ieee.org/iel7/6287639/9312710/09435780.pdf},
+	journal = {IEEE Access},
+	author = {Iqbal, Mubashar and Matulevi{\v c}ius, Raimundas},
+	year = {2021},
+	note = {Publisher: IEEE},
+	pages = {76153--76177}
+}
+
+@inproceedings{delgado-segura2018analysis,
+	title = {Analysis of the bitcoin utxo set},
+	url = {https://eprint.iacr.org/2017/1095.pdf},
+	booktitle = {International {Conference} on {Financial} {Cryptography} and {Data} {Security}},
+	publisher = {Springer},
+	author = {Delgado-Segura, Sergi and P{\'e}rez-Sola, Cristina and Navarro-Arribas, Guillermo and Herrera-Joancomart{\'i}, Jordi},
+	year = {2018},
+	pages = {78--91}
+}
+
+@inproceedings{kelkar2020order-fairness,
+	title = {Order-fairness for byzantine consensus},
+	url = {https://eprint.iacr.org/2020/269.pdf},
+	booktitle = {Annual {International} {Cryptology} {Conference}},
+	publisher = {Springer},
+	author = {Kelkar, Mahimna and Zhang, Fan and Goldfeder, Steven and Juels, Ari},
+	year = {2020},
+	pages = {451--480}
+}
+
+@article{perez-sola2019double-spending,
+	title = {Double-spending prevention for bitcoin zero-confirmation transactions},
+	volume = {18},
+	url = {http://eprint.iacr.org/2017/394.pdf},
+	number = {4},
+	journal = {International Journal of Information Security},
+	author = {P{\'e}rez-Sol{\`a}, Cristina and Delgado-Segura, Sergi and Navarro-Arribas, Guillermo and Herrera-Joancomart{\'i}, Jordi},
+	year = {2019},
+	note = {Publisher: Springer},
+	pages = {451--463}
+}
+
+@inproceedings{victor2019measuring,
+	title = {Measuring ethereum-based erc20 token networks},
+	url = {https://fc19.ifca.ai/preproceedings/130-preproceedings.pdf},
+	booktitle = {International {Conference} on {Financial} {Cryptography} and {Data} {Security}},
+	publisher = {Springer},
+	author = {Victor, Friedhelm and L{\"u}ders, Bianca Katharina},
+	year = {2019},
+	pages = {113--129}
+}
+
+@article{corduan2019formal,
+	title = {A {Formal} {Specification} of the {Cardano} {Ledger}},
+	url = {http://cardano-universe.com/wp-content/uploads/2019/02/ledger-spec.pdf},
+	author = {Corduan, Jared and Vinogradova, Polina and Gudemann, Matthias},
+	year = {2019}
+}
+
+@inproceedings{wohrer2018smart,
+	title = {Smart contracts: security patterns in the ethereum ecosystem and solidity},
+	url = {http://eprints-dev5.cs.univie.ac.at/5433/7/sanerws18iwbosemain-id1-p-380f58e-35576-preprint.pdf},
+	booktitle = {2018 {International} {Workshop} on {Blockchain} {Oriented} {Software} {Engineering} ({IWBOSE})},
+	publisher = {IEEE},
+	author = {Wohrer, Maximilian and Zdun, Uwe},
+	year = {2018},
+	pages = {2--8}
 }
