@@ -1,0 +1,1 @@
+[{     "name": "URL Source",     "method": "GET",     "url": "{url}/#doi={doi}",     "mode": "html",     "selector": "#pdf",     "attribute": "href",     "automatic": false},{     "name":"Sci-Hub",     "method":"GET",     "url":"https://sci-hub.se/{doi}",     "mode":"html",     "selector":"#pdf",     "attribute":"src",     "automatic":false }]
